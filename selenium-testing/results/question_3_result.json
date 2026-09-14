@@ -1,0 +1,48 @@
+{
+    "test_id": 3,
+    "folder": "Cloud computing",
+    "question": "What is Google App Engine and what type of cloud service does it provide?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Google App Engine (GAE) is a platform that allows developers to build, deploy, and scale applications without the need to manage underlying infrastructure. It provides a Platform-as-a-Service (PaaS) offering from Google Cloud. (File: Google App Engine.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "68.1%",
+            "Context Relevance": "54.2%",
+            "Citation Correctness": "70.1%",
+            "Faithfulness": "95.2%",
+            "Overall Score": "73.9%",
+            "Answer Accuracy": "78.1%",
+            "Citation Accuracy": "70.1%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "4.8%",
+            "Project Score": "73.9%",
+            "Best Retrieval Score": "0.9191",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.28 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Google App Engine is a powerful PaaS (Platform as a Service) solution that allows developers to build, deploy, and scale applications quickly without managing infrastructure. (File: Google App Engine.pdf, Page: 4)",
+        "metrics": {
+            "Answer Relevance": "56.0%",
+            "Context Relevance": "37.5%",
+            "Citation Correctness": "48.3%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "59.0%",
+            "Answer Accuracy": "63.6%",
+            "Citation Accuracy": "48.3%",
+            "Retrieval Precision": "37.5%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "58.5%",
+            "Best Retrieval Score": "0.8247",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "6.53 s"
+        }
+    },
+    "better_result": "Standard RAG",
+    "docrank_improvement": "-15.4%"
+}

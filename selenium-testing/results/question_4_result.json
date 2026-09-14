@@ -1,0 +1,48 @@
+{
+    "test_id": 4,
+    "folder": "Cloud computing",
+    "question": "What is the difference between the Standard Environment and Flexible Environment in Google App Engine?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "The Standard Environment runs applications in a sandboxed environment with predefined system configurations, offering quick startup times, automatic scaling, and specific limits on language versions and dependencies. The provided document does not contain information detailing the specific characteristics of the Flexible Environment.\n\n(File: Google App Engine.pdf, Page: 2)",
+        "metrics": {
+            "Answer Relevance": "46.9%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "51.9%",
+            "Faithfulness": "71.4%",
+            "Overall Score": "59.2%",
+            "Answer Accuracy": "56.7%",
+            "Citation Accuracy": "51.9%",
+            "Retrieval Precision": "55.0%",
+            "Hallucination Rate": "28.6%",
+            "Project Score": "58.1%",
+            "Best Retrieval Score": "0.8651",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.00 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "The Standard Environment runs applications in a sandboxed environment with predefined configurations, quick startup times, and automatic scaling, with charges based on instance usage. The Flexible Environment runs applications in Docker containers on Compute Engine instances, supports custom runtimes, and is suitable for applications requiring longer execution times and greater control, with charges based on VM usage.\n\n(File: Google App Engine.pdf, Page: 2)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "56.3%",
+            "Citation Correctness": "64.2%",
+            "Faithfulness": "96.9%",
+            "Overall Score": "70.4%",
+            "Answer Accuracy": "73.0%",
+            "Citation Accuracy": "64.2%",
+            "Retrieval Precision": "56.3%",
+            "Hallucination Rate": "3.1%",
+            "Project Score": "72.2%",
+            "Best Retrieval Score": "0.8588",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "4.81 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "14.1%"
+}

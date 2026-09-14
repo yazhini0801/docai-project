@@ -1,0 +1,48 @@
+{
+    "test_id": 10,
+    "folder": "Cloud computing",
+    "question": "What cloud services in these documents support automatic scaling?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Google App Engine supports automatic scaling.\n\n(File: Google App Engine.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "32.8%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "68.3%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "59.6%",
+            "Answer Accuracy": "59.4%",
+            "Citation Accuracy": "68.3%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "62.5%",
+            "Best Retrieval Score": "0.7954",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.29 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "The cloud services that support automatic scaling are Google App Engine (GAE), AWS, and Microsoft Azure.\n\n(File: Google App Engine.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "79.8%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "59.2%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "73.0%",
+            "Answer Accuracy": "75.9%",
+            "Citation Accuracy": "59.2%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "68.0%",
+            "Best Retrieval Score": "0.7954",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "5.95 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "5.5%"
+}

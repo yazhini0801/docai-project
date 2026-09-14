@@ -1,0 +1,48 @@
+{
+    "test_id": 7,
+    "folder": "Cloud computing",
+    "question": "What security and identity services are available in Microsoft Azure?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Microsoft Azure offers the following security and identity services:\n\n*   **Azure Active Directory (Azure AD):** Identity and access management for users and applications.\n*   **Azure Security Center:** Threat detection and security posture management.\n*   **Azure Sentinel:** Cloud-native SIEM for intelligent security analytics.\n*   **Azure Key Vault:** Secure key management and cryptographic operations.\n*   **Azure Firewall & DDoS Protection:** Network security solutions.\n\n(File: Microsoft Azure.pdf, Page: 2)",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "71.5%",
+            "Faithfulness": "97.1%",
+            "Overall Score": "81.4%",
+            "Answer Accuracy": "86.2%",
+            "Citation Accuracy": "71.5%",
+            "Retrieval Precision": "46.7%",
+            "Hallucination Rate": "2.9%",
+            "Project Score": "76.8%",
+            "Best Retrieval Score": "0.8627",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.38 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Azure offers the following security and identity services:\n\n*   **Azure Active Directory (Azure AD):** Identity and access management for users and applications.\n*   **Azure Security Center:** Threat detection and security posture management.\n*   **Azure Sentinel:** Cloud-native SIEM for intelligent security analytics.\n*   **Azure Key Vault:** Secure key management and cryptographic operations.\n*   **Azure Firewall & DDoS Protection:** Network security solutions.\n\n(File: Microsoft Azure.pdf, Page: 2)",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "58.3%",
+            "Citation Correctness": "81.4%",
+            "Faithfulness": "97.0%",
+            "Overall Score": "78.5%",
+            "Answer Accuracy": "83.0%",
+            "Citation Accuracy": "81.4%",
+            "Retrieval Precision": "58.3%",
+            "Hallucination Rate": "3.0%",
+            "Project Score": "80.4%",
+            "Best Retrieval Score": "0.8540",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "6.04 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "3.7%"
+}

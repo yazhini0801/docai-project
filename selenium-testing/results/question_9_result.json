@@ -1,0 +1,48 @@
+{
+    "test_id": 9,
+    "folder": "Cloud computing",
+    "question": "Compare the object storage services provided by AWS and Microsoft Azure.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Not found in your documents. (File: Amazon AWS.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "10.1%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "7.4%",
+            "Best Retrieval Score": "0.8270",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.51 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Microsoft Azure provides Azure Blob Storage for unstructured data, while AWS provides Amazon S3 (Simple Storage Service) for data backup, archiving, and big data analytics. (File: Microsoft Azure.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "55.3%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "57.6%",
+            "Faithfulness": "88.2%",
+            "Overall Score": "63.7%",
+            "Answer Accuracy": "67.4%",
+            "Citation Accuracy": "57.6%",
+            "Retrieval Precision": "43.8%",
+            "Hallucination Rate": "11.8%",
+            "Project Score": "64.4%",
+            "Best Retrieval Score": "0.8015",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "11.79 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "57.0%"
+}

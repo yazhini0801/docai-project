@@ -1,0 +1,48 @@
+{
+    "test_id": 1,
+    "folder": "Cloud computing",
+    "question": "What is Amazon EC2 and what is it used for?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Amazon EC2 (Elastic Compute Cloud) is a service that provides virtual servers (instances) with flexible computing capacity.\n\n(File: Amazon AWS.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "66.4%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "54.1%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "67.4%",
+            "Answer Accuracy": "75.1%",
+            "Citation Accuracy": "54.1%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "63.8%",
+            "Best Retrieval Score": "0.8817",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.21 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Amazon EC2 (Elastic Compute Cloud) is a compute service that provides scalable compute power for various applications.\n\n(File: Amazon AWS.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "64.9%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "90.9%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "78.3%",
+            "Answer Accuracy": "80.5%",
+            "Citation Accuracy": "90.9%",
+            "Retrieval Precision": "66.7%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "82.4%",
+            "Best Retrieval Score": "0.8817",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "7.45 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "18.6%"
+}

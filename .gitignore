@@ -1,0 +1,23 @@
+# Python virtual environments
+backend/venv/
+selenium-testing/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node dependencies
+frontend/node_modules/
+
+# Environment / secret files
+.env
+backend/.env
+frontend/.env
+selenium-testing/.env
+
+# Build/cache
+frontend/dist/
+
+# OS/editor files
+.DS_Store
+Thumbs.db

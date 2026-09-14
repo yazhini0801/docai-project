@@ -1,0 +1,48 @@
+{
+    "test_id": 6,
+    "folder": "Cloud computing",
+    "question": "What compute services are provided by Microsoft Azure?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Microsoft Azure provides the following compute services:\n*   Azure Virtual Machines (VMs)\n*   Azure Kubernetes Service (AKS)\n*   Azure Functions\n*   Azure App Services\n*   Azure Batch\n\n(File: Microsoft Azure.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "79.3%",
+            "Context Relevance": "53.3%",
+            "Citation Correctness": "65.6%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "75.6%",
+            "Answer Accuracy": "80.8%",
+            "Citation Accuracy": "65.6%",
+            "Retrieval Precision": "44.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "72.1%",
+            "Best Retrieval Score": "0.8906",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.95 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Microsoft Azure provides the following compute services: Azure Virtual Machines (VMs), Azure Kubernetes Service (AKS), Azure Functions, Azure App Services, and Azure Batch.\n\n(File: Microsoft Azure.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "79.3%",
+            "Context Relevance": "60.0%",
+            "Citation Correctness": "74.0%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "78.6%",
+            "Answer Accuracy": "82.9%",
+            "Citation Accuracy": "74.0%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "78.2%",
+            "Best Retrieval Score": "0.8906",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "5.83 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "6.0%"
+}

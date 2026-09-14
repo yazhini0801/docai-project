@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is Amazon EC2 and what is it used for?"
+  },
+  {
+    "id": 2,
+    "question": "What storage services are provided by AWS?"
+  },
+  {
+    "id": 3,
+    "question": "What is Google App Engine and what type of cloud service does it provide?"
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between the Standard Environment and Flexible Environment in Google App Engine?"
+  },
+  {
+    "id": 5,
+    "question": "What are the advantages and disadvantages of Google App Engine?"
+  },
+  {
+    "id": 6,
+    "question": "What compute services are provided by Microsoft Azure?"
+  },
+  {
+    "id": 7,
+    "question": "What security and identity services are available in Microsoft Azure?"
+  },
+  {
+    "id": 8,
+    "question": "Compare the serverless computing services available in AWS and Microsoft Azure."
+  },
+  {
+    "id": 9,
+    "question": "Compare the object storage services provided by AWS and Microsoft Azure."
+  },
+  {
+    "id": 10,
+    "question": "What cloud services in these documents support automatic scaling?"
+  }
+]

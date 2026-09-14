@@ -1,0 +1,48 @@
+{
+    "test_id": 5,
+    "folder": "Cloud computing",
+    "question": "What are the advantages and disadvantages of Google App Engine?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "**Pros:**\n* **Fully Managed:** No need to manage infrastructure, security, or networking.\n* **Highly Scalable:** Scales up and down based on real-time demand.\n* **Pay-as-You-Go:** Charges are based on actual usage.\n* **Strong Integration:** Works well with Google Cloud services like BigQuery, Cloud Functions, and Firebase.\n\n**Cons:**\n* **Limited Customization:** The standard environment restricts system-level access.\n* **Cold Start Latency:** Apps may experience slight delays when scaling from zero.\n* **Vendor Lock-in:** Tight integration with Google Cloud makes migration difficult.\n\n(File: Google App Engine.pdf, Page: 4)",
+        "metrics": {
+            "Answer Relevance": "32.0%",
+            "Context Relevance": "60.0%",
+            "Citation Correctness": "69.8%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "65.5%",
+            "Answer Accuracy": "65.2%",
+            "Citation Accuracy": "69.8%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "72.3%",
+            "Best Retrieval Score": "0.8995",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "14.48 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Pros:\n* Fully Managed: Infrastructure, security, and networking are handled for you.\n* Highly Scalable: Automatically scales based on real-time demand.\n* Pay-as-You-Go: Costs are based on actual usage.\n* Strong Integration: Seamlessly works with other Google Cloud services.\n\nCons:\n* Limited Customization: The standard environment restricts system-level access.\n* Cold Start Latency: May experience delays when scaling from zero.\n* Vendor Lock-in: Tight integration with Google Cloud can make migration difficult.\n\n(File: Google App Engine.pdf, Page: 4)",
+        "metrics": {
+            "Answer Relevance": "32.0%",
+            "Context Relevance": "60.0%",
+            "Citation Correctness": "68.7%",
+            "Faithfulness": "88.7%",
+            "Overall Score": "61.9%",
+            "Answer Accuracy": "61.0%",
+            "Citation Accuracy": "68.7%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "11.3%",
+            "Project Score": "68.3%",
+            "Best Retrieval Score": "0.8944",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "10.44 s"
+        }
+    },
+    "better_result": "Standard RAG",
+    "docrank_improvement": "-4.0%"
+}

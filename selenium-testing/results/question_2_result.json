@@ -1,0 +1,48 @@
+{
+    "test_id": 2,
+    "folder": "Cloud computing",
+    "question": "What storage services are provided by AWS?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "AWS provides the following storage services:\n\n* **Amazon S3**: Object storage for data backup, archiving, and big data analytics.\n* **Amazon EBS (Elastic Block Store)**: Block storage for EC2 instances.\n* **Amazon FSx**: Managed file systems for Windows and Lustre.\n* **Amazon Glacier**: Low-cost, long-term archival storage.\n\n(File: Amazon AWS.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "59.7%",
+            "Faithfulness": "96.8%",
+            "Overall Score": "79.6%",
+            "Answer Accuracy": "80.3%",
+            "Citation Accuracy": "59.7%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "3.2%",
+            "Project Score": "74.4%",
+            "Best Retrieval Score": "0.8725",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.09 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "AWS provides the following storage services:\n\n* **Amazon S3**: Object storage for data backup, archiving, and big data analytics.\n* **Amazon EBS (Elastic Block Store)**: Block storage for EC2 instances.\n* **Amazon FSx**: Managed file systems for Windows and Lustre.\n* **Amazon Glacier**: Low-cost, long-term archival storage.\n\n(File: Amazon AWS.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "66.6%",
+            "Faithfulness": "93.5%",
+            "Overall Score": "80.0%",
+            "Answer Accuracy": "80.9%",
+            "Citation Accuracy": "66.6%",
+            "Retrieval Precision": "75.0%",
+            "Hallucination Rate": "6.5%",
+            "Project Score": "78.7%",
+            "Best Retrieval Score": "0.8662",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "10.65 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "4.3%"
+}

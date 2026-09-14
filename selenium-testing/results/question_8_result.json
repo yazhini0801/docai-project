@@ -1,0 +1,48 @@
+{
+    "test_id": 8,
+    "folder": "Cloud computing",
+    "question": "Compare the serverless computing services available in AWS and Microsoft Azure.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Microsoft Azure offers Azure Functions for serverless computing, which is designed for event-driven applications. The provided documents do not contain information regarding the specific serverless computing service offered by AWS.\n\n(File: Microsoft Azure.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "68.1%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "32.7%",
+            "Faithfulness": "52.4%",
+            "Overall Score": "51.8%",
+            "Answer Accuracy": "53.8%",
+            "Citation Accuracy": "32.7%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "47.6%",
+            "Project Score": "44.5%",
+            "Best Retrieval Score": "0.8484",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.34 s"
+        }
+    },
+    "docrank_rag": {
+        "answer": "Microsoft Azure offers Azure Functions for serverless computing for event-driven applications. AWS offers AWS Lambda, which allows users to run code without provisioning infrastructure.\n\n(File: Microsoft Azure.pdf, Page: 1)",
+        "metrics": {
+            "Answer Relevance": "66.6%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "53.1%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "65.6%",
+            "Answer Accuracy": "69.1%",
+            "Citation Accuracy": "53.1%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "64.1%",
+            "Best Retrieval Score": "0.8163",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "4.08 s"
+        }
+    },
+    "better_result": "DocRank-RAG",
+    "docrank_improvement": "19.7%"
+}

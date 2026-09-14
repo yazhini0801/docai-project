@@ -235,6 +235,9 @@ function ChatPage() {
             citation?.preview ||
             "";
 
+        const boundingBoxes =
+            citation?.bounding_boxes || [];
+
         if (!documentId) {
             alert("Document ID not found.");
             return;
@@ -245,6 +248,7 @@ function ChatPage() {
             {
                 state: {
                     highlightText,
+                    boundingBoxes,
                     returnTo: `/chat/${folderId}`,
                 },
             }
@@ -475,17 +479,12 @@ function ChatPage() {
 
                 <div style={styles.statsGrid}>
                     <div style={styles.statCard}>
-                        <span
-                            style={styles.statLabel}
-                        >
+                        <span style={styles.statLabel}>
                             Best Score
                         </span>
 
-                        <strong
-                            style={styles.statValue}
-                        >
-                            {result.best_score !==
-                                undefined &&
+                        <strong style={styles.statValue}>
+                            {result.best_score !== undefined &&
                             result.best_score !== null
                                 ? Number(
                                       result.best_score
@@ -495,19 +494,13 @@ function ChatPage() {
                     </div>
 
                     <div style={styles.statCard}>
-                        <span
-                            style={styles.statLabel}
-                        >
+                        <span style={styles.statLabel}>
                             Response Time
                         </span>
 
-                        <strong
-                            style={styles.statValue}
-                        >
-                            {result.response_time !==
-                                undefined &&
-                            result.response_time !==
-                                null
+                        <strong style={styles.statValue}>
+                            {result.response_time !== undefined &&
+                            result.response_time !== null
                                 ? `${Number(
                                       result.response_time
                                   ).toFixed(2)} s`
@@ -516,49 +509,32 @@ function ChatPage() {
                     </div>
 
                     <div style={styles.statCard}>
-                        <span
-                            style={styles.statLabel}
-                        >
+                        <span style={styles.statLabel}>
                             Retrieved
                         </span>
 
-                        <strong
-                            style={styles.statValue}
-                        >
-                            {result.retrieved_chunks ??
-                                "—"}
+                        <strong style={styles.statValue}>
+                            {result.retrieved_chunks ?? "—"}
                         </strong>
                     </div>
 
                     <div style={styles.statCard}>
-                        <span
-                            style={styles.statLabel}
-                        >
+                        <span style={styles.statLabel}>
                             Chunks Used
                         </span>
 
-                        <strong
-                            style={styles.statValue}
-                        >
+                        <strong style={styles.statValue}>
                             {result.chunks_used ?? "—"}
                         </strong>
                     </div>
                 </div>
 
                 {enhanced &&
-                    result.documents_ranked !==
-                        undefined && (
-                        <div
-                            style={
-                                styles.enhancedInfo
-                            }
-                        >
-                            Documents ranked by
-                            DocRank:{" "}
+                    result.documents_ranked !== undefined && (
+                        <div style={styles.enhancedInfo}>
+                            Documents ranked by DocRank:{" "}
                             <strong>
-                                {
-                                    result.documents_ranked
-                                }
+                                {result.documents_ranked}
                             </strong>
                         </div>
                     )}
@@ -586,16 +562,9 @@ function ChatPage() {
                     </h3>
 
                     {supporting.length > 0 ? (
-                        <div
-                            style={
-                                styles.citationList
-                            }
-                        >
+                        <div style={styles.citationList}>
                             {supporting.map(
-                                (
-                                    citation,
-                                    index
-                                ) => (
+                                (citation, index) => (
                                     <div key={index}>
                                         {renderCitation(
                                             citation
@@ -613,11 +582,7 @@ function ChatPage() {
 
                 <div style={styles.finalSection}>
                     <div style={styles.finalHeader}>
-                        <h3
-                            style={
-                                styles.sectionTitle
-                            }
-                        >
+                        <h3 style={styles.sectionTitle}>
                             Final Answer
                         </h3>
 
@@ -633,9 +598,7 @@ function ChatPage() {
                         </button>
                     </div>
 
-                    <div
-                        style={styles.finalAnswer}
-                    >
+                    <div style={styles.finalAnswer}>
                         {cleanAnswer(
                             result.answer
                         )}
@@ -694,22 +657,12 @@ function ChatPage() {
             <section
                 style={styles.comparisonSection}
             >
-                <div
-                    style={styles.comparisonHeader}
-                >
-                    <p
-                        style={
-                            styles.comparisonEyebrow
-                        }
-                    >
+                <div style={styles.comparisonHeader}>
+                    <p style={styles.comparisonEyebrow}>
                         RAG EVALUATION
                     </p>
 
-                    <h2
-                        style={
-                            styles.comparisonTitle
-                        }
-                    >
+                    <h2 style={styles.comparisonTitle}>
                         Performance Comparison
                     </h2>
 
@@ -724,37 +677,19 @@ function ChatPage() {
                     </p>
                 </div>
 
-                <div
-                    style={styles.tableWrapper}
-                >
-                    <table
-                        style={
-                            styles.comparisonTable
-                        }
-                    >
+                <div style={styles.tableWrapper}>
+                    <table style={styles.comparisonTable}>
                         <thead>
                             <tr>
-                                <th
-                                    style={
-                                        styles.tableHeader
-                                    }
-                                >
+                                <th style={styles.tableHeader}>
                                     Metric
                                 </th>
 
-                                <th
-                                    style={
-                                        styles.tableHeader
-                                    }
-                                >
+                                <th style={styles.tableHeader}>
                                     Standard RAG
                                 </th>
 
-                                <th
-                                    style={
-                                        styles.tableHeader
-                                    }
-                                >
+                                <th style={styles.tableHeader}>
                                     RankFusion-RAG
                                 </th>
                             </tr>
@@ -762,29 +697,17 @@ function ChatPage() {
 
                         <tbody>
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Answer Relevance
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.answer_relevance
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.answer_relevance
                                     )}
@@ -792,29 +715,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Context Relevance
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.context_relevance
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.context_relevance
                                     )}
@@ -822,29 +733,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Citation Correctness
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.citation_correctness
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.citation_correctness
                                     )}
@@ -852,29 +751,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Faithfulness
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.faithfulness
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.faithfulness
                                     )}
@@ -882,61 +769,35 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Overall Score
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.overall_score
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.overall_score
                                     )}
                                 </td>
                             </tr>
 
-                            {/* PROJECT METRICS */}
-
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Answer Accuracy
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.answer_accuracy
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.answer_accuracy
                                     )}
@@ -944,29 +805,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Citation Accuracy
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.citation_accuracy
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.citation_accuracy
                                     )}
@@ -974,29 +823,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Retrieval Precision
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.retrieval_precision
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.retrieval_precision
                                     )}
@@ -1004,29 +841,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Hallucination Rate
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.hallucination_rate
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.hallucination_rate
                                     )}
@@ -1034,29 +859,17 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Project Score
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         standardEvaluation.project_score
                                     )}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {formatMetric(
                                         docrankEvaluation.project_score
                                     )}
@@ -1064,148 +877,78 @@ function ChatPage() {
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Best Retrieval Score
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
-                                    {standardScore.toFixed(
-                                        4
-                                    )}
+                                <td style={styles.tableCell}>
+                                    {standardScore.toFixed(4)}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
-                                    {docrankScore.toFixed(
-                                        4
-                                    )}
+                                <td style={styles.tableCell}>
+                                    {docrankScore.toFixed(4)}
                                 </td>
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Confidence
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {standardResult.confidence ||
                                         "—"}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {docrankResult.confidence ||
                                         "—"}
                                 </td>
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Retrieved Chunks
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {standardResult.retrieved_chunks ??
                                         "—"}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {docrankResult.retrieved_chunks ??
                                         "—"}
                                 </td>
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Chunks Used
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {standardResult.chunks_used ??
                                         "—"}
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
+                                <td style={styles.tableCell}>
                                     {docrankResult.chunks_used ??
                                         "—"}
                                 </td>
                             </tr>
 
                             <tr>
-                                <td
-                                    style={
-                                        styles.tableCellLabel
-                                    }
-                                >
+                                <td style={styles.tableCellLabel}>
                                     Response Time
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
-                                    {standardTime.toFixed(
-                                        2
-                                    )}{" "}
-                                    s
+                                <td style={styles.tableCell}>
+                                    {standardTime.toFixed(2)} s
                                 </td>
 
-                                <td
-                                    style={
-                                        styles.tableCell
-                                    }
-                                >
-                                    {docrankTime.toFixed(
-                                        2
-                                    )}{" "}
-                                    s
+                                <td style={styles.tableCell}>
+                                    {docrankTime.toFixed(2)} s
                                 </td>
                             </tr>
                         </tbody>
@@ -1214,28 +957,16 @@ function ChatPage() {
 
                 {evaluation && (
                     <div style={styles.winnerCard}>
-                        <div
-                            style={
-                                styles.winnerIcon
-                            }
-                        >
+                        <div style={styles.winnerIcon}>
                             🏆
                         </div>
 
                         <div>
-                            <p
-                                style={
-                                    styles.winnerLabel
-                                }
-                            >
+                            <p style={styles.winnerLabel}>
                                 Better Result
                             </p>
 
-                            <h3
-                                style={
-                                    styles.winnerTitle
-                                }
-                            >
+                            <h3 style={styles.winnerTitle}>
                                 {betterSystem ===
                                 "docrank"
                                     ? "RankFusion-RAG"
@@ -1296,19 +1027,11 @@ function ChatPage() {
                     </div>
 
                     <div>
-                        <h2
-                            style={
-                                styles.brandTitle
-                            }
-                        >
+                        <h2 style={styles.brandTitle}>
                             DocAI
                         </h2>
 
-                        <p
-                            style={
-                                styles.brandSubtitle
-                            }
-                        >
+                        <p style={styles.brandSubtitle}>
                             Secure Document
                             Assistant
                         </p>
@@ -2243,4 +1966,3 @@ const styles = {
 
 
 export default ChatPage;
-

@@ -3,7 +3,7 @@ from fastapi.responses import StreamingResponse
 from supabase import create_client
 from dotenv import load_dotenv
 from services.document_parser import extract_pdf_text
-from services.chunker import chunk_text
+from services.chunker import chunk_text, chunk_words_with_coordinates
 from services.embedding_service import generate_embedding
 from io import BytesIO
 import os
@@ -34,7 +34,10 @@ def get_current_user(token: str):
         return user_response.user
 
     except Exception as e:
-        raise HTTPException(status_code=401, detail=f"Invalid or expired token: {str(e)}")
+        raise HTTPException(
+            status_code=401,
+            detail=f"Invalid or expired token: {str(e)}"
+        )
 
 
 @router.post("/upload")
@@ -54,7 +57,10 @@ async def upload_document(
         file_bytes
     )
 
-    file_url = f"{os.getenv('SUPABASE_URL')}/storage/v1/object/documents/{file_path}"
+    file_url = (
+        f"{os.getenv('SUPABASE_URL')}"
+        f"/storage/v1/object/documents/{file_path}"
+    )
 
     status = "uploaded"
     extracted_text = None
@@ -65,7 +71,10 @@ async def upload_document(
 
     if file.content_type == "application/pdf":
         try:
-            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+            with tempfile.NamedTemporaryFile(
+                delete=False,
+                suffix=".pdf"
+            ) as temp_file:
                 temp_file.write(file_bytes)
                 temp_file_path = temp_file.name
 
@@ -80,7 +89,9 @@ async def upload_document(
 
         except Exception as e:
             status = "failed"
-            extracted_text = f"PDF extraction failed: {str(e)}"
+            extracted_text = (
+                f"PDF extraction failed: {str(e)}"
+            )
 
     result = supabase.table("documents").insert({
         "user_id": user.id,
@@ -103,30 +114,49 @@ async def upload_document(
         for page in parsed_pages:
             page_number = page["page_number"]
             page_text = page["text"]
+            page_words = page.get("words", [])
 
             if not page_text.strip():
                 continue
 
-            page_chunks = chunk_text(page_text)
+            if page_words:
+                page_chunks = (
+                    chunk_words_with_coordinates(
+                        page_words
+                    )
+                )
+            else:
+                page_chunks = chunk_text(page_text)
 
             for chunk in page_chunks:
                 chunk_rows.append({
                     "document_id": document_id,
                     "chunk_index": global_chunk_index,
                     "content": chunk["content"],
-                    "page_number": page_number
+                    "page_number": page_number,
+                    "bounding_boxes": chunk.get(
+                        "bounding_boxes"
+                    )
                 })
 
                 global_chunk_index += 1
 
         if chunk_rows:
-            chunk_result = supabase.table("document_chunks").insert(chunk_rows).execute()
+            chunk_result = (
+                supabase
+                .table("document_chunks")
+                .insert(chunk_rows)
+                .execute()
+            )
+
             chunks_saved = len(chunk_rows)
 
             embedding_rows = []
 
             for saved_chunk in chunk_result.data:
-                embedding = generate_embedding(saved_chunk["content"])
+                embedding = generate_embedding(
+                    saved_chunk["content"]
+                )
 
                 embedding_rows.append({
                     "chunk_id": saved_chunk["id"],
@@ -134,11 +164,19 @@ async def upload_document(
                 })
 
             if embedding_rows:
-                supabase.table("chunk_embeddings").insert(embedding_rows).execute()
-                embeddings_saved = len(embedding_rows)
+                supabase.table(
+                    "chunk_embeddings"
+                ).insert(
+                    embedding_rows
+                ).execute()
+
+                embeddings_saved = len(
+                    embedding_rows
+                )
 
     return {
-        "message": "File uploaded, processed, chunked, and embedded successfully",
+        "message":
+            "File uploaded, processed, chunked, and embedded successfully",
         "document": result.data,
         "chunks_saved": chunks_saved,
         "embeddings_saved": embeddings_saved
@@ -149,11 +187,14 @@ async def upload_document(
 def list_documents(token: str, folder_id: str):
     user = get_current_user(token)
 
-    result = supabase.table("documents") \
-        .select("*") \
-        .eq("user_id", user.id) \
-        .eq("folder_id", folder_id) \
+    result = (
+        supabase
+        .table("documents")
+        .select("*")
+        .eq("user_id", user.id)
+        .eq("folder_id", folder_id)
         .execute()
+    )
 
     return {
         "documents": result.data
@@ -166,38 +207,60 @@ def get_pdf_file(document_id: str, token: str):
 
     result = (
         supabase.table("documents")
-        .select("id,file_name,file_url,user_id,file_type")
+        .select(
+            "id,file_name,file_url,user_id,file_type"
+        )
         .eq("id", document_id)
         .single()
         .execute()
     )
 
     if not result.data:
-        raise HTTPException(status_code=404, detail="Document not found")
+        raise HTTPException(
+            status_code=404,
+            detail="Document not found"
+        )
 
     document = result.data
 
     if document["user_id"] != user.id:
-        raise HTTPException(status_code=403, detail="Access denied")
+        raise HTTPException(
+            status_code=403,
+            detail="Access denied"
+        )
 
     if document["file_type"] != "application/pdf":
-        raise HTTPException(status_code=400, detail="File is not a PDF")
+        raise HTTPException(
+            status_code=400,
+            detail="File is not a PDF"
+        )
 
     marker = "/storage/v1/object/documents/"
 
     if marker not in document["file_url"]:
-        raise HTTPException(status_code=500, detail="Invalid file URL")
+        raise HTTPException(
+            status_code=500,
+            detail="Invalid file URL"
+        )
 
-    file_path = document["file_url"].split(marker)[1]
+    file_path = document["file_url"].split(
+        marker
+    )[1]
 
     try:
-        file_bytes = supabase.storage.from_("documents").download(file_path)
+        file_bytes = (
+            supabase
+            .storage
+            .from_("documents")
+            .download(file_path)
+        )
 
         return StreamingResponse(
             BytesIO(file_bytes),
             media_type="application/pdf",
             headers={
-                "Content-Disposition": f'inline; filename="{document["file_name"]}"'
+                "Content-Disposition":
+                    f'inline; filename="{document["file_name"]}"'
             }
         )
 
@@ -209,24 +272,36 @@ def get_pdf_file(document_id: str, token: str):
 
 
 @router.get("/preview/{document_id}")
-def preview_document(document_id: str, token: str):
+def preview_document(
+    document_id: str,
+    token: str
+):
     user = get_current_user(token)
 
     result = (
         supabase.table("documents")
-        .select("id,file_name,file_url,page_count,user_id,status,file_type")
+        .select(
+            "id,file_name,file_url,"
+            "page_count,user_id,status,file_type"
+        )
         .eq("id", document_id)
         .single()
         .execute()
     )
 
     if not result.data:
-        raise HTTPException(status_code=404, detail="Document not found")
+        raise HTTPException(
+            status_code=404,
+            detail="Document not found"
+        )
 
     document = result.data
 
     if document["user_id"] != user.id:
-        raise HTTPException(status_code=403, detail="Access denied")
+        raise HTTPException(
+            status_code=403,
+            detail="Access denied"
+        )
 
     return {
         "document_id": document["id"],
@@ -239,31 +314,49 @@ def preview_document(document_id: str, token: str):
 
 
 @router.get("/page/{document_id}/{page_number}")
-def get_document_page(document_id: str, page_number: int, token: str):
+def get_document_page(
+    document_id: str,
+    page_number: int,
+    token: str
+):
     user = get_current_user(token)
 
     document_result = (
         supabase.table("documents")
-        .select("id,file_name,user_id,page_count")
+        .select(
+            "id,file_name,user_id,page_count"
+        )
         .eq("id", document_id)
         .single()
         .execute()
     )
 
     if not document_result.data:
-        raise HTTPException(status_code=404, detail="Document not found")
+        raise HTTPException(
+            status_code=404,
+            detail="Document not found"
+        )
 
     document = document_result.data
 
     if document["user_id"] != user.id:
-        raise HTTPException(status_code=403, detail="Access denied")
+        raise HTTPException(
+            status_code=403,
+            detail="Access denied"
+        )
 
     chunks_result = (
         supabase.table("document_chunks")
-        .select("id,chunk_index,content,page_number")
+        .select(
+            "id,chunk_index,content,"
+            "page_number,bounding_boxes"
+        )
         .eq("document_id", document_id)
         .eq("page_number", page_number)
-        .order("chunk_index", desc=False)
+        .order(
+            "chunk_index",
+            desc=False
+        )
         .execute()
     )
 
@@ -287,7 +380,9 @@ def get_highlight(
 
     document_result = (
         supabase.table("documents")
-        .select("id,user_id,file_name")
+        .select(
+            "id,user_id,file_name"
+        )
         .eq("id", document_id)
         .single()
         .execute()
@@ -330,5 +425,8 @@ def get_highlight(
         "file_name": document["file_name"],
         "page_number": page_number,
         "chunk_index": chunk_index,
-        "highlight_text": chunk["content"]
+        "highlight_text": chunk["content"],
+        "bounding_boxes": chunk.get(
+            "bounding_boxes"
+        )
     }

@@ -61,7 +61,10 @@ def semantic_search(
         return []
 
     allowed_doc_ids = [doc["id"] for doc in documents]
-    doc_name_map = {doc["id"]: doc["file_name"] for doc in documents}
+    doc_name_map = {
+        doc["id"]: doc["file_name"]
+        for doc in documents
+    }
 
     chunks_response = (
         supabase.table("document_chunks")
@@ -75,8 +78,15 @@ def semantic_search(
     if not chunks:
         return []
 
-    chunk_ids = [chunk["id"] for chunk in chunks]
-    chunk_map = {chunk["id"]: chunk for chunk in chunks}
+    chunk_ids = [
+        chunk["id"]
+        for chunk in chunks
+    ]
+
+    chunk_map = {
+        chunk["id"]: chunk
+        for chunk in chunks
+    }
 
     embeddings_response = (
         supabase.table("chunk_embeddings")
@@ -101,7 +111,10 @@ def semantic_search(
         if not chunk:
             continue
 
-        score = cosine_similarity(question_embedding, chunk_embedding)
+        score = cosine_similarity(
+            question_embedding,
+            chunk_embedding
+        )
 
         scored_chunks.append({
             "chunk_id": chunk_id,
@@ -109,34 +122,65 @@ def semantic_search(
             "score": score
         })
 
-    scored_chunks.sort(key=lambda x: x["score"], reverse=True)
+    scored_chunks.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
+
     top_results = scored_chunks[:top_k]
 
     final_results = []
 
     for result in top_results:
-        chunk = chunk_map.get(result["chunk_id"])
+        chunk = chunk_map.get(
+            result["chunk_id"]
+        )
 
         if not chunk:
             continue
 
-        chunk_text = chunk.get("content", "")
+        chunk_text = chunk.get(
+            "content",
+            ""
+        )
 
         final_results.append({
             "chunk_id": result["chunk_id"],
-            "document_id": result["document_id"],
-            "file_name": doc_name_map.get(result["document_id"], "Unknown file"),
-            "page_number": chunk.get("page_number"),
-            "chunk_index": chunk.get("chunk_index"),
-            "text": chunk_text,
-            "score": result["score"],
-            "confidence": get_confidence(result["score"])
+            "document_id":
+                result["document_id"],
+            "file_name":
+                doc_name_map.get(
+                    result["document_id"],
+                    "Unknown file"
+                ),
+            "page_number":
+                chunk.get("page_number"),
+            "chunk_index":
+                chunk.get("chunk_index"),
+            "text":
+                chunk_text,
+
+            # NEW: carry PDF coordinates
+            "bounding_boxes":
+                chunk.get("bounding_boxes"),
+
+            "score":
+                result["score"],
+            "confidence":
+                get_confidence(
+                    result["score"]
+                )
         })
 
     return final_results
 
 
-def rerank_chunks(question: str, chunks: List[Dict[str, Any]], top_n: int = 5) -> List[Dict[str, Any]]:
+def rerank_chunks(
+    question: str,
+    chunks: List[Dict[str, Any]],
+    top_n: int = 5
+) -> List[Dict[str, Any]]:
+
     if not chunks:
         return []
 
@@ -145,7 +189,10 @@ def rerank_chunks(question: str, chunks: List[Dict[str, Any]], top_n: int = 5) -
 
     context = ""
 
-    for i, chunk in enumerate(chunks, start=1):
+    for i, chunk in enumerate(
+        chunks,
+        start=1
+    ):
         text = chunk["text"][:900]
 
         context += f"""
@@ -184,14 +231,31 @@ Return JSON in this format:
 """
 
     try:
-        model = genai.GenerativeModel("gemini-3.1-flash-lite")
-        response = model.generate_content(prompt)
+        model = genai.GenerativeModel(
+            "gemini-3.1-flash-lite"
+        )
+
+        response = model.generate_content(
+            prompt
+        )
 
         raw_text = response.text.strip()
-        raw_text = raw_text.replace("```json", "").replace("```", "").strip()
 
-        parsed = json.loads(raw_text)
-        selected_numbers = parsed.get("selected_chunks", [])
+        raw_text = (
+            raw_text
+            .replace("```json", "")
+            .replace("```", "")
+            .strip()
+        )
+
+        parsed = json.loads(
+            raw_text
+        )
+
+        selected_numbers = parsed.get(
+            "selected_chunks",
+            []
+        )
 
         reranked = []
 
@@ -200,7 +264,9 @@ Return JSON in this format:
                 index = number - 1
 
                 if 0 <= index < len(chunks):
-                    reranked.append(chunks[index])
+                    reranked.append(
+                        chunks[index]
+                    )
 
         if reranked:
             return reranked[:top_n]
@@ -211,7 +277,11 @@ Return JSON in this format:
         return chunks[:top_n]
 
 
-def generate_answer_from_context(question: str, chunks: List[Dict[str, Any]]) -> str:
+def generate_answer_from_context(
+    question: str,
+    chunks: List[Dict[str, Any]]
+) -> str:
+
     if not chunks:
         return "Not found in your documents."
 
@@ -222,7 +292,10 @@ def generate_answer_from_context(question: str, chunks: List[Dict[str, Any]]) ->
 
     context = ""
 
-    for i, chunk in enumerate(chunks, start=1):
+    for i, chunk in enumerate(
+        chunks,
+        start=1
+    ):
         context += f"""
 Source {i}
 File: {chunk["file_name"]}
@@ -254,7 +327,12 @@ User Question:
 Answer:
 """
 
-    model = genai.GenerativeModel("gemini-3.1-flash-lite")
-    response = model.generate_content(prompt)
+    model = genai.GenerativeModel(
+        "gemini-3.1-flash-lite"
+    )
+
+    response = model.generate_content(
+        prompt
+    )
 
     return response.text

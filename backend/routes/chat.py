@@ -73,6 +73,9 @@ def make_citation(chunk, confidence):
         ),
         "preview": chunk["text"][:250],
         "text": chunk["text"],
+
+        # NEW: send PDF coordinates with citation
+        "bounding_boxes": chunk.get("bounding_boxes"),
     }
 
 

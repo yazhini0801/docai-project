@@ -1,0 +1,52 @@
+{
+    "question_id": 7,
+    "question": "Explain how AWS supports IoT and edge computing using IoT Core, Greengrass, IoT Analytics, Outposts, Snowball, and Wavelength.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS supports IoT and edge computing using IoT Core, Greengrass, IoT Analytics, Outposts, Snowball, and Wavelength.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.2%",
+        "metrics": {
+            "Answer Relevance": "86.9%",
+            "Context Relevance": "46.2%",
+            "Citation Correctness": "50.4%",
+            "Faithfulness": "90.2%",
+            "Overall Score": "72.5%",
+            "Answer Accuracy": "79.0%",
+            "Citation Accuracy": "50.4%",
+            "Retrieval Precision": "36.9%",
+            "Hallucination Rate": "9.8%",
+            "Project Score": "65.7%",
+            "Best Retrieval Score": "0.8244",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.85 s"
+        },
+        "project_score": 65.7,
+        "response_time": 8.85
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS supports IoT and edge computing using IoT Core, Greengrass, IoT Analytics, Outposts, Snowball, and Wavelength.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.2%",
+        "metrics": {
+            "Answer Relevance": "86.9%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "51.8%",
+            "Faithfulness": "87.2%",
+            "Overall Score": "69.3%",
+            "Answer Accuracy": "78.2%",
+            "Citation Accuracy": "51.8%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "12.8%",
+            "Project Score": "64.4%",
+            "Best Retrieval Score": "0.8244",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "13.56 s"
+        },
+        "project_score": 64.4,
+        "response_time": 13.56
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -1.3,
+    "error": null
+}

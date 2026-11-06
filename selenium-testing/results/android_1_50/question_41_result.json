@@ -1,0 +1,52 @@
+{
+    "question_id": 41,
+    "question": "How can Material Design, resource files instead of hard-coded values, vector drawables, and compatibility testing contribute to a consistent Android user interface?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Material Design, resource files instead of hard-coded values, vector drawables, and compatibility testing contribute to a consistent Android user interface?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 11.2%",
+        "metrics": {
+            "Answer Relevance": "66.9%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "38.1%",
+            "Faithfulness": "73.7%",
+            "Overall Score": "56.5%",
+            "Answer Accuracy": "62.1%",
+            "Citation Accuracy": "38.1%",
+            "Retrieval Precision": "23.3%",
+            "Hallucination Rate": "26.3%",
+            "Project Score": "50.7%",
+            "Best Retrieval Score": "0.8708",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "11.14 s"
+        },
+        "project_score": 50.7,
+        "response_time": 11.14
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Material Design, resource files instead of hard-coded values, vector drawables, and compatibility testing contribute to a consistent Android user interface?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 11.2%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "37.0%",
+            "Citation Correctness": "50.8%",
+            "Faithfulness": "84.6%",
+            "Overall Score": "64.5%",
+            "Answer Accuracy": "71.0%",
+            "Citation Accuracy": "50.8%",
+            "Retrieval Precision": "37.0%",
+            "Hallucination Rate": "15.4%",
+            "Project Score": "61.9%",
+            "Best Retrieval Score": "0.8708",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "12.17 s"
+        },
+        "project_score": 61.9,
+        "response_time": 12.17
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 11.2,
+    "error": null
+}

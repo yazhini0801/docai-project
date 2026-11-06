@@ -1,0 +1,52 @@
+{
+    "question_id": 16,
+    "question": "Explain the major advantages and disadvantages of Google App Engine, including scalability, infrastructure management, customization, cold starts, and vendor lock-in.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major advantages and disadvantages of Google App Engine, including scalability, infrastructure management, customization, cold starts, and vendor lock-in.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -5.0%",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "31.3%",
+            "Citation Correctness": "57.9%",
+            "Faithfulness": "92.3%",
+            "Overall Score": "62.8%",
+            "Answer Accuracy": "69.8%",
+            "Citation Accuracy": "57.9%",
+            "Retrieval Precision": "28.7%",
+            "Hallucination Rate": "7.7%",
+            "Project Score": "63.1%",
+            "Best Retrieval Score": "0.9105",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "10.47 s"
+        },
+        "project_score": 63.1,
+        "response_time": 10.47
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major advantages and disadvantages of Google App Engine, including scalability, infrastructure management, customization, cold starts, and vendor lock-in.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -5.0%",
+        "metrics": {
+            "Answer Relevance": "68.1%",
+            "Context Relevance": "31.3%",
+            "Citation Correctness": "52.0%",
+            "Faithfulness": "81.6%",
+            "Overall Score": "61.6%",
+            "Answer Accuracy": "68.8%",
+            "Citation Accuracy": "52.0%",
+            "Retrieval Precision": "23.8%",
+            "Hallucination Rate": "18.4%",
+            "Project Score": "58.1%",
+            "Best Retrieval Score": "0.9105",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "16.88 s"
+        },
+        "project_score": 58.1,
+        "response_time": 16.88
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -5.0,
+    "error": null
+}

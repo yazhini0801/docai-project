@@ -1,0 +1,52 @@
+{
+    "question_id": 18,
+    "question": "Explain how Google App Engine can support web applications, APIs, microservices, data processing, IoT, and real-time applications.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Google App Engine can support web applications, APIs, microservices, data processing, IoT, and real-time applications.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.3%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "46.7%",
+            "Citation Correctness": "59.0%",
+            "Faithfulness": "80.7%",
+            "Overall Score": "70.2%",
+            "Answer Accuracy": "76.2%",
+            "Citation Accuracy": "59.0%",
+            "Retrieval Precision": "38.7%",
+            "Hallucination Rate": "19.4%",
+            "Project Score": "65.3%",
+            "Best Retrieval Score": "0.8812",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "17.87 s"
+        },
+        "project_score": 65.3,
+        "response_time": 17.87
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Google App Engine can support web applications, APIs, microservices, data processing, IoT, and real-time applications.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.3%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "48.9%",
+            "Citation Correctness": "51.7%",
+            "Faithfulness": "82.9%",
+            "Overall Score": "69.9%",
+            "Answer Accuracy": "75.1%",
+            "Citation Accuracy": "51.7%",
+            "Retrieval Precision": "48.9%",
+            "Hallucination Rate": "17.1%",
+            "Project Score": "65.6%",
+            "Best Retrieval Score": "0.8812",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "8.77 s"
+        },
+        "project_score": 65.6,
+        "response_time": 8.77
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 0.3,
+    "error": null
+}

@@ -1,0 +1,10 @@
+{
+    "batch": "OOAD Questions 1-10",
+    "total_questions": 10,
+    "successful_question_tests": 9,
+    "failed_question_tests": 1,
+    "rankfusion_wins": 4,
+    "standard_rag_wins": 4,
+    "ties": 1,
+    "average_rankfusion_improvement": -15.711111111111116
+}

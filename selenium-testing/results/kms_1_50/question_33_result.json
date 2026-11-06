@@ -1,0 +1,52 @@
+{
+    "question_id": 33,
+    "question": "How can management support and incentives help create a knowledge-management-friendly organizational culture?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "41.5%",
+            "Faithfulness": "76.2%",
+            "Overall Score": "53.7%",
+            "Answer Accuracy": "60.1%",
+            "Citation Accuracy": "41.5%",
+            "Retrieval Precision": "18.0%",
+            "Hallucination Rate": "23.8%",
+            "Project Score": "50.2%",
+            "Best Retrieval Score": "0.8807",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.08 s"
+        },
+        "project_score": 50.2,
+        "response_time": 7.08
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "74.5%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "41.3%",
+            "Faithfulness": "73.9%",
+            "Overall Score": "60.8%",
+            "Answer Accuracy": "66.0%",
+            "Citation Accuracy": "41.3%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "26.1%",
+            "Project Score": "55.2%",
+            "Best Retrieval Score": "0.8807",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "9.99 s"
+        },
+        "project_score": 55.2,
+        "response_time": 9.99
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 5.0,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 6,
+    "question": "How can Android preferences and responsive UI design work together to provide a personalized and consistent user experience across different devices?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Android preferences and responsive UI design work together to provide a personalized and consistent user experience across different devices?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -3.7%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "18.8%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "4.7%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "16.3%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "3.7%",
+            "Best Retrieval Score": "0.8632",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.06 s"
+        },
+        "project_score": 3.7,
+        "response_time": 7.06
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Android preferences and responsive UI design work together to provide a personalized and consistent user experience across different devices?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -3.7%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8347",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "9.93 s"
+        },
+        "project_score": 0.0,
+        "response_time": 9.93
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -3.7,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 3,
+    "question": "Explain the major AWS database services and distinguish the roles of Amazon RDS, DynamoDB, Aurora, and ElastiCache.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major AWS database services and distinguish the roles of Amazon RDS, DynamoDB, Aurora, and ElastiCache.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -55.6%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "36.1%",
+            "Citation Correctness": "52.7%",
+            "Faithfulness": "75.0%",
+            "Overall Score": "63.9%",
+            "Answer Accuracy": "70.9%",
+            "Citation Accuracy": "52.7%",
+            "Retrieval Precision": "31.7%",
+            "Hallucination Rate": "25.0%",
+            "Project Score": "59.3%",
+            "Best Retrieval Score": "0.8497",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.58 s"
+        },
+        "project_score": 59.3,
+        "response_time": 6.58
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major AWS database services and distinguish the roles of Amazon RDS, DynamoDB, Aurora, and ElastiCache.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -55.6%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "16.7%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "4.2%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "16.7%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "3.8%",
+            "Best Retrieval Score": "0.8293",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "5.19 s"
+        },
+        "project_score": 3.8,
+        "response_time": 5.19
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -55.5,
+    "error": null
+}

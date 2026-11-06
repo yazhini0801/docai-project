@@ -1,0 +1,52 @@
+{
+    "question_id": 29,
+    "question": "How does organizational structure affect knowledge sharing and knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "63.6%",
+            "Context Relevance": "52.4%",
+            "Citation Correctness": "45.0%",
+            "Faithfulness": "80.0%",
+            "Overall Score": "62.5%",
+            "Answer Accuracy": "64.7%",
+            "Citation Accuracy": "45.0%",
+            "Retrieval Precision": "34.3%",
+            "Hallucination Rate": "20.0%",
+            "Project Score": "56.7%",
+            "Best Retrieval Score": "0.8620",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.71 s"
+        },
+        "project_score": 56.7,
+        "response_time": 6.71
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8153",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "8.51 s"
+        },
+        "project_score": 0.0,
+        "response_time": 8.51
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -56.7,
+    "error": null
+}

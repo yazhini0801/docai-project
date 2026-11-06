@@ -1,0 +1,52 @@
+{
+    "question_id": 20,
+    "question": "Explain Azure database services and distinguish the roles of Azure SQL Database, Cosmos DB, managed PostgreSQL and MySQL databases, and Azure Cache for Redis.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Azure database services and distinguish the roles of Azure SQL Database, Cosmos DB, managed PostgreSQL and MySQL databases, and Azure Cache for Redis.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.1%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "42.2%",
+            "Citation Correctness": "53.3%",
+            "Faithfulness": "93.5%",
+            "Overall Score": "72.1%",
+            "Answer Accuracy": "79.3%",
+            "Citation Accuracy": "53.3%",
+            "Retrieval Precision": "30.7%",
+            "Hallucination Rate": "6.5%",
+            "Project Score": "65.9%",
+            "Best Retrieval Score": "0.8805",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.20 s"
+        },
+        "project_score": 65.9,
+        "response_time": 9.2
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Azure database services and distinguish the roles of Azure SQL Database, Cosmos DB, managed PostgreSQL and MySQL databases, and Azure Cache for Redis.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.1%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "53.3%",
+            "Citation Correctness": "60.6%",
+            "Faithfulness": "90.6%",
+            "Overall Score": "74.9%",
+            "Answer Accuracy": "80.1%",
+            "Citation Accuracy": "60.6%",
+            "Retrieval Precision": "53.3%",
+            "Hallucination Rate": "9.4%",
+            "Project Score": "72.0%",
+            "Best Retrieval Score": "0.8805",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "6.24 s"
+        },
+        "project_score": 72.0,
+        "response_time": 6.24
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 6.1,
+    "error": null
+}

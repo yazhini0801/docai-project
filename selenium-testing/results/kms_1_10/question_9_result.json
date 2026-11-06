@@ -1,0 +1,52 @@
+{
+    "question_id": 9,
+    "question": "What are the five main components of knowledge management infrastructure?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the five main components of knowledge management infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.0%",
+        "metrics": {
+            "Answer Relevance": "95.5%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "73.6%",
+            "Faithfulness": "92.9%",
+            "Overall Score": "82.3%",
+            "Answer Accuracy": "89.1%",
+            "Citation Accuracy": "73.6%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "7.1%",
+            "Project Score": "74.8%",
+            "Best Retrieval Score": "0.8576",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.35 s"
+        },
+        "project_score": 74.8,
+        "response_time": 6.35
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the five main components of knowledge management infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.0%",
+        "metrics": {
+            "Answer Relevance": "95.5%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "73.6%",
+            "Faithfulness": "92.9%",
+            "Overall Score": "82.3%",
+            "Answer Accuracy": "89.1%",
+            "Citation Accuracy": "73.6%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "7.1%",
+            "Project Score": "74.8%",
+            "Best Retrieval Score": "0.8576",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.14 s"
+        },
+        "project_score": 74.8,
+        "response_time": 6.14
+    },
+    "better_result": "Tie",
+    "rankfusion_improvement": 0.0,
+    "error": null
+}

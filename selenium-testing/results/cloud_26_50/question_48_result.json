@@ -1,0 +1,52 @@
+{
+    "question_id": 48,
+    "question": "Explain how cloud platforms combine managed infrastructure, automatic scaling, load balancing, monitoring, security, and data services to improve application availability and reduce operational effort.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how cloud platforms combine managed infrastructure, automatic scaling, load balancing, monitoring, security, and data services to improve application availability and reduce operational effort.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 52.9%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8075",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.14 s"
+        },
+        "project_score": 0.0,
+        "response_time": 7.14
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how cloud platforms combine managed infrastructure, automatic scaling, load balancing, monitoring, security, and data services to improve application availability and reduce operational effort.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 52.9%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "31.7%",
+            "Citation Correctness": "33.5%",
+            "Faithfulness": "78.7%",
+            "Overall Score": "60.3%",
+            "Answer Accuracy": "67.4%",
+            "Citation Accuracy": "33.5%",
+            "Retrieval Precision": "26.0%",
+            "Hallucination Rate": "21.3%",
+            "Project Score": "52.9%",
+            "Best Retrieval Score": "0.7889",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.79 s"
+        },
+        "project_score": 52.9,
+        "response_time": 7.79
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 52.9,
+    "error": null
+}

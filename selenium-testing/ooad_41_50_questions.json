@@ -1,0 +1,42 @@
+[
+  {
+    "id": 41,
+    "question": "What is an object, and what are its main characteristics?"
+  },
+  {
+    "id": 42,
+    "question": "What is the state and behavior of an object?"
+  },
+  {
+    "id": 43,
+    "question": "What is an association end or role in an object-oriented relationship?"
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of prototyping in object-oriented system development?"
+  },
+  {
+    "id": 45,
+    "question": "What are the benefits of the Unified Process?"
+  },
+  {
+    "id": 46,
+    "question": "What is component reusability in object-oriented software development?"
+  },
+  {
+    "id": 47,
+    "question": "What is the role of validation in ensuring software quality?"
+  },
+  {
+    "id": 48,
+    "question": "What are the main activities involved in system development?"
+  },
+  {
+    "id": 49,
+    "question": "What is the difference between the traditional approach and the object-oriented approach to system development?"
+  },
+  {
+    "id": 50,
+    "question": "What are the three components of an object-oriented methodology: notation, process, and tool?"
+  }
+]

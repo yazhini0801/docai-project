@@ -1,0 +1,52 @@
+{
+    "question_id": 37,
+    "question": "Explain how Espresso UI actions, interface-state verification, and compatibility testing can work together to validate application behavior across Android configurations.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Espresso UI actions, interface-state verification, and compatibility testing can work together to validate application behavior across Android configurations.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 49.9%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "20.4%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "5.0%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "15.6%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "3.5%",
+            "Best Retrieval Score": "0.8329",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "10.80 s"
+        },
+        "project_score": 3.5,
+        "response_time": 10.8
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Espresso UI actions, interface-state verification, and compatibility testing can work together to validate application behavior across Android configurations.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 49.9%",
+        "metrics": {
+            "Answer Relevance": "76.4%",
+            "Context Relevance": "29.6%",
+            "Citation Correctness": "36.9%",
+            "Faithfulness": "78.0%",
+            "Overall Score": "59.6%",
+            "Answer Accuracy": "67.1%",
+            "Citation Accuracy": "36.9%",
+            "Retrieval Precision": "25.6%",
+            "Hallucination Rate": "21.9%",
+            "Project Score": "53.4%",
+            "Best Retrieval Score": "0.8283",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "24.96 s"
+        },
+        "project_score": 53.4,
+        "response_time": 24.96
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 49.9,
+    "error": null
+}

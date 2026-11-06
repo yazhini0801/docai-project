@@ -1,0 +1,52 @@
+{
+    "question_id": 4,
+    "question": "What is Espresso, and what is its purpose in Android application testing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is Espresso, and what is its purpose in Android application testing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -18.4%",
+        "metrics": {
+            "Answer Relevance": "66.0%",
+            "Context Relevance": "60.0%",
+            "Citation Correctness": "72.8%",
+            "Faithfulness": "95.7%",
+            "Overall Score": "75.0%",
+            "Answer Accuracy": "78.1%",
+            "Citation Accuracy": "72.8%",
+            "Retrieval Precision": "48.0%",
+            "Hallucination Rate": "4.3%",
+            "Project Score": "74.3%",
+            "Best Retrieval Score": "0.8472",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.53 s"
+        },
+        "project_score": 74.3,
+        "response_time": 8.53
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is Espresso, and what is its purpose in Android application testing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -18.4%",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "35.5%",
+            "Faithfulness": "74.1%",
+            "Overall Score": "66.0%",
+            "Answer Accuracy": "74.8%",
+            "Citation Accuracy": "35.5%",
+            "Retrieval Precision": "30.0%",
+            "Hallucination Rate": "25.9%",
+            "Project Score": "55.9%",
+            "Best Retrieval Score": "0.7567",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "13.07 s"
+        },
+        "project_score": 55.9,
+        "response_time": 13.07
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -18.4,
+    "error": null
+}

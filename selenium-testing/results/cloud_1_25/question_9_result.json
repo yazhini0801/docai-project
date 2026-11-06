@@ -1,0 +1,52 @@
+{
+    "question_id": 9,
+    "question": "Explain the major benefits of AWS and describe how these benefits support enterprise applications, e-commerce, gaming, analytics, AI, and IoT workloads.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major benefits of AWS and describe how these benefits support enterprise applications, e-commerce, gaming, analytics, AI, and IoT workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.8%",
+        "metrics": {
+            "Answer Relevance": "81.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "46.6%",
+            "Faithfulness": "91.9%",
+            "Overall Score": "68.1%",
+            "Answer Accuracy": "76.5%",
+            "Citation Accuracy": "46.6%",
+            "Retrieval Precision": "28.6%",
+            "Hallucination Rate": "8.1%",
+            "Project Score": "62.5%",
+            "Best Retrieval Score": "0.8854",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.01 s"
+        },
+        "project_score": 62.5,
+        "response_time": 9.01
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major benefits of AWS and describe how these benefits support enterprise applications, e-commerce, gaming, analytics, AI, and IoT workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.8%",
+        "metrics": {
+            "Answer Relevance": "81.8%",
+            "Context Relevance": "28.6%",
+            "Citation Correctness": "44.6%",
+            "Faithfulness": "89.7%",
+            "Overall Score": "66.1%",
+            "Answer Accuracy": "75.3%",
+            "Citation Accuracy": "44.6%",
+            "Retrieval Precision": "21.4%",
+            "Hallucination Rate": "10.3%",
+            "Project Score": "59.7%",
+            "Best Retrieval Score": "0.8854",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "13.92 s"
+        },
+        "project_score": 59.7,
+        "response_time": 13.92
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -2.8,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 5,
+    "question": "Explain how AWS IAM, Shield, WAF, and KMS contribute to security, access control, and protection of cloud resources.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS IAM, Shield, WAF, and KMS contribute to security, access control, and protection of cloud resources.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.7%",
+        "metrics": {
+            "Answer Relevance": "73.9%",
+            "Context Relevance": "38.5%",
+            "Citation Correctness": "75.2%",
+            "Faithfulness": "93.5%",
+            "Overall Score": "72.9%",
+            "Answer Accuracy": "81.1%",
+            "Citation Accuracy": "75.2%",
+            "Retrieval Precision": "29.2%",
+            "Hallucination Rate": "6.5%",
+            "Project Score": "71.7%",
+            "Best Retrieval Score": "0.8435",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.30 s"
+        },
+        "project_score": 71.7,
+        "response_time": 4.3
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS IAM, Shield, WAF, and KMS contribute to security, access control, and protection of cloud resources.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.7%",
+        "metrics": {
+            "Answer Relevance": "73.9%",
+            "Context Relevance": "69.2%",
+            "Citation Correctness": "82.1%",
+            "Faithfulness": "82.1%",
+            "Overall Score": "77.1%",
+            "Answer Accuracy": "78.8%",
+            "Citation Accuracy": "82.1%",
+            "Retrieval Precision": "69.2%",
+            "Hallucination Rate": "17.9%",
+            "Project Score": "78.4%",
+            "Best Retrieval Score": "0.8435",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "15.48 s"
+        },
+        "project_score": 78.4,
+        "response_time": 15.48
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 6.7,
+    "error": null
+}

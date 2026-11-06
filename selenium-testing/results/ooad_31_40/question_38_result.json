@@ -1,0 +1,49 @@
+{
+    "question_id": 38,
+    "question": "What is the object-oriented systems development life cycle?",
+    "standard_rag": {
+        "answer": "The object-oriented software development life cycle consists of object-oriented analysis, object-oriented design, and object-oriented implementation. It is a use-case driven approach where use-case models can be employed throughout most activities of software development. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 66)",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "94.4%",
+            "Citation Correctness": "81.2%",
+            "Faithfulness": "95.0%",
+            "Overall Score": "89.4%",
+            "Answer Accuracy": "87.9%",
+            "Citation Accuracy": "81.2%",
+            "Retrieval Precision": "80.0%",
+            "Hallucination Rate": "5.0%",
+            "Project Score": "86.1%",
+            "Best Retrieval Score": "0.9364",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.28 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The object-oriented software development life cycle consists of object-oriented analysis, object-oriented design, and object-oriented implementation. It is a use-case driven approach where use-case models can be employed throughout most activities of software development. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 66)",
+        "metrics": {
+            "Answer Relevance": "78.3%",
+            "Context Relevance": "94.4%",
+            "Citation Correctness": "90.4%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "90.5%",
+            "Answer Accuracy": "88.9%",
+            "Citation Accuracy": "90.4%",
+            "Retrieval Precision": "80.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "89.7%",
+            "Best Retrieval Score": "0.9364",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.57 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 3.6000000000000085
+    },
+    "test_status": "PASS"
+}

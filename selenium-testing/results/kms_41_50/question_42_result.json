@@ -1,0 +1,52 @@
+{
+    "question_id": 42,
+    "question": "How does knowledge application allow individuals to use knowledge without actually acquiring or learning it?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does knowledge application allow individuals to use knowledge without actually acquiring or learning it?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.8%",
+        "metrics": {
+            "Answer Relevance": "38.3%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "64.3%",
+            "Faithfulness": "82.3%",
+            "Overall Score": "54.4%",
+            "Answer Accuracy": "60.2%",
+            "Citation Accuracy": "64.3%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "17.6%",
+            "Project Score": "57.6%",
+            "Best Retrieval Score": "0.8499",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.27 s"
+        },
+        "project_score": 57.6,
+        "response_time": 8.27
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does knowledge application allow individuals to use knowledge without actually acquiring or learning it?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.8%",
+        "metrics": {
+            "Answer Relevance": "49.0%",
+            "Context Relevance": "43.3%",
+            "Citation Correctness": "45.8%",
+            "Faithfulness": "82.1%",
+            "Overall Score": "57.2%",
+            "Answer Accuracy": "59.8%",
+            "Citation Accuracy": "45.8%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "17.9%",
+            "Project Score": "55.8%",
+            "Best Retrieval Score": "0.7854",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "9.75 s"
+        },
+        "project_score": 55.8,
+        "response_time": 9.75
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -1.8,
+    "error": null
+}

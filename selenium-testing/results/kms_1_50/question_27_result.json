@@ -1,0 +1,52 @@
+{
+    "question_id": 27,
+    "question": "What characteristics of organizational culture enable successful knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "63.6%",
+            "Context Relevance": "47.6%",
+            "Citation Correctness": "52.0%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "69.0%",
+            "Answer Accuracy": "73.4%",
+            "Citation Accuracy": "52.0%",
+            "Retrieval Precision": "31.4%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "65.0%",
+            "Best Retrieval Score": "0.8617",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "12.60 s"
+        },
+        "project_score": 65.0,
+        "response_time": 12.6
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "63.6%",
+            "Context Relevance": "47.6%",
+            "Citation Correctness": "52.7%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "69.1%",
+            "Answer Accuracy": "73.6%",
+            "Citation Accuracy": "52.7%",
+            "Retrieval Precision": "31.4%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "65.2%",
+            "Best Retrieval Score": "0.8617",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "8.50 s"
+        },
+        "project_score": 65.2,
+        "response_time": 8.5
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 0.2,
+    "error": null
+}

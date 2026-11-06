@@ -1,0 +1,52 @@
+{
+    "question_id": 19,
+    "question": "How do knowledge sharing systems support socialization and exchange?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "81.1%",
+            "Context Relevance": "57.1%",
+            "Citation Correctness": "61.3%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "72.6%",
+            "Answer Accuracy": "76.4%",
+            "Citation Accuracy": "61.3%",
+            "Retrieval Precision": "42.9%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "67.0%",
+            "Best Retrieval Score": "0.8486",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.90 s"
+        },
+        "project_score": 67.0,
+        "response_time": 6.9
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8134",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "106.39 s"
+        },
+        "project_score": 0.0,
+        "response_time": 106.39
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -67.0,
+    "error": null
+}

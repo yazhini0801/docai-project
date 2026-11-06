@@ -1,0 +1,42 @@
+[
+  {
+    "id": 21,
+    "question": "What is an association in object-oriented modeling?"
+  },
+  {
+    "id": 22,
+    "question": "What is navigability in an association?"
+  },
+  {
+    "id": 23,
+    "question": "What is a class hierarchy in object-oriented systems?"
+  },
+  {
+    "id": 24,
+    "question": "What is message passing between objects?"
+  },
+  {
+    "id": 25,
+    "question": "What is reusability in object-oriented software development?"
+  },
+  {
+    "id": 26,
+    "question": "What is Rapid Application Development (RAD)?"
+  },
+  {
+    "id": 27,
+    "question": "What is incremental testing in component-based development?"
+  },
+  {
+    "id": 28,
+    "question": "What are the main artifacts produced in the Unified Process?"
+  },
+  {
+    "id": 29,
+    "question": "What are the strengths of the Rumbaugh, Jacobson, and Booch object-oriented methodologies?"
+  },
+  {
+    "id": 30,
+    "question": "What is the difference between the object model, dynamic model, and functional model in OMT?"
+  }
+]

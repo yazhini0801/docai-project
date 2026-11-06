@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Explain the major compute services provided by AWS and describe how EC2, Lambda, ECS, EKS, and AWS Batch support different computing workloads."
+  },
+  {
+    "id": 2,
+    "question": "Describe the storage services offered by AWS and explain the purposes of Amazon S3, EBS, FSx, and Glacier."
+  },
+  {
+    "id": 3,
+    "question": "Explain the major AWS database services and distinguish the roles of Amazon RDS, DynamoDB, Aurora, and ElastiCache."
+  },
+  {
+    "id": 4,
+    "question": "Describe AWS networking and content delivery services, including VPC, Direct Connect, Route 53, and CloudFront."
+  },
+  {
+    "id": 5,
+    "question": "Explain how AWS IAM, Shield, WAF, and KMS contribute to security, access control, and protection of cloud resources."
+  },
+  {
+    "id": 6,
+    "question": "Describe the artificial intelligence and machine learning services provided by AWS, including SageMaker, Rekognition, Polly, and Lex."
+  },
+  {
+    "id": 7,
+    "question": "Explain how AWS supports IoT and edge computing using IoT Core, Greengrass, IoT Analytics, Outposts, Snowball, and Wavelength."
+  },
+  {
+    "id": 8,
+    "question": "Describe the AWS developer and analytics services, including CodeCommit, CodePipeline, CloudFormation, Redshift, Glue, and Kinesis."
+  },
+  {
+    "id": 9,
+    "question": "Explain the major benefits of AWS and describe how these benefits support enterprise applications, e-commerce, gaming, analytics, AI, and IoT workloads."
+  },
+  {
+    "id": 10,
+    "question": "Compare the compute, storage, database, networking, security, and AI services provided by AWS and Microsoft Azure."
+  },
+  {
+    "id": 11,
+    "question": "Explain Google App Engine as a Platform-as-a-Service and describe how its fully managed infrastructure, automatic scaling, and integrated services simplify application development."
+  },
+  {
+    "id": 12,
+    "question": "Compare the Standard and Flexible environments of Google App Engine in terms of execution environment, runtime flexibility, scaling, control, and pricing."
+  },
+  {
+    "id": 13,
+    "question": "Describe the complete Google App Engine workflow from application development and configuration through deployment, scaling, traffic management, logging, and monitoring."
+  },
+  {
+    "id": 14,
+    "question": "Explain the integrated data services available with Google App Engine, including Datastore, Cloud Storage, Memorystore, Cloud SQL, and Firestore."
+  },
+  {
+    "id": 15,
+    "question": "Describe the security, load balancing, deployment, and CI/CD capabilities provided by Google App Engine."
+  },
+  {
+    "id": 16,
+    "question": "Explain the major advantages and disadvantages of Google App Engine, including scalability, infrastructure management, customization, cold starts, and vendor lock-in."
+  },
+  {
+    "id": 17,
+    "question": "Describe the Google App Engine pricing model and explain the resources provided through its Free Tier."
+  },
+  {
+    "id": 18,
+    "question": "Explain how Google App Engine can support web applications, APIs, microservices, data processing, IoT, and real-time applications."
+  },
+  {
+    "id": 19,
+    "question": "Describe the major compute and storage services provided by Microsoft Azure and explain the purposes of Virtual Machines, AKS, Functions, App Services, Batch, Blob Storage, Files, Disk Storage, Data Lake Storage, and Backup."
+  },
+  {
+    "id": 20,
+    "question": "Explain Azure database services and distinguish the roles of Azure SQL Database, Cosmos DB, managed PostgreSQL and MySQL databases, and Azure Cache for Redis."
+  },
+  {
+    "id": 21,
+    "question": "Describe Azure networking services and explain how Virtual Network, Load Balancer, VPN Gateway, ExpressRoute, and Azure CDN support cloud applications."
+  },
+  {
+    "id": 22,
+    "question": "Explain how Azure Active Directory, Security Center, Sentinel, Key Vault, Firewall, and DDoS Protection contribute to cloud security."
+  },
+  {
+    "id": 23,
+    "question": "Describe the AI, machine learning, and IoT capabilities of Microsoft Azure, including Azure Machine Learning, Cognitive Services, Bot Services, OpenAI Service, IoT Hub, IoT Edge, Digital Twins, and Time Series Insights."
+  },
+  {
+    "id": 24,
+    "question": "Explain Azure developer, DevOps, analytics, and big data services, including Azure DevOps, GitHub Actions, Monitor, Logic Apps, Synapse Analytics, Data Factory, Databricks, and HDInsight."
+  },
+  {
+    "id": 25,
+    "question": "Compare AWS, Google App Engine, and Microsoft Azure in terms of scalability, application deployment, managed infrastructure, storage or database support, and typical use cases."
+  }
+]

@@ -1,0 +1,49 @@
+{
+    "question_id": 9,
+    "question": "What are the three models used in Rumbaugh's Object Modeling Technique (OMT)?",
+    "standard_rag": {
+        "answer": "The three models used in Rumbaugh's Object Modeling Technique (OMT) are:\n1. An object model (presented by the object model and data dictionary).\n2. A dynamic model (presented by state diagrams and event flow diagrams).\n3. A functional model (presented by data flow and constraints).\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 91)",
+        "metrics": {
+            "Answer Relevance": "99.3%",
+            "Context Relevance": "70.8%",
+            "Citation Correctness": "77.2%",
+            "Faithfulness": "94.7%",
+            "Overall Score": "87.8%",
+            "Answer Accuracy": "92.2%",
+            "Citation Accuracy": "77.2%",
+            "Retrieval Precision": "65.0%",
+            "Hallucination Rate": "5.3%",
+            "Project Score": "83.5%",
+            "Best Retrieval Score": "0.8890",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.79 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The three models used in Rumbaugh's Object Modeling Technique (OMT) are:\n1. An object model (presented by the object model and data dictionary).\n2. A dynamic model (presented by state diagrams and event flow diagrams).\n3. A functional model (presented by data flow and constraints).\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 91)",
+        "metrics": {
+            "Answer Relevance": "88.6%",
+            "Context Relevance": "70.8%",
+            "Citation Correctness": "77.5%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "86.3%",
+            "Answer Accuracy": "89.8%",
+            "Citation Accuracy": "77.5%",
+            "Retrieval Precision": "65.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "83.8%",
+            "Best Retrieval Score": "0.8890",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "5.73 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 0.29999999999999716
+    },
+    "test_status": "PASS"
+}

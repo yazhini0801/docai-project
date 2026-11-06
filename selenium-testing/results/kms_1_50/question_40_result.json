@@ -1,0 +1,52 @@
+{
+    "question_id": 40,
+    "question": "What are some major nontechnical obstacles organizations face when implementing knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "52.8%",
+            "Context Relevance": "14.8%",
+            "Citation Correctness": "35.8%",
+            "Faithfulness": "64.0%",
+            "Overall Score": "45.2%",
+            "Answer Accuracy": "52.5%",
+            "Citation Accuracy": "35.8%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "36.0%",
+            "Project Score": "42.8%",
+            "Best Retrieval Score": "0.8761",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.53 s"
+        },
+        "project_score": 42.8,
+        "response_time": 13.53
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "56.2%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "66.7%",
+            "Faithfulness": "66.7%",
+            "Overall Score": "54.6%",
+            "Answer Accuracy": "62.5%",
+            "Citation Accuracy": "66.7%",
+            "Retrieval Precision": "22.2%",
+            "Hallucination Rate": "33.3%",
+            "Project Score": "56.3%",
+            "Best Retrieval Score": "0.7966",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "18.58 s"
+        },
+        "project_score": 56.3,
+        "response_time": 18.58
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 13.5,
+    "error": null
+}

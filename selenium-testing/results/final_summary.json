@@ -1,18 +1,18 @@
 {
     "total_tests": 10,
-    "passed": 10,
-    "failed": 0,
+    "passed": 0,
+    "failed": 10,
     "standard_rag": {
-        "average_project_score": 60.58,
-        "wins": 2,
-        "average_response_time": 6.05
+        "average_project_score": 0.0,
+        "wins": 0,
+        "average_response_time": 0.0
     },
     "docrank_rag": {
-        "average_project_score": 71.52,
-        "wins": 8,
-        "average_response_time": 7.36
+        "average_project_score": 0.0,
+        "wins": 0,
+        "average_response_time": 0.0
     },
     "ties": 0,
-    "average_docrank_improvement": 10.94,
-    "overall_winner": "DocRank-RAG"
+    "average_docrank_improvement": 0.0,
+    "overall_winner": "Tie"
 }

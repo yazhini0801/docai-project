@@ -1,0 +1,49 @@
+{
+    "question_id": 37,
+    "question": "What are quality measures in object-oriented system development?",
+    "standard_rag": {
+        "answer": "Not found in your documents.",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8980",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.97 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Not found in your documents.",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8980",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.75 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Tie",
+        "rankfusion_improvement": 0.0
+    },
+    "test_status": "PASS"
+}

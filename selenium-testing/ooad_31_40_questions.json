@@ -1,0 +1,42 @@
+[
+  {
+    "id": 31,
+    "question": "What is the difference between a class and an object?"
+  },
+  {
+    "id": 32,
+    "question": "What are attributes and methods in an object-oriented system?"
+  },
+  {
+    "id": 33,
+    "question": "What is a generalization relationship in object-oriented modeling?"
+  },
+  {
+    "id": 34,
+    "question": "What is the Unified Approach in object-oriented system development?"
+  },
+  {
+    "id": 35,
+    "question": "What is layered architecture in the Unified Approach?"
+  },
+  {
+    "id": 36,
+    "question": "What are the main principles of the Unified Process?"
+  },
+  {
+    "id": 37,
+    "question": "What are quality measures in object-oriented system development?"
+  },
+  {
+    "id": 38,
+    "question": "What is the object-oriented systems development life cycle?"
+  },
+  {
+    "id": 39,
+    "question": "What are the advantages of inheritance in object-oriented systems?"
+  },
+  {
+    "id": 40,
+    "question": "What is data abstraction in object-oriented systems?"
+  }
+]

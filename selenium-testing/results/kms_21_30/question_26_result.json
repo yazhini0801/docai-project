@@ -1,0 +1,52 @@
+{
+    "question_id": 26,
+    "question": "How can expert systems, decision support systems, and case-based reasoning support knowledge application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can expert systems, decision support systems, and case-based reasoning support knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 10.8%",
+        "metrics": {
+            "Answer Relevance": "87.8%",
+            "Context Relevance": "83.3%",
+            "Citation Correctness": "64.1%",
+            "Faithfulness": "80.0%",
+            "Overall Score": "79.8%",
+            "Answer Accuracy": "79.1%",
+            "Citation Accuracy": "64.1%",
+            "Retrieval Precision": "58.0%",
+            "Hallucination Rate": "20.0%",
+            "Project Score": "71.3%",
+            "Best Retrieval Score": "0.8408",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.78 s"
+        },
+        "project_score": 71.3,
+        "response_time": 4.78
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can expert systems, decision support systems, and case-based reasoning support knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 10.8%",
+        "metrics": {
+            "Answer Relevance": "88.5%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "77.5%",
+            "Faithfulness": "93.8%",
+            "Overall Score": "83.5%",
+            "Answer Accuracy": "87.6%",
+            "Citation Accuracy": "77.5%",
+            "Retrieval Precision": "66.7%",
+            "Hallucination Rate": "6.3%",
+            "Project Score": "82.1%",
+            "Best Retrieval Score": "0.8227",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "5.73 s"
+        },
+        "project_score": 82.1,
+        "response_time": 5.73
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 10.8,
+    "error": null
+}

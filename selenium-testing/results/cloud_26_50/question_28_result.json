@@ -1,0 +1,52 @@
+{
+    "question_id": 28,
+    "question": "Compare the storage and data management capabilities of AWS, Google App Engine integrated Google Cloud services, and Microsoft Azure.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare the storage and data management capabilities of AWS, Google App Engine integrated Google Cloud services, and Microsoft Azure.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -3.9%",
+        "metrics": {
+            "Answer Relevance": "93.9%",
+            "Context Relevance": "42.9%",
+            "Citation Correctness": "42.8%",
+            "Faithfulness": "77.8%",
+            "Overall Score": "68.7%",
+            "Answer Accuracy": "75.5%",
+            "Citation Accuracy": "42.8%",
+            "Retrieval Precision": "38.6%",
+            "Hallucination Rate": "22.2%",
+            "Project Score": "60.4%",
+            "Best Retrieval Score": "0.8388",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.99 s"
+        },
+        "project_score": 60.4,
+        "response_time": 3.99
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare the storage and data management capabilities of AWS, Google App Engine integrated Google Cloud services, and Microsoft Azure.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -3.9%",
+        "metrics": {
+            "Answer Relevance": "75.7%",
+            "Context Relevance": "35.7%",
+            "Citation Correctness": "37.4%",
+            "Faithfulness": "83.7%",
+            "Overall Score": "62.4%",
+            "Answer Accuracy": "68.9%",
+            "Citation Accuracy": "37.4%",
+            "Retrieval Precision": "31.4%",
+            "Hallucination Rate": "16.3%",
+            "Project Score": "56.5%",
+            "Best Retrieval Score": "0.8130",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.61 s"
+        },
+        "project_score": 56.5,
+        "response_time": 10.61
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -3.9,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 8,
+    "question": "What are knowledge management mechanisms and how do they facilitate knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge management mechanisms and how do they facilitate knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -0.4%",
+        "metrics": {
+            "Answer Relevance": "83.6%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "63.6%",
+            "Faithfulness": "88.2%",
+            "Overall Score": "68.7%",
+            "Answer Accuracy": "80.2%",
+            "Citation Accuracy": "63.6%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "11.8%",
+            "Project Score": "64.3%",
+            "Best Retrieval Score": "0.8597",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.02 s"
+        },
+        "project_score": 64.3,
+        "response_time": 5.02
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge management mechanisms and how do they facilitate knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -0.4%",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "45.4%",
+            "Faithfulness": "82.3%",
+            "Overall Score": "69.5%",
+            "Answer Accuracy": "74.5%",
+            "Citation Accuracy": "45.4%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "17.6%",
+            "Project Score": "63.9%",
+            "Best Retrieval Score": "0.8400",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "94.86 s"
+        },
+        "project_score": 63.9,
+        "response_time": 94.86
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -0.4,
+    "error": null
+}

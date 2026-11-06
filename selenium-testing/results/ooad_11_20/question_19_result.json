@@ -1,0 +1,49 @@
+{
+    "question_id": 19,
+    "question": "What are the four phases of Rumbaugh's Object Modeling Technique (OMT)?",
+    "standard_rag": {
+        "answer": "The four phases of Rumbaugh’s Object Modeling Technique (OMT) are:\n1. Analysis\n2. System design\n3. Object design\n4. Implementation\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 90)",
+        "metrics": {
+            "Answer Relevance": "93.3%",
+            "Context Relevance": "76.2%",
+            "Citation Correctness": "80.0%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "86.5%",
+            "Answer Accuracy": "89.1%",
+            "Citation Accuracy": "80.0%",
+            "Retrieval Precision": "62.9%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "82.0%",
+            "Best Retrieval Score": "0.9071",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.65 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The four phases of Rumbaugh’s Object Modeling Technique (OMT) are:\n1. Analysis\n2. System design\n3. Object design\n4. Implementation\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 90)",
+        "metrics": {
+            "Answer Relevance": "93.3%",
+            "Context Relevance": "76.2%",
+            "Citation Correctness": "80.0%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "86.5%",
+            "Answer Accuracy": "89.1%",
+            "Citation Accuracy": "80.0%",
+            "Retrieval Precision": "62.9%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "82.0%",
+            "Best Retrieval Score": "0.9071",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "5.64 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Tie",
+        "rankfusion_improvement": 0.0
+    },
+    "test_status": "PASS"
+}

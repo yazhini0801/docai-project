@@ -1,0 +1,49 @@
+{
+    "question_id": 17,
+    "question": "What is a use case and how is it used in object-oriented system development?",
+    "standard_rag": {
+        "answer": "A use case is a name for a scenario that describes the interaction between a user and a computer system, capturing the user's goals and needs. In object-oriented system development, the use-case driven approach is used to determine system requirements, identify classes and their relationships, and examine interactions among objects to achieve specific goals. Use cases can be employed throughout most development activities, allowing design decisions to be traced back to user requirements and usage scenarios to be utilized as test scenarios.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 66)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "81.0%",
+            "Citation Correctness": "41.1%",
+            "Faithfulness": "82.6%",
+            "Overall Score": "79.2%",
+            "Answer Accuracy": "79.2%",
+            "Citation Accuracy": "41.1%",
+            "Retrieval Precision": "68.6%",
+            "Hallucination Rate": "17.4%",
+            "Project Score": "68.2%",
+            "Best Retrieval Score": "0.9032",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.50 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "A use case is a name for a scenario that describes the interaction between a user and a computer system, capturing the user's goals and needs. In object-oriented system development, the use-case driven approach is used to determine system requirements, identify classes and their relationships, and examine interactions among objects to achieve specific goals. Use cases can be employed throughout most development activities, allowing design decisions to be traced back to user requirements and usage scenarios to be utilized as test scenarios.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 66)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "81.0%",
+            "Citation Correctness": "42.5%",
+            "Faithfulness": "88.1%",
+            "Overall Score": "81.1%",
+            "Answer Accuracy": "81.5%",
+            "Citation Accuracy": "42.5%",
+            "Retrieval Precision": "68.6%",
+            "Hallucination Rate": "11.9%",
+            "Project Score": "70.5%",
+            "Best Retrieval Score": "0.9032",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.86 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 2.299999999999997
+    },
+    "test_status": "PASS"
+}

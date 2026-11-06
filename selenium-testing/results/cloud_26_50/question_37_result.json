@@ -1,0 +1,52 @@
+{
+    "question_id": 37,
+    "question": "Compare how AWS, Google App Engine, and Microsoft Azure support data-intensive applications using storage, databases, analytics, and data processing services.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare how AWS, Google App Engine, and Microsoft Azure support data-intensive applications using storage, databases, analytics, and data processing services.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.7%",
+        "metrics": {
+            "Answer Relevance": "85.0%",
+            "Context Relevance": "37.3%",
+            "Citation Correctness": "34.6%",
+            "Faithfulness": "80.3%",
+            "Overall Score": "64.0%",
+            "Answer Accuracy": "70.8%",
+            "Citation Accuracy": "34.6%",
+            "Retrieval Precision": "31.8%",
+            "Hallucination Rate": "19.7%",
+            "Project Score": "55.8%",
+            "Best Retrieval Score": "0.8299",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.71 s"
+        },
+        "project_score": 55.8,
+        "response_time": 8.71
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare how AWS, Google App Engine, and Microsoft Azure support data-intensive applications using storage, databases, analytics, and data processing services.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.7%",
+        "metrics": {
+            "Answer Relevance": "85.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "35.1%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "64.2%",
+            "Answer Accuracy": "72.0%",
+            "Citation Accuracy": "35.1%",
+            "Retrieval Precision": "29.4%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "56.5%",
+            "Best Retrieval Score": "0.8099",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "5.40 s"
+        },
+        "project_score": 56.5,
+        "response_time": 5.4
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 0.7,
+    "error": null
+}

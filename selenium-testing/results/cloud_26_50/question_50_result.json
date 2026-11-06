@@ -1,0 +1,52 @@
+{
+    "question_id": 50,
+    "question": "Using AWS, Google App Engine, and Microsoft Azure as examples, explain how modern cloud platforms provide end-to-end support for application development, deployment, scalability, data management, security, monitoring, analytics, and different application workloads.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nUsing AWS, Google App Engine, and Microsoft Azure as examples, explain how modern cloud platforms provide end-to-end support for application development, deployment, scalability, data management, security, monitoring, analytics, and different application workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.6%",
+        "metrics": {
+            "Answer Relevance": "77.1%",
+            "Context Relevance": "23.1%",
+            "Citation Correctness": "31.8%",
+            "Faithfulness": "80.0%",
+            "Overall Score": "58.1%",
+            "Answer Accuracy": "66.8%",
+            "Citation Accuracy": "31.8%",
+            "Retrieval Precision": "20.8%",
+            "Hallucination Rate": "20.0%",
+            "Project Score": "51.5%",
+            "Best Retrieval Score": "0.8360",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.12 s"
+        },
+        "project_score": 51.5,
+        "response_time": 5.12
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nUsing AWS, Google App Engine, and Microsoft Azure as examples, explain how modern cloud platforms provide end-to-end support for application development, deployment, scalability, data management, security, monitoring, analytics, and different application workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.6%",
+        "metrics": {
+            "Answer Relevance": "73.9%",
+            "Context Relevance": "23.1%",
+            "Citation Correctness": "22.7%",
+            "Faithfulness": "70.8%",
+            "Overall Score": "52.5%",
+            "Answer Accuracy": "60.0%",
+            "Citation Accuracy": "22.7%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "29.2%",
+            "Project Score": "44.8%",
+            "Best Retrieval Score": "0.8360",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "12.20 s"
+        },
+        "project_score": 44.8,
+        "response_time": 12.2
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -6.7,
+    "error": null
+}

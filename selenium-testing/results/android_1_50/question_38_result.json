@@ -1,0 +1,52 @@
+{
+    "question_id": 38,
+    "question": "How can Espresso synchronization and IdlingResource support reliable UI testing when an Android application performs asynchronous operations?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Espresso synchronization and IdlingResource support reliable UI testing when an Android application performs asynchronous operations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.4%",
+        "metrics": {
+            "Answer Relevance": "40.4%",
+            "Context Relevance": "30.8%",
+            "Citation Correctness": "46.5%",
+            "Faithfulness": "63.2%",
+            "Overall Score": "46.5%",
+            "Answer Accuracy": "49.9%",
+            "Citation Accuracy": "46.5%",
+            "Retrieval Precision": "23.1%",
+            "Hallucination Rate": "36.8%",
+            "Project Score": "46.4%",
+            "Best Retrieval Score": "0.8920",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.28 s"
+        },
+        "project_score": 46.4,
+        "response_time": 7.28
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Espresso synchronization and IdlingResource support reliable UI testing when an Android application performs asynchronous operations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.4%",
+        "metrics": {
+            "Answer Relevance": "60.8%",
+            "Context Relevance": "34.6%",
+            "Citation Correctness": "45.2%",
+            "Faithfulness": "59.1%",
+            "Overall Score": "51.9%",
+            "Answer Accuracy": "56.3%",
+            "Citation Accuracy": "45.2%",
+            "Retrieval Precision": "34.6%",
+            "Hallucination Rate": "40.9%",
+            "Project Score": "49.8%",
+            "Best Retrieval Score": "0.8920",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "12.42 s"
+        },
+        "project_score": 49.8,
+        "response_time": 12.42
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 3.4,
+    "error": null
+}

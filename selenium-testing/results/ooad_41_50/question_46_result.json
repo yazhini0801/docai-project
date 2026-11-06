@@ -1,0 +1,49 @@
+{
+    "question_id": 46,
+    "question": "What is component reusability in object-oriented software development?",
+    "standard_rag": {
+        "answer": "Reusability is a major benefit of object-oriented system development, though it is the most difficult promise to deliver on. For an object to be truly reusable, significant effort must be spent in its design. The process involves asking whether the problem has already been solved, partially solved, or if similar work has been done previously.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 81)",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "72.2%",
+            "Citation Correctness": "53.4%",
+            "Faithfulness": "72.7%",
+            "Overall Score": "68.4%",
+            "Answer Accuracy": "67.5%",
+            "Citation Accuracy": "53.4%",
+            "Retrieval Precision": "63.3%",
+            "Hallucination Rate": "27.3%",
+            "Project Score": "64.2%",
+            "Best Retrieval Score": "0.8918",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.23 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Reusability is a major benefit of object-oriented system development, though it is the most difficult promise to deliver on. For an object to be truly reusable, significant effort must be spent in its design. The process involves asking whether the problem has already been solved, partially solved, or if similar work has been done previously.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 81)",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "72.2%",
+            "Citation Correctness": "39.7%",
+            "Faithfulness": "67.5%",
+            "Overall Score": "68.4%",
+            "Answer Accuracy": "67.9%",
+            "Citation Accuracy": "39.7%",
+            "Retrieval Precision": "56.7%",
+            "Hallucination Rate": "32.5%",
+            "Project Score": "58.5%",
+            "Best Retrieval Score": "0.8918",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.37 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -5.700000000000003
+    },
+    "test_status": "PASS"
+}

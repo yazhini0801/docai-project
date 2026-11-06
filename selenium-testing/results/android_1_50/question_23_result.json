@@ -1,0 +1,52 @@
+{
+    "question_id": 23,
+    "question": "An application depends on camera and GPS features. Explain how hardware feature detection, fallback behavior, and multi-device testing can support devices with different capabilities.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application depends on camera and GPS features. Explain how hardware feature detection, fallback behavior, and multi-device testing can support devices with different capabilities.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -27.0%",
+        "metrics": {
+            "Answer Relevance": "64.2%",
+            "Context Relevance": "40.4%",
+            "Citation Correctness": "27.2%",
+            "Faithfulness": "63.8%",
+            "Overall Score": "51.9%",
+            "Answer Accuracy": "54.8%",
+            "Citation Accuracy": "27.2%",
+            "Retrieval Precision": "31.6%",
+            "Hallucination Rate": "36.2%",
+            "Project Score": "45.1%",
+            "Best Retrieval Score": "0.8667",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "11.40 s"
+        },
+        "project_score": 45.1,
+        "response_time": 11.4
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application depends on camera and GPS features. Explain how hardware feature detection, fallback behavior, and multi-device testing can support devices with different capabilities.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -27.0%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "22.8%",
+            "Citation Correctness": "19.0%",
+            "Faithfulness": "25.0%",
+            "Overall Score": "16.8%",
+            "Answer Accuracy": "14.7%",
+            "Citation Accuracy": "19.0%",
+            "Retrieval Precision": "15.8%",
+            "Hallucination Rate": "75.0%",
+            "Project Score": "18.1%",
+            "Best Retrieval Score": "0.7977",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "18.33 s"
+        },
+        "project_score": 18.1,
+        "response_time": 18.33
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -27.0,
+    "error": null
+}

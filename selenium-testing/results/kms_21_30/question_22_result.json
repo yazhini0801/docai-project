@@ -1,0 +1,52 @@
+{
+    "question_id": 22,
+    "question": "What mechanisms can organizations use to support socialization in knowledge discovery?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat mechanisms can organizations use to support socialization in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -12.3%",
+        "metrics": {
+            "Answer Relevance": "35.5%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "70.5%",
+            "Faithfulness": "89.5%",
+            "Overall Score": "61.6%",
+            "Answer Accuracy": "63.1%",
+            "Citation Accuracy": "70.5%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "10.5%",
+            "Project Score": "65.6%",
+            "Best Retrieval Score": "0.8375",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.61 s"
+        },
+        "project_score": 65.6,
+        "response_time": 4.61
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat mechanisms can organizations use to support socialization in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -12.3%",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "40.6%",
+            "Faithfulness": "77.8%",
+            "Overall Score": "57.9%",
+            "Answer Accuracy": "60.4%",
+            "Citation Accuracy": "40.6%",
+            "Retrieval Precision": "32.5%",
+            "Hallucination Rate": "22.2%",
+            "Project Score": "53.3%",
+            "Best Retrieval Score": "0.8375",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.37 s"
+        },
+        "project_score": 53.3,
+        "response_time": 7.37
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -12.3,
+    "error": null
+}

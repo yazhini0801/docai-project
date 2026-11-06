@@ -1,0 +1,52 @@
+{
+    "question_id": 49,
+    "question": "Describe an overall approach for developing and validating a compatible Android application using responsive design, Android version handling, hardware feature detection, automated testing, emulator testing, and physical-device testing.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe an overall approach for developing and validating a compatible Android application using responsive design, Android version handling, hardware feature detection, automated testing, emulator testing, and physical-device testing.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -0.3%",
+        "metrics": {
+            "Answer Relevance": "51.4%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "40.0%",
+            "Faithfulness": "75.9%",
+            "Overall Score": "50.6%",
+            "Answer Accuracy": "57.1%",
+            "Citation Accuracy": "40.0%",
+            "Retrieval Precision": "18.1%",
+            "Hallucination Rate": "24.1%",
+            "Project Score": "48.8%",
+            "Best Retrieval Score": "0.8806",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.58 s"
+        },
+        "project_score": 48.8,
+        "response_time": 7.58
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe an overall approach for developing and validating a compatible Android application using responsive design, Android version handling, hardware feature detection, automated testing, emulator testing, and physical-device testing.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -0.3%",
+        "metrics": {
+            "Answer Relevance": "67.6%",
+            "Context Relevance": "20.6%",
+            "Citation Correctness": "25.3%",
+            "Faithfulness": "85.7%",
+            "Overall Score": "55.2%",
+            "Answer Accuracy": "63.4%",
+            "Citation Accuracy": "25.3%",
+            "Retrieval Precision": "14.3%",
+            "Hallucination Rate": "14.3%",
+            "Project Score": "48.5%",
+            "Best Retrieval Score": "0.8322",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.23 s"
+        },
+        "project_score": 48.5,
+        "response_time": 7.23
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -0.3,
+    "error": null
+}

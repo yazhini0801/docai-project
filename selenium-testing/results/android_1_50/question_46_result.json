@@ -1,0 +1,52 @@
+{
+    "question_id": 46,
+    "question": "An application stores user preferences and adapts its interface for different devices. Explain how preference storage, responsive design, and functional and compatibility testing can be combined to validate the application.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application stores user preferences and adapts its interface for different devices. Explain how preference storage, responsive design, and functional and compatibility testing can be combined to validate the application.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 49.5%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7954",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.18 s"
+        },
+        "project_score": 0.0,
+        "response_time": 7.18
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application stores user preferences and adapts its interface for different devices. Explain how preference storage, responsive design, and functional and compatibility testing can be combined to validate the application.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 49.5%",
+        "metrics": {
+            "Answer Relevance": "55.3%",
+            "Context Relevance": "24.6%",
+            "Citation Correctness": "30.5%",
+            "Faithfulness": "85.7%",
+            "Overall Score": "53.3%",
+            "Answer Accuracy": "59.7%",
+            "Citation Accuracy": "30.5%",
+            "Retrieval Precision": "18.9%",
+            "Hallucination Rate": "14.3%",
+            "Project Score": "49.5%",
+            "Best Retrieval Score": "0.7763",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "15.35 s"
+        },
+        "project_score": 49.5,
+        "response_time": 15.35
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 49.5,
+    "error": null
+}

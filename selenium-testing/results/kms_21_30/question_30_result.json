@@ -1,0 +1,52 @@
+{
+    "question_id": 30,
+    "question": "What is common knowledge and how does it support communication and coordination within an organization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is common knowledge and how does it support communication and coordination within an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 29.8%",
+        "metrics": {
+            "Answer Relevance": "55.3%",
+            "Context Relevance": "25.0%",
+            "Citation Correctness": "47.2%",
+            "Faithfulness": "58.8%",
+            "Overall Score": "48.7%",
+            "Answer Accuracy": "54.5%",
+            "Citation Accuracy": "47.2%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "41.2%",
+            "Project Score": "46.6%",
+            "Best Retrieval Score": "0.8557",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.38 s"
+        },
+        "project_score": 46.6,
+        "response_time": 4.38
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is common knowledge and how does it support communication and coordination within an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 29.8%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "68.8%",
+            "Citation Correctness": "73.3%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "77.0%",
+            "Answer Accuracy": "79.0%",
+            "Citation Accuracy": "73.3%",
+            "Retrieval Precision": "68.8%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "76.4%",
+            "Best Retrieval Score": "0.8082",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "6.55 s"
+        },
+        "project_score": 76.4,
+        "response_time": 6.55
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 29.8,
+    "error": null
+}

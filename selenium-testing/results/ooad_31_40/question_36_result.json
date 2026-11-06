@@ -1,0 +1,49 @@
+{
+    "question_id": 36,
+    "question": "What are the main principles of the Unified Process?",
+    "standard_rag": {
+        "answer": "The main principles of the Unified Process are:\n*   Iterative and Incremental\n*   Use Case Driven\n*   Architecture-Centric\n*   Risk Management\n*   Continuous Validation\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 54)",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "58.3%",
+            "Citation Correctness": "78.1%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "84.2%",
+            "Answer Accuracy": "90.7%",
+            "Citation Accuracy": "78.1%",
+            "Retrieval Precision": "55.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "80.9%",
+            "Best Retrieval Score": "0.8951",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.13 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The main principles of the Unified Process are:\n*   Iterative and Incremental\n*   Use Case Driven\n*   Architecture-Centric\n*   Risk Management\n*   Continuous Validation\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 54)",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "58.3%",
+            "Citation Correctness": "78.1%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "84.2%",
+            "Answer Accuracy": "90.7%",
+            "Citation Accuracy": "78.1%",
+            "Retrieval Precision": "55.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "80.9%",
+            "Best Retrieval Score": "0.8951",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "8.52 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Tie",
+        "rankfusion_improvement": 0.0
+    },
+    "test_status": "PASS"
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 11,
+    "question": "How can responsive layouts, dp and sp units, and compatibility testing work together to provide a consistent interface across different screen sizes and densities?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can responsive layouts, dp and sp units, and compatibility testing work together to provide a consistent interface across different screen sizes and densities?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.7%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "48.1%",
+            "Citation Correctness": "47.4%",
+            "Faithfulness": "82.1%",
+            "Overall Score": "65.2%",
+            "Answer Accuracy": "69.3%",
+            "Citation Accuracy": "47.4%",
+            "Retrieval Precision": "37.8%",
+            "Hallucination Rate": "17.9%",
+            "Project Score": "60.1%",
+            "Best Retrieval Score": "0.8996",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.86 s"
+        },
+        "project_score": 60.1,
+        "response_time": 8.86
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can responsive layouts, dp and sp units, and compatibility testing work together to provide a consistent interface across different screen sizes and densities?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.7%",
+        "metrics": {
+            "Answer Relevance": "81.1%",
+            "Context Relevance": "48.1%",
+            "Citation Correctness": "45.5%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "67.6%",
+            "Answer Accuracy": "72.5%",
+            "Citation Accuracy": "45.5%",
+            "Retrieval Precision": "43.1%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "61.7%",
+            "Best Retrieval Score": "0.8996",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "13.34 s"
+        },
+        "project_score": 61.7,
+        "response_time": 13.34
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 1.6,
+    "error": null
+}

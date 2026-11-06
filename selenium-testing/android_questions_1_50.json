@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "What are Android preferences, and why are they used in an application?"
+  },
+  {
+    "id": 2,
+    "question": "What is compatibility testing in Android application development?"
+  },
+  {
+    "id": 3,
+    "question": "What is Appium, and what is it used for in mobile application testing?"
+  },
+  {
+    "id": 4,
+    "question": "What is Espresso, and what is its purpose in Android application testing?"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between testing an Android application on an emulator and on a physical device?"
+  },
+  {
+    "id": 6,
+    "question": "How can Android preferences and responsive UI design work together to provide a personalized and consistent user experience across different devices?"
+  },
+  {
+    "id": 7,
+    "question": "How can SharedPreferences and functional testing be combined to implement and verify persistent user settings in an Android application?"
+  },
+  {
+    "id": 8,
+    "question": "How can preference-based settings and compatibility testing work together to ensure that personalized application behavior remains consistent across different Android devices?"
+  },
+  {
+    "id": 9,
+    "question": "Explain how user preferences, responsive layouts, and functional testing can collectively support a personalized and reliable Android application."
+  },
+  {
+    "id": 10,
+    "question": "An application allows users to configure settings that persist between sessions and must work on phones and tablets. Explain how preferences, responsive design, and testing can address these requirements together."
+  },
+  {
+    "id": 11,
+    "question": "How can responsive layouts, dp and sp units, and compatibility testing work together to provide a consistent interface across different screen sizes and densities?"
+  },
+  {
+    "id": 12,
+    "question": "Explain how fragments, alternative layout resources, and testing on different devices can collectively support Android applications running on phones and tablets."
+  },
+  {
+    "id": 13,
+    "question": "How can screen-size fragmentation be addressed during application design and subsequently validated using emulator and physical-device testing?"
+  },
+  {
+    "id": 14,
+    "question": "How do responsive UI design, resource qualifiers, and compatibility testing work together to handle differences in Android screen configurations?"
+  },
+  {
+    "id": 15,
+    "question": "Explain how fragments and responsive layouts can adapt an application's interface and how testing can verify that the interface behaves correctly across different devices."
+  },
+  {
+    "id": 16,
+    "question": "How can AndroidX or the Android Support Library and compatibility testing work together to support applications across different Android versions?"
+  },
+  {
+    "id": 17,
+    "question": "Explain how minSdkVersion, targetSdkVersion, compileSdkVersion, and testing across Android versions contribute to application compatibility."
+  },
+  {
+    "id": 18,
+    "question": "How can Build.VERSION.SDK_INT and compatibility testing be used together to support and validate different behavior on older and newer Android versions?"
+  },
+  {
+    "id": 19,
+    "question": "An application must support both older and newer Android versions. Describe how version handling, backward compatibility mechanisms, and testing strategies can collectively achieve this."
+  },
+  {
+    "id": 20,
+    "question": "How can Android version checks, AndroidX components, and multi-version testing work together to reduce compatibility problems caused by Android fragmentation?"
+  },
+  {
+    "id": 21,
+    "question": "How can PackageManager feature detection and compatibility testing help an Android application operate correctly on devices with different hardware capabilities?"
+  },
+  {
+    "id": 22,
+    "question": "An Android application requires camera functionality. Explain how feature detection and testing across different devices can ensure reliable behavior when camera availability differs."
+  },
+  {
+    "id": 23,
+    "question": "An application depends on camera and GPS features. Explain how hardware feature detection, fallback behavior, and multi-device testing can support devices with different capabilities."
+  },
+  {
+    "id": 24,
+    "question": "How can device feature detection during application design and compatibility testing during validation work together to handle Android hardware fragmentation?"
+  },
+  {
+    "id": 25,
+    "question": "Explain how differences in hardware capabilities and input methods can influence Android application design and how testing can identify related compatibility problems."
+  },
+  {
+    "id": 26,
+    "question": "How can emulator testing and physical-device testing complement each other when validating an Android application across different screen sizes, Android versions, and hardware configurations?"
+  },
+  {
+    "id": 27,
+    "question": "How can Firebase Test Lab, BrowserStack, and Sauce Labs complement local emulator and physical-device testing when validating an Android application?"
+  },
+  {
+    "id": 28,
+    "question": "Explain how emulator testing, real-device testing, and cloud-based device testing can collectively provide broader coverage for Android compatibility testing."
+  },
+  {
+    "id": 29,
+    "question": "How can Google Play Console Device Catalog and device testing help developers identify and validate compatibility across diverse Android configurations?"
+  },
+  {
+    "id": 30,
+    "question": "An application must run on devices with different screen sizes, OS versions, and hardware capabilities. Explain how emulator, physical-device, and cloud testing can be combined to validate it."
+  },
+  {
+    "id": 31,
+    "question": "How can Appium be used as part of a compatibility-testing strategy for an Android application that must operate across multiple devices and configurations?"
+  },
+  {
+    "id": 32,
+    "question": "Explain how Appium desired capabilities and multi-device testing can be used together to automate Android application testing across different configurations."
+  },
+  {
+    "id": 33,
+    "question": "How can Appium automation complement manual and compatibility testing when validating an Android application across a diverse set of devices?"
+  },
+  {
+    "id": 34,
+    "question": "Describe how Appium setup, test execution, and debugging contribute to reliable automated testing of an Android application across multiple device configurations."
+  },
+  {
+    "id": 35,
+    "question": "How can Appium and cloud-based testing services be combined conceptually to improve automated test coverage across different Android environments?"
+  },
+  {
+    "id": 36,
+    "question": "How can Espresso functional UI testing complement emulator and physical-device testing when validating a responsive Android application?"
+  },
+  {
+    "id": 37,
+    "question": "Explain how Espresso UI actions, interface-state verification, and compatibility testing can work together to validate application behavior across Android configurations."
+  },
+  {
+    "id": 38,
+    "question": "How can Espresso synchronization and IdlingResource support reliable UI testing when an Android application performs asynchronous operations?"
+  },
+  {
+    "id": 39,
+    "question": "Compare how Appium and Espresso can contribute to an overall Android testing strategy involving functional testing and compatibility validation."
+  },
+  {
+    "id": 40,
+    "question": "How can automated UI testing with Appium or Espresso complement manual testing on physical devices when validating an Android application?"
+  },
+  {
+    "id": 41,
+    "question": "How can Material Design, resource files instead of hard-coded values, vector drawables, and compatibility testing contribute to a consistent Android user interface?"
+  },
+  {
+    "id": 42,
+    "question": "Explain how responsive interface design, performance considerations, and accessibility testing contribute to an application that works effectively across diverse Android devices."
+  },
+  {
+    "id": 43,
+    "question": "How can functional, performance, compatibility, and security testing collectively evaluate the reliability of an Android application designed for multiple devices?"
+  },
+  {
+    "id": 44,
+    "question": "An Android application must support different screen sizes and Android versions while maintaining reliable functionality. Explain how compatible design techniques and multiple forms of testing can address these requirements."
+  },
+  {
+    "id": 45,
+    "question": "How can responsive layouts, fragments, version handling, and compatibility testing collectively reduce problems caused by Android device fragmentation?"
+  },
+  {
+    "id": 46,
+    "question": "An application stores user preferences and adapts its interface for different devices. Explain how preference storage, responsive design, and functional and compatibility testing can be combined to validate the application."
+  },
+  {
+    "id": 47,
+    "question": "An Android application must preserve user settings while supporting different screen sizes, OS versions, and hardware capabilities. Describe the mechanisms and testing approaches that can address these requirements together."
+  },
+  {
+    "id": 48,
+    "question": "Explain how preferences, fragments, responsive layouts, version handling, feature detection, and device testing can collectively support a personalized and adaptable Android application."
+  },
+  {
+    "id": 49,
+    "question": "Describe an overall approach for developing and validating a compatible Android application using responsive design, Android version handling, hardware feature detection, automated testing, emulator testing, and physical-device testing."
+  },
+  {
+    "id": 50,
+    "question": "Explain how user preferences, compatible application design, functional testing, compatibility testing, and automated testing collectively contribute to building a personalized, adaptable, and reliable Android application."
+  }
+]

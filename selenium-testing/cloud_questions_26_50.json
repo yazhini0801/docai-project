@@ -1,0 +1,102 @@
+[
+  {
+    "id": 26,
+    "question": "Compare the cloud computing approaches of AWS, Google App Engine, and Microsoft Azure in terms of service model, infrastructure management, scalability, and application deployment."
+  },
+  {
+    "id": 27,
+    "question": "Compare the compute capabilities provided by AWS EC2 and Lambda, Google App Engine, and Azure Virtual Machines and Functions, and explain how they support different application workloads."
+  },
+  {
+    "id": 28,
+    "question": "Compare the storage and data management capabilities of AWS, Google App Engine integrated Google Cloud services, and Microsoft Azure."
+  },
+  {
+    "id": 29,
+    "question": "Explain how AWS, Google App Engine, and Microsoft Azure provide scalability and handle changing application traffic."
+  },
+  {
+    "id": 30,
+    "question": "Compare how AWS, Google App Engine, and Microsoft Azure reduce infrastructure management while supporting application development and deployment."
+  },
+  {
+    "id": 31,
+    "question": "Compare the database services available through AWS, Google App Engine integrated services, and Microsoft Azure, including relational, NoSQL, and caching options."
+  },
+  {
+    "id": 32,
+    "question": "Explain how AWS, Google App Engine, and Microsoft Azure support secure cloud applications through identity, access control, encryption, network protection, and platform security capabilities."
+  },
+  {
+    "id": 33,
+    "question": "Compare the networking, load balancing, and content delivery capabilities described for AWS, Google App Engine, and Microsoft Azure."
+  },
+  {
+    "id": 34,
+    "question": "Explain how AWS, Google App Engine, and Microsoft Azure support application monitoring, logging, deployment management, and operational reliability."
+  },
+  {
+    "id": 35,
+    "question": "Compare the developer and DevOps capabilities of AWS, Google App Engine, and Microsoft Azure for building, deploying, automating, and maintaining cloud applications."
+  },
+  {
+    "id": 36,
+    "question": "Explain how AWS, Google App Engine, and Microsoft Azure can support scalable web applications, APIs, backend services, and microservice-based applications."
+  },
+  {
+    "id": 37,
+    "question": "Compare how AWS, Google App Engine, and Microsoft Azure support data-intensive applications using storage, databases, analytics, and data processing services."
+  },
+  {
+    "id": 38,
+    "question": "Explain how AWS and Microsoft Azure support artificial intelligence and machine learning workloads, and describe how applications hosted using Google App Engine can use integrated Google Cloud services."
+  },
+  {
+    "id": 39,
+    "question": "Compare the IoT and edge computing capabilities described for AWS and Microsoft Azure, and explain how Google App Engine can participate as an application backend for connected applications."
+  },
+  {
+    "id": 40,
+    "question": "Compare AWS and Microsoft Azure approaches to hybrid and edge computing, including AWS Outposts, Snowball, and Wavelength and Azure Arc, Azure Stack, and Azure VMware Solution."
+  },
+  {
+    "id": 41,
+    "question": "Explain the differences between infrastructure-oriented cloud services such as AWS EC2 and Azure Virtual Machines and a managed Platform-as-a-Service such as Google App Engine."
+  },
+  {
+    "id": 42,
+    "question": "Compare server-based, serverless, and managed application hosting approaches using examples from AWS, Google App Engine, and Microsoft Azure."
+  },
+  {
+    "id": 43,
+    "question": "Explain how automatic scaling works across AWS, Google App Engine, and Microsoft Azure and how scalability benefits applications experiencing variable workloads."
+  },
+  {
+    "id": 44,
+    "question": "Compare the advantages of AWS, Google App Engine, and Microsoft Azure for organizations requiring scalable infrastructure, managed services, application hosting, data management, and security."
+  },
+  {
+    "id": 45,
+    "question": "Discuss the limitations and management trade-offs of using highly managed cloud platforms such as Google App Engine compared with the broader infrastructure and platform services available in AWS and Microsoft Azure."
+  },
+  {
+    "id": 46,
+    "question": "Explain how compute, storage, databases, networking, and security services work together to support a complete cloud application, using examples from AWS, Google App Engine, and Microsoft Azure."
+  },
+  {
+    "id": 47,
+    "question": "Compare how AWS, Google App Engine, and Microsoft Azure can support enterprise applications, e-commerce systems, APIs, data processing applications, and other scalable cloud workloads."
+  },
+  {
+    "id": 48,
+    "question": "Explain how cloud platforms combine managed infrastructure, automatic scaling, load balancing, monitoring, security, and data services to improve application availability and reduce operational effort."
+  },
+  {
+    "id": 49,
+    "question": "Compare AWS, Google App Engine, and Microsoft Azure in terms of compute or application hosting, storage, databases, networking, security, analytics, scalability, and developer support."
+  },
+  {
+    "id": 50,
+    "question": "Using AWS, Google App Engine, and Microsoft Azure as examples, explain how modern cloud platforms provide end-to-end support for application development, deployment, scalability, data management, security, monitoring, analytics, and different application workloads."
+  }
+]

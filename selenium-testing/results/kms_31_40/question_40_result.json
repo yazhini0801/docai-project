@@ -1,0 +1,52 @@
+{
+    "question_id": 40,
+    "question": "What are some major nontechnical obstacles organizations face when implementing knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are some major nontechnical obstacles organizations face when implementing knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 9.8%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "14.8%",
+            "Citation Correctness": "40.9%",
+            "Faithfulness": "61.9%",
+            "Overall Score": "51.2%",
+            "Answer Accuracy": "60.6%",
+            "Citation Accuracy": "40.9%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "38.1%",
+            "Project Score": "46.5%",
+            "Best Retrieval Score": "0.8761",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.63 s"
+        },
+        "project_score": 46.5,
+        "response_time": 5.63
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are some major nontechnical obstacles organizations face when implementing knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 9.8%",
+        "metrics": {
+            "Answer Relevance": "56.2%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "66.7%",
+            "Faithfulness": "66.7%",
+            "Overall Score": "54.6%",
+            "Answer Accuracy": "62.5%",
+            "Citation Accuracy": "66.7%",
+            "Retrieval Precision": "22.2%",
+            "Hallucination Rate": "33.3%",
+            "Project Score": "56.3%",
+            "Best Retrieval Score": "0.7966",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "10.96 s"
+        },
+        "project_score": 56.3,
+        "response_time": 10.96
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 9.8,
+    "error": null
+}

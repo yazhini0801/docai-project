@@ -1,0 +1,52 @@
+{
+    "question_id": 25,
+    "question": "What technologies can support knowledge exchange in knowledge sharing systems?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "87.9%",
+            "Context Relevance": "38.1%",
+            "Citation Correctness": "61.6%",
+            "Faithfulness": "91.3%",
+            "Overall Score": "73.7%",
+            "Answer Accuracy": "82.5%",
+            "Citation Accuracy": "61.6%",
+            "Retrieval Precision": "28.6%",
+            "Hallucination Rate": "8.7%",
+            "Project Score": "68.2%",
+            "Best Retrieval Score": "0.8501",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.46 s"
+        },
+        "project_score": 68.2,
+        "response_time": 7.46
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "51.4%",
+            "Context Relevance": "61.9%",
+            "Citation Correctness": "71.6%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "69.4%",
+            "Answer Accuracy": "70.3%",
+            "Citation Accuracy": "71.6%",
+            "Retrieval Precision": "54.3%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "71.6%",
+            "Best Retrieval Score": "0.8313",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "19.31 s"
+        },
+        "project_score": 71.6,
+        "response_time": 19.31
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 3.4,
+    "error": null
+}

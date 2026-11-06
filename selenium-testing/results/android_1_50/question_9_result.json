@@ -1,0 +1,52 @@
+{
+    "question_id": 9,
+    "question": "Explain how user preferences, responsive layouts, and functional testing can collectively support a personalized and reliable Android application.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how user preferences, responsive layouts, and functional testing can collectively support a personalized and reliable Android application.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 46.0%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8302",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.92 s"
+        },
+        "project_score": 0.0,
+        "response_time": 13.92
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how user preferences, responsive layouts, and functional testing can collectively support a personalized and reliable Android application.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 46.0%",
+        "metrics": {
+            "Answer Relevance": "81.8%",
+            "Context Relevance": "26.2%",
+            "Citation Correctness": "28.5%",
+            "Faithfulness": "64.0%",
+            "Overall Score": "54.7%",
+            "Answer Accuracy": "62.2%",
+            "Citation Accuracy": "28.5%",
+            "Retrieval Precision": "21.4%",
+            "Hallucination Rate": "36.0%",
+            "Project Score": "46.0%",
+            "Best Retrieval Score": "0.7990",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "16.63 s"
+        },
+        "project_score": 46.0,
+        "response_time": 16.63
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 46.0,
+    "error": null
+}

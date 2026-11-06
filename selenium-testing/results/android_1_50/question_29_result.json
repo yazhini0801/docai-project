@@ -1,0 +1,52 @@
+{
+    "question_id": 29,
+    "question": "How can Google Play Console Device Catalog and device testing help developers identify and validate compatibility across diverse Android configurations?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Google Play Console Device Catalog and device testing help developers identify and validate compatibility across diverse Android configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.3%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "47.9%",
+            "Citation Correctness": "54.3%",
+            "Faithfulness": "84.2%",
+            "Overall Score": "69.3%",
+            "Answer Accuracy": "74.6%",
+            "Citation Accuracy": "54.3%",
+            "Retrieval Precision": "36.3%",
+            "Hallucination Rate": "15.8%",
+            "Project Score": "63.8%",
+            "Best Retrieval Score": "0.8906",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.95 s"
+        },
+        "project_score": 63.8,
+        "response_time": 5.95
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Google Play Console Device Catalog and device testing help developers identify and validate compatibility across diverse Android configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.3%",
+        "metrics": {
+            "Answer Relevance": "73.4%",
+            "Context Relevance": "43.8%",
+            "Citation Correctness": "50.3%",
+            "Faithfulness": "80.6%",
+            "Overall Score": "65.0%",
+            "Answer Accuracy": "70.2%",
+            "Citation Accuracy": "50.3%",
+            "Retrieval Precision": "31.3%",
+            "Hallucination Rate": "19.4%",
+            "Project Score": "59.5%",
+            "Best Retrieval Score": "0.8906",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "14.97 s"
+        },
+        "project_score": 59.5,
+        "response_time": 14.97
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -4.3,
+    "error": null
+}

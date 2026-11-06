@@ -1,0 +1,52 @@
+{
+    "question_id": 38,
+    "question": "Explain how AWS and Microsoft Azure support artificial intelligence and machine learning workloads, and describe how applications hosted using Google App Engine can use integrated Google Cloud services.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS and Microsoft Azure support artificial intelligence and machine learning workloads, and describe how applications hosted using Google App Engine can use integrated Google Cloud services.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 10.2%",
+        "metrics": {
+            "Answer Relevance": "92.3%",
+            "Context Relevance": "27.3%",
+            "Citation Correctness": "24.9%",
+            "Faithfulness": "56.7%",
+            "Overall Score": "55.1%",
+            "Answer Accuracy": "63.0%",
+            "Citation Accuracy": "24.9%",
+            "Retrieval Precision": "23.6%",
+            "Hallucination Rate": "43.3%",
+            "Project Score": "44.3%",
+            "Best Retrieval Score": "0.8267",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.45 s"
+        },
+        "project_score": 44.3,
+        "response_time": 13.45
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how AWS and Microsoft Azure support artificial intelligence and machine learning workloads, and describe how applications hosted using Google App Engine can use integrated Google Cloud services.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 10.2%",
+        "metrics": {
+            "Answer Relevance": "69.1%",
+            "Context Relevance": "27.3%",
+            "Citation Correctness": "37.5%",
+            "Faithfulness": "85.0%",
+            "Overall Score": "59.2%",
+            "Answer Accuracy": "66.8%",
+            "Citation Accuracy": "37.5%",
+            "Retrieval Precision": "23.6%",
+            "Hallucination Rate": "15.0%",
+            "Project Score": "54.5%",
+            "Best Retrieval Score": "0.8030",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "4.69 s"
+        },
+        "project_score": 54.5,
+        "response_time": 4.69
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 10.2,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 24,
+    "question": "What mechanisms are used to support internalization in knowledge capture?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat mechanisms are used to support internalization in knowledge capture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 2.7%",
+        "metrics": {
+            "Answer Relevance": "36.6%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "70.2%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "62.3%",
+            "Answer Accuracy": "64.0%",
+            "Citation Accuracy": "70.2%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "64.8%",
+            "Best Retrieval Score": "0.8425",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.81 s"
+        },
+        "project_score": 64.8,
+        "response_time": 4.81
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat mechanisms are used to support internalization in knowledge capture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 2.7%",
+        "metrics": {
+            "Answer Relevance": "38.8%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "67.9%",
+            "Faithfulness": "92.9%",
+            "Overall Score": "65.3%",
+            "Answer Accuracy": "65.0%",
+            "Citation Accuracy": "67.9%",
+            "Retrieval Precision": "45.8%",
+            "Hallucination Rate": "7.1%",
+            "Project Score": "67.5%",
+            "Best Retrieval Score": "0.8382",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "7.07 s"
+        },
+        "project_score": 67.5,
+        "response_time": 7.07
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 2.7,
+    "error": null
+}

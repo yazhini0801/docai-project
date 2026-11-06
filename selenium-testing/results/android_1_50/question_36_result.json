@@ -1,0 +1,52 @@
+{
+    "question_id": 36,
+    "question": "How can Espresso functional UI testing complement emulator and physical-device testing when validating a responsive Android application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Espresso functional UI testing complement emulator and physical-device testing when validating a responsive Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 53.9%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8481",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.98 s"
+        },
+        "project_score": 0.0,
+        "response_time": 8.98
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Espresso functional UI testing complement emulator and physical-device testing when validating a responsive Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 53.9%",
+        "metrics": {
+            "Answer Relevance": "60.8%",
+            "Context Relevance": "35.9%",
+            "Citation Correctness": "40.6%",
+            "Faithfulness": "82.1%",
+            "Overall Score": "58.2%",
+            "Answer Accuracy": "63.2%",
+            "Citation Accuracy": "40.6%",
+            "Retrieval Precision": "26.2%",
+            "Hallucination Rate": "17.9%",
+            "Project Score": "53.9%",
+            "Best Retrieval Score": "0.8429",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.17 s"
+        },
+        "project_score": 53.9,
+        "response_time": 10.17
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 53.9,
+    "error": null
+}

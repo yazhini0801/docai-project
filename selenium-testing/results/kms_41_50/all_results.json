@@ -1,0 +1,522 @@
+[
+    {
+        "question_id": 41,
+        "question": "What are knowledge resources in an organization?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge resources in an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.4%",
+            "metrics": {
+                "Answer Relevance": "98.5%",
+                "Context Relevance": "77.8%",
+                "Citation Correctness": "66.0%",
+                "Faithfulness": "88.9%",
+                "Overall Score": "85.0%",
+                "Answer Accuracy": "87.0%",
+                "Citation Accuracy": "66.0%",
+                "Retrieval Precision": "60.0%",
+                "Hallucination Rate": "11.1%",
+                "Project Score": "76.7%",
+                "Best Retrieval Score": "0.8366",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "9.22 s"
+            },
+            "project_score": 76.7,
+            "response_time": 9.22
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge resources in an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.4%",
+            "metrics": {
+                "Answer Relevance": "100.0%",
+                "Context Relevance": "66.7%",
+                "Citation Correctness": "62.6%",
+                "Faithfulness": "78.3%",
+                "Overall Score": "79.3%",
+                "Answer Accuracy": "83.0%",
+                "Citation Accuracy": "62.6%",
+                "Retrieval Precision": "50.0%",
+                "Hallucination Rate": "21.7%",
+                "Project Score": "70.4%",
+                "Best Retrieval Score": "0.8364",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "8.19 s"
+            },
+            "project_score": 70.4,
+            "response_time": 8.19
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -6.3,
+        "error": null
+    },
+    {
+        "question_id": 42,
+        "question": "How does knowledge application allow individuals to use knowledge without actually acquiring or learning it?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does knowledge application allow individuals to use knowledge without actually acquiring or learning it?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.8%",
+            "metrics": {
+                "Answer Relevance": "38.3%",
+                "Context Relevance": "26.7%",
+                "Citation Correctness": "64.3%",
+                "Faithfulness": "82.3%",
+                "Overall Score": "54.4%",
+                "Answer Accuracy": "60.2%",
+                "Citation Accuracy": "64.3%",
+                "Retrieval Precision": "20.0%",
+                "Hallucination Rate": "17.6%",
+                "Project Score": "57.6%",
+                "Best Retrieval Score": "0.8499",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "8.27 s"
+            },
+            "project_score": 57.6,
+            "response_time": 8.27
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does knowledge application allow individuals to use knowledge without actually acquiring or learning it?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -1.8%",
+            "metrics": {
+                "Answer Relevance": "49.0%",
+                "Context Relevance": "43.3%",
+                "Citation Correctness": "45.8%",
+                "Faithfulness": "82.1%",
+                "Overall Score": "57.2%",
+                "Answer Accuracy": "59.8%",
+                "Citation Accuracy": "45.8%",
+                "Retrieval Precision": "35.0%",
+                "Hallucination Rate": "17.9%",
+                "Project Score": "55.8%",
+                "Best Retrieval Score": "0.7854",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "9.75 s"
+            },
+            "project_score": 55.8,
+            "response_time": 9.75
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -1.8,
+        "error": null
+    },
+    {
+        "question_id": 43,
+        "question": "What are the advantages and disadvantages of using direction for knowledge application?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using direction for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -53.8%",
+            "metrics": {
+                "Answer Relevance": "69.4%",
+                "Context Relevance": "44.4%",
+                "Citation Correctness": "47.2%",
+                "Faithfulness": "64.7%",
+                "Overall Score": "58.6%",
+                "Answer Accuracy": "62.2%",
+                "Citation Accuracy": "47.2%",
+                "Retrieval Precision": "36.7%",
+                "Hallucination Rate": "35.3%",
+                "Project Score": "53.8%",
+                "Best Retrieval Score": "0.8039",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.91 s"
+            },
+            "project_score": 53.8,
+            "response_time": 5.91
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using direction for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -53.8%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.7393",
+                "Confidence": "MEDIUM",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "7.06 s"
+            },
+            "project_score": 0.0,
+            "response_time": 7.06
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -53.8,
+        "error": null
+    },
+    {
+        "question_id": 44,
+        "question": "What are the advantages and disadvantages of using routines for knowledge application?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using routines for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -43.5%",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "26.6%",
+                "Faithfulness": "59.5%",
+                "Overall Score": "51.3%",
+                "Answer Accuracy": "56.1%",
+                "Citation Accuracy": "26.6%",
+                "Retrieval Precision": "26.7%",
+                "Hallucination Rate": "40.5%",
+                "Project Score": "43.5%",
+                "Best Retrieval Score": "0.8205",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.13 s"
+            },
+            "project_score": 43.5,
+            "response_time": 5.13
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using routines for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -43.5%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.7568",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "2",
+                "Response Time": "5.99 s"
+            },
+            "project_score": 0.0,
+            "response_time": 5.99
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -43.5,
+        "error": null
+    },
+    {
+        "question_id": 45,
+        "question": "How can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 74.8%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.8374",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.20 s"
+            },
+            "project_score": 0.0,
+            "response_time": 4.2
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 74.8%",
+            "metrics": {
+                "Answer Relevance": "65.7%",
+                "Context Relevance": "30.6%",
+                "Citation Correctness": "80.8%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "72.0%",
+                "Answer Accuracy": "81.5%",
+                "Citation Accuracy": "80.8%",
+                "Retrieval Precision": "30.6%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "74.8%",
+                "Best Retrieval Score": "0.8115",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "7.42 s"
+            },
+            "project_score": 74.8,
+            "response_time": 7.42
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 74.8,
+        "error": null
+    },
+    {
+        "question_id": 46,
+        "question": "How can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 54.8%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.8276",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.41 s"
+            },
+            "project_score": 0.0,
+            "response_time": 4.41
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 54.8%",
+            "metrics": {
+                "Answer Relevance": "38.2%",
+                "Context Relevance": "36.4%",
+                "Citation Correctness": "56.5%",
+                "Faithfulness": "77.3%",
+                "Overall Score": "53.2%",
+                "Answer Accuracy": "56.4%",
+                "Citation Accuracy": "56.5%",
+                "Retrieval Precision": "27.3%",
+                "Hallucination Rate": "22.7%",
+                "Project Score": "54.8%",
+                "Best Retrieval Score": "0.8035",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "9.04 s"
+            },
+            "project_score": 54.8,
+            "response_time": 9.04
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 54.8,
+        "error": null
+    },
+    {
+        "question_id": 47,
+        "question": "How can learning by doing, on-the-job training, and observation help individuals internalize knowledge?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can learning by doing, on-the-job training, and observation help individuals internalize knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 26.5%",
+            "metrics": {
+                "Answer Relevance": "29.8%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "19.7%",
+                "Faithfulness": "47.1%",
+                "Overall Score": "33.6%",
+                "Answer Accuracy": "33.3%",
+                "Citation Accuracy": "19.7%",
+                "Retrieval Precision": "20.0%",
+                "Hallucination Rate": "52.9%",
+                "Project Score": "30.0%",
+                "Best Retrieval Score": "0.8056",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "7.17 s"
+            },
+            "project_score": 30.0,
+            "response_time": 7.17
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can learning by doing, on-the-job training, and observation help individuals internalize knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 26.5%",
+            "metrics": {
+                "Answer Relevance": "26.0%",
+                "Context Relevance": "53.3%",
+                "Citation Correctness": "53.3%",
+                "Faithfulness": "75.0%",
+                "Overall Score": "51.6%",
+                "Answer Accuracy": "50.0%",
+                "Citation Accuracy": "53.3%",
+                "Retrieval Precision": "53.3%",
+                "Hallucination Rate": "25.0%",
+                "Project Score": "56.5%",
+                "Best Retrieval Score": "0.8006",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "8.09 s"
+            },
+            "project_score": 56.5,
+            "response_time": 8.09
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 26.5,
+        "error": null
+    },
+    {
+        "question_id": 48,
+        "question": "How can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 50.4%",
+            "metrics": {
+                "Answer Relevance": "3.0%",
+                "Context Relevance": "38.5%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "8.6%",
+                "Answer Accuracy": "1.2%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "24.6%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "5.3%",
+                "Best Retrieval Score": "0.8671",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "6.14 s"
+            },
+            "project_score": 5.3,
+            "response_time": 6.14
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 50.4%",
+            "metrics": {
+                "Answer Relevance": "78.1%",
+                "Context Relevance": "43.6%",
+                "Citation Correctness": "50.6%",
+                "Faithfulness": "58.8%",
+                "Overall Score": "59.9%",
+                "Answer Accuracy": "64.5%",
+                "Citation Accuracy": "50.6%",
+                "Retrieval Precision": "43.6%",
+                "Hallucination Rate": "41.2%",
+                "Project Score": "55.7%",
+                "Best Retrieval Score": "0.8119",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "6.50 s"
+            },
+            "project_score": 55.7,
+            "response_time": 6.5
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 50.4,
+        "error": null
+    },
+    {
+        "question_id": 49,
+        "question": "How can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.4%",
+            "metrics": {
+                "Answer Relevance": "38.1%",
+                "Context Relevance": "37.0%",
+                "Citation Correctness": "68.0%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "62.4%",
+                "Answer Accuracy": "67.2%",
+                "Citation Accuracy": "68.0%",
+                "Retrieval Precision": "24.4%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "65.4%",
+                "Best Retrieval Score": "0.8371",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.51 s"
+            },
+            "project_score": 65.4,
+            "response_time": 4.51
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.4%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.7559",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "1",
+                "Response Time": "7.27 s"
+            },
+            "project_score": 0.0,
+            "response_time": 7.27
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -65.4,
+        "error": null
+    },
+    {
+        "question_id": 50,
+        "question": "How can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.4%",
+            "metrics": {
+                "Answer Relevance": "76.8%",
+                "Context Relevance": "21.2%",
+                "Citation Correctness": "50.7%",
+                "Faithfulness": "80.6%",
+                "Overall Score": "61.6%",
+                "Answer Accuracy": "71.6%",
+                "Citation Accuracy": "50.7%",
+                "Retrieval Precision": "16.4%",
+                "Hallucination Rate": "19.4%",
+                "Project Score": "57.1%",
+                "Best Retrieval Score": "0.8862",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.67 s"
+            },
+            "project_score": 57.1,
+            "response_time": 5.67
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.4%",
+            "metrics": {
+                "Answer Relevance": "76.8%",
+                "Context Relevance": "24.2%",
+                "Citation Correctness": "40.8%",
+                "Faithfulness": "72.5%",
+                "Overall Score": "57.8%",
+                "Answer Accuracy": "66.3%",
+                "Citation Accuracy": "40.8%",
+                "Retrieval Precision": "24.2%",
+                "Hallucination Rate": "27.5%",
+                "Project Score": "52.7%",
+                "Best Retrieval Score": "0.8862",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "10.81 s"
+            },
+            "project_score": 52.7,
+            "response_time": 10.81
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -4.4,
+        "error": null
+    }
+]

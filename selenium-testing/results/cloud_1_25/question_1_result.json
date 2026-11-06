@@ -1,0 +1,52 @@
+{
+    "question_id": 1,
+    "question": "Explain the major compute services provided by AWS and describe how EC2, Lambda, ECS, EKS, and AWS Batch support different computing workloads.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major compute services provided by AWS and describe how EC2, Lambda, ECS, EKS, and AWS Batch support different computing workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.9%",
+        "metrics": {
+            "Answer Relevance": "68.1%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "63.4%",
+            "Faithfulness": "92.3%",
+            "Overall Score": "67.5%",
+            "Answer Accuracy": "75.4%",
+            "Citation Accuracy": "63.4%",
+            "Retrieval Precision": "27.5%",
+            "Hallucination Rate": "7.7%",
+            "Project Score": "66.2%",
+            "Best Retrieval Score": "0.8733",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.99 s"
+        },
+        "project_score": 66.2,
+        "response_time": 3.99
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the major compute services provided by AWS and describe how EC2, Lambda, ECS, EKS, and AWS Batch support different computing workloads.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.9%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "40.6%",
+            "Citation Correctness": "65.6%",
+            "Faithfulness": "83.3%",
+            "Overall Score": "69.9%",
+            "Answer Accuracy": "77.1%",
+            "Citation Accuracy": "65.6%",
+            "Retrieval Precision": "40.6%",
+            "Hallucination Rate": "16.7%",
+            "Project Score": "68.2%",
+            "Best Retrieval Score": "0.8733",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "15.72 s"
+        },
+        "project_score": 68.2,
+        "response_time": 15.72
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 2.0,
+    "error": null
+}

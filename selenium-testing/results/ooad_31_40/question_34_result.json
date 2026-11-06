@@ -1,0 +1,49 @@
+{
+    "question_id": 34,
+    "question": "What is the Unified Approach in object-oriented system development?",
+    "standard_rag": {
+        "answer": "The Unified Approach (UA) is a software development methodology that combines the best practices, processes, and guidelines from Booch, Rumbaugh, and Jacobson's methodologies with the Unified Modeling Language (UML) to describe and model applications. \n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 14)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "72.2%",
+            "Citation Correctness": "77.0%",
+            "Faithfulness": "95.2%",
+            "Overall Score": "75.7%",
+            "Answer Accuracy": "75.6%",
+            "Citation Accuracy": "77.0%",
+            "Retrieval Precision": "63.3%",
+            "Hallucination Rate": "4.8%",
+            "Project Score": "77.4%",
+            "Best Retrieval Score": "0.9255",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.12 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The Unified Approach (UA) is a software development methodology that combines the best practices, processes, and guidelines from Booch, Rumbaugh, and Jacobson's methodologies with the Unified Modeling Language (UML) to describe and model applications. \n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 14)",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8584",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "7.48 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -77.4
+    },
+    "test_status": "PASS"
+}

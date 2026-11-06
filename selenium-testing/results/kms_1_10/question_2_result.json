@@ -1,0 +1,52 @@
+{
+    "question_id": 2,
+    "question": "What are the four levels of knowledge management solutions?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the four levels of knowledge management solutions?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 12.7%",
+        "metrics": {
+            "Answer Relevance": "93.3%",
+            "Context Relevance": "73.3%",
+            "Citation Correctness": "85.8%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "89.8%",
+            "Answer Accuracy": "93.8%",
+            "Citation Accuracy": "85.8%",
+            "Retrieval Precision": "44.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "83.1%",
+            "Best Retrieval Score": "0.8586",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "21.63 s"
+        },
+        "project_score": 83.1,
+        "response_time": 21.63
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the four levels of knowledge management solutions?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 12.7%",
+        "metrics": {
+            "Answer Relevance": "93.3%",
+            "Context Relevance": "86.7%",
+            "Citation Correctness": "98.2%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "94.9%",
+            "Answer Accuracy": "96.9%",
+            "Citation Accuracy": "98.2%",
+            "Retrieval Precision": "86.7%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "95.8%",
+            "Best Retrieval Score": "0.8466",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "5.81 s"
+        },
+        "project_score": 95.8,
+        "response_time": 5.81
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 12.7,
+    "error": null
+}

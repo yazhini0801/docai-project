@@ -1,0 +1,42 @@
+[
+  {
+    "id": 41,
+    "question": "What are knowledge resources in an organization?"
+  },
+  {
+    "id": 42,
+    "question": "How does knowledge application allow individuals to use knowledge without actually acquiring or learning it?"
+  },
+  {
+    "id": 43,
+    "question": "What are the advantages and disadvantages of using direction for knowledge application?"
+  },
+  {
+    "id": 44,
+    "question": "What are the advantages and disadvantages of using routines for knowledge application?"
+  },
+  {
+    "id": 45,
+    "question": "How can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?"
+  },
+  {
+    "id": 46,
+    "question": "How can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?"
+  },
+  {
+    "id": 47,
+    "question": "How can learning by doing, on-the-job training, and observation help individuals internalize knowledge?"
+  },
+  {
+    "id": 48,
+    "question": "How can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?"
+  },
+  {
+    "id": 49,
+    "question": "How can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?"
+  },
+  {
+    "id": 50,
+    "question": "How can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?"
+  }
+]

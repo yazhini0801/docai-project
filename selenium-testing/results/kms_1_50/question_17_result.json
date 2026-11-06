@@ -1,0 +1,52 @@
+{
+    "question_id": 17,
+    "question": "How do knowledge discovery systems support combination and socialization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "81.1%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "78.9%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "80.7%",
+            "Answer Accuracy": "84.0%",
+            "Citation Accuracy": "78.9%",
+            "Retrieval Precision": "51.4%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "77.6%",
+            "Best Retrieval Score": "0.8369",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "10.67 s"
+        },
+        "project_score": 77.6,
+        "response_time": 10.67
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "81.1%",
+            "Context Relevance": "71.4%",
+            "Citation Correctness": "81.1%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "82.1%",
+            "Answer Accuracy": "84.5%",
+            "Citation Accuracy": "81.1%",
+            "Retrieval Precision": "65.7%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "81.2%",
+            "Best Retrieval Score": "0.8369",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "15.30 s"
+        },
+        "project_score": 81.2,
+        "response_time": 15.3
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 3.6,
+    "error": null
+}

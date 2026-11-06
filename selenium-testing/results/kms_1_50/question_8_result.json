@@ -1,0 +1,52 @@
+{
+    "question_id": 8,
+    "question": "What are knowledge management mechanisms and how do they facilitate knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "83.6%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "69.2%",
+            "Faithfulness": "88.2%",
+            "Overall Score": "69.8%",
+            "Answer Accuracy": "81.6%",
+            "Citation Accuracy": "69.2%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "11.8%",
+            "Project Score": "66.2%",
+            "Best Retrieval Score": "0.8597",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.54 s"
+        },
+        "project_score": 66.2,
+        "response_time": 6.54
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "83.6%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "70.3%",
+            "Faithfulness": "88.2%",
+            "Overall Score": "75.6%",
+            "Answer Accuracy": "81.9%",
+            "Citation Accuracy": "70.3%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "11.8%",
+            "Project Score": "73.9%",
+            "Best Retrieval Score": "0.8400",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.18 s"
+        },
+        "project_score": 73.9,
+        "response_time": 10.18
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 7.7,
+    "error": null
+}

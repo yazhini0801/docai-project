@@ -1,0 +1,52 @@
+{
+    "question_id": 23,
+    "question": "Describe the AI, machine learning, and IoT capabilities of Microsoft Azure, including Azure Machine Learning, Cognitive Services, Bot Services, OpenAI Service, IoT Hub, IoT Edge, Digital Twins, and Time Series Insights.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the AI, machine learning, and IoT capabilities of Microsoft Azure, including Azure Machine Learning, Cognitive Services, Bot Services, OpenAI Service, IoT Hub, IoT Edge, Digital Twins, and Time Series Insights.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -66.6%",
+        "metrics": {
+            "Answer Relevance": "87.9%",
+            "Context Relevance": "41.3%",
+            "Citation Correctness": "59.0%",
+            "Faithfulness": "96.2%",
+            "Overall Score": "75.3%",
+            "Answer Accuracy": "83.5%",
+            "Citation Accuracy": "59.0%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "3.9%",
+            "Project Score": "69.9%",
+            "Best Retrieval Score": "0.8768",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.28 s"
+        },
+        "project_score": 69.9,
+        "response_time": 5.28
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the AI, machine learning, and IoT capabilities of Microsoft Azure, including Azure Machine Learning, Cognitive Services, Bot Services, OpenAI Service, IoT Hub, IoT Edge, Digital Twins, and Time Series Insights.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -66.6%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "14.3%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "3.8%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "14.3%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "3.3%",
+            "Best Retrieval Score": "0.8132",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "6.07 s"
+        },
+        "project_score": 3.3,
+        "response_time": 6.07
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -66.6,
+    "error": null
+}

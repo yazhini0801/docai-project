@@ -1,0 +1,52 @@
+{
+    "question_id": 42,
+    "question": "How does knowledge application allow individuals to use knowledge without actually acquiring or learning it?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "49.0%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "58.3%",
+            "Faithfulness": "78.3%",
+            "Overall Score": "55.2%",
+            "Answer Accuracy": "61.6%",
+            "Citation Accuracy": "58.3%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "21.7%",
+            "Project Score": "55.8%",
+            "Best Retrieval Score": "0.8499",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.95 s"
+        },
+        "project_score": 55.8,
+        "response_time": 7.95
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "49.0%",
+            "Context Relevance": "43.3%",
+            "Citation Correctness": "34.2%",
+            "Faithfulness": "69.6%",
+            "Overall Score": "51.1%",
+            "Answer Accuracy": "52.5%",
+            "Citation Accuracy": "34.2%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "30.4%",
+            "Project Score": "47.9%",
+            "Best Retrieval Score": "0.7854",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "8.95 s"
+        },
+        "project_score": 47.9,
+        "response_time": 8.95
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -7.9,
+    "error": null
+}

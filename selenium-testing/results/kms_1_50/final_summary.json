@@ -1,0 +1,29 @@
+{
+    "batch": "KMS Questions 1-50",
+    "documents_in_folder": 3,
+    "total_tests": 50,
+    "passed": 42,
+    "failed": 8,
+    "failed_question_ids": [
+        1,
+        2,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+    ],
+    "standard_rag": {
+        "average_project_score": 52.29,
+        "wins": 16,
+        "average_response_time": 10.69
+    },
+    "rankfusion_rag": {
+        "average_project_score": 57.65,
+        "wins": 24,
+        "average_response_time": 16.14
+    },
+    "ties": 2,
+    "average_rankfusion_improvement": 5.37
+}

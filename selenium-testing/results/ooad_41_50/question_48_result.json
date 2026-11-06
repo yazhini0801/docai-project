@@ -1,0 +1,49 @@
+{
+    "question_id": 48,
+    "question": "What are the main activities involved in system development?",
+    "standard_rag": {
+        "answer": "System development activities consist of system analysis, modelling, design, implementation, testing, and maintenance.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 7)",
+        "metrics": {
+            "Answer Relevance": "58.5%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "80.8%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "71.7%",
+            "Answer Accuracy": "78.6%",
+            "Citation Accuracy": "80.8%",
+            "Retrieval Precision": "28.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "73.3%",
+            "Best Retrieval Score": "0.8820",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.31 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "System development activities consist of system analysis, modelling, design, implementation, testing, and maintenance.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 7)",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "8.9%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "8.4%",
+            "Best Retrieval Score": "0.8281",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "9.84 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -64.89999999999999
+    },
+    "test_status": "PASS"
+}

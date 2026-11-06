@@ -1,0 +1,52 @@
+{
+    "question_id": 7,
+    "question": "How can SharedPreferences and functional testing be combined to implement and verify persistent user settings in an Android application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can SharedPreferences and functional testing be combined to implement and verify persistent user settings in an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.1%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "8.3%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "2.6%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "8.3%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "2.1%",
+            "Best Retrieval Score": "0.8330",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "11.04 s"
+        },
+        "project_score": 2.1,
+        "response_time": 11.04
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can SharedPreferences and functional testing be combined to implement and verify persistent user settings in an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.1%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7933",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "22.05 s"
+        },
+        "project_score": 0.0,
+        "response_time": 22.05
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -2.1,
+    "error": null
+}

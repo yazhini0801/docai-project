@@ -1,0 +1,52 @@
+{
+    "question_id": 38,
+    "question": "How does the physical work environment influence knowledge sharing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "63.6%",
+            "Context Relevance": "38.1%",
+            "Citation Correctness": "33.6%",
+            "Faithfulness": "72.7%",
+            "Overall Score": "55.2%",
+            "Answer Accuracy": "59.3%",
+            "Citation Accuracy": "33.6%",
+            "Retrieval Precision": "34.3%",
+            "Hallucination Rate": "27.3%",
+            "Project Score": "50.5%",
+            "Best Retrieval Score": "0.8508",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "10.40 s"
+        },
+        "project_score": 50.5,
+        "response_time": 10.4
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "75.7%",
+            "Context Relevance": "47.6%",
+            "Citation Correctness": "35.1%",
+            "Faithfulness": "67.6%",
+            "Overall Score": "59.5%",
+            "Answer Accuracy": "62.7%",
+            "Citation Accuracy": "35.1%",
+            "Retrieval Precision": "47.6%",
+            "Hallucination Rate": "32.4%",
+            "Project Score": "53.8%",
+            "Best Retrieval Score": "0.8508",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "15.96 s"
+        },
+        "project_score": 53.8,
+        "response_time": 15.96
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 3.3,
+    "error": null
+}

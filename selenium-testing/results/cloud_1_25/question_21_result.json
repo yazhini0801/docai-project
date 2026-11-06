@@ -1,0 +1,52 @@
+{
+    "question_id": 21,
+    "question": "Describe Azure networking services and explain how Virtual Network, Load Balancer, VPN Gateway, ExpressRoute, and Azure CDN support cloud applications.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe Azure networking services and explain how Virtual Network, Load Balancer, VPN Gateway, ExpressRoute, and Azure CDN support cloud applications.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.5%",
+        "metrics": {
+            "Answer Relevance": "84.1%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "71.6%",
+            "Faithfulness": "90.0%",
+            "Overall Score": "76.5%",
+            "Answer Accuracy": "83.0%",
+            "Citation Accuracy": "71.6%",
+            "Retrieval Precision": "36.3%",
+            "Hallucination Rate": "10.0%",
+            "Project Score": "72.2%",
+            "Best Retrieval Score": "0.8881",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.61 s"
+        },
+        "project_score": 72.2,
+        "response_time": 3.61
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe Azure networking services and explain how Virtual Network, Load Balancer, VPN Gateway, ExpressRoute, and Azure CDN support cloud applications.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.5%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "31.3%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "7.1%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "31.3%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "6.7%",
+            "Best Retrieval Score": "0.8060",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "21.86 s"
+        },
+        "project_score": 6.7,
+        "response_time": 21.86
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -65.5,
+    "error": null
+}

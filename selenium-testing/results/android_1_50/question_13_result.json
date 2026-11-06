@@ -1,0 +1,52 @@
+{
+    "question_id": 13,
+    "question": "How can screen-size fragmentation be addressed during application design and subsequently validated using emulator and physical-device testing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can screen-size fragmentation be addressed during application design and subsequently validated using emulator and physical-device testing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -10.1%",
+        "metrics": {
+            "Answer Relevance": "66.0%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "41.6%",
+            "Faithfulness": "81.0%",
+            "Overall Score": "57.7%",
+            "Answer Accuracy": "65.1%",
+            "Citation Accuracy": "41.6%",
+            "Retrieval Precision": "22.7%",
+            "Hallucination Rate": "19.1%",
+            "Project Score": "53.9%",
+            "Best Retrieval Score": "0.8647",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.79 s"
+        },
+        "project_score": 53.9,
+        "response_time": 8.79
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can screen-size fragmentation be addressed during application design and subsequently validated using emulator and physical-device testing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -10.1%",
+        "metrics": {
+            "Answer Relevance": "60.3%",
+            "Context Relevance": "8.9%",
+            "Citation Correctness": "38.0%",
+            "Faithfulness": "64.9%",
+            "Overall Score": "46.9%",
+            "Answer Accuracy": "56.3%",
+            "Citation Accuracy": "38.0%",
+            "Retrieval Precision": "8.3%",
+            "Hallucination Rate": "35.1%",
+            "Project Score": "43.9%",
+            "Best Retrieval Score": "0.8103",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "11.02 s"
+        },
+        "project_score": 43.9,
+        "response_time": 11.02
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -10.0,
+    "error": null
+}

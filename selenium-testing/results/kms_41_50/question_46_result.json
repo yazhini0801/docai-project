@@ -1,0 +1,52 @@
+{
+    "question_id": 46,
+    "question": "How can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 54.8%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8276",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.41 s"
+        },
+        "project_score": 0.0,
+        "response_time": 4.41
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can instant messaging, online chats, voice communication, and videoconferencing support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 54.8%",
+        "metrics": {
+            "Answer Relevance": "38.2%",
+            "Context Relevance": "36.4%",
+            "Citation Correctness": "56.5%",
+            "Faithfulness": "77.3%",
+            "Overall Score": "53.2%",
+            "Answer Accuracy": "56.4%",
+            "Citation Accuracy": "56.5%",
+            "Retrieval Precision": "27.3%",
+            "Hallucination Rate": "22.7%",
+            "Project Score": "54.8%",
+            "Best Retrieval Score": "0.8035",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "9.04 s"
+        },
+        "project_score": 54.8,
+        "response_time": 9.04
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 54.8,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 44,
+    "question": "What are the advantages and disadvantages of using routines for knowledge application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using routines for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -43.5%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "26.6%",
+            "Faithfulness": "59.5%",
+            "Overall Score": "51.3%",
+            "Answer Accuracy": "56.1%",
+            "Citation Accuracy": "26.6%",
+            "Retrieval Precision": "26.7%",
+            "Hallucination Rate": "40.5%",
+            "Project Score": "43.5%",
+            "Best Retrieval Score": "0.8205",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.13 s"
+        },
+        "project_score": 43.5,
+        "response_time": 5.13
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the advantages and disadvantages of using routines for knowledge application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -43.5%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7568",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "5.99 s"
+        },
+        "project_score": 0.0,
+        "response_time": 5.99
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -43.5,
+    "error": null
+}

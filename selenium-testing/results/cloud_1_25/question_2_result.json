@@ -1,0 +1,52 @@
+{
+    "question_id": 2,
+    "question": "Describe the storage services offered by AWS and explain the purposes of Amazon S3, EBS, FSx, and Glacier.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the storage services offered by AWS and explain the purposes of Amazon S3, EBS, FSx, and Glacier.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 4.0%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "44.4%",
+            "Citation Correctness": "55.9%",
+            "Faithfulness": "97.1%",
+            "Overall Score": "70.7%",
+            "Answer Accuracy": "76.6%",
+            "Citation Accuracy": "55.9%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "2.9%",
+            "Project Score": "66.9%",
+            "Best Retrieval Score": "0.8766",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.52 s"
+        },
+        "project_score": 66.9,
+        "response_time": 8.52
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the storage services offered by AWS and explain the purposes of Amazon S3, EBS, FSx, and Glacier.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 4.0%",
+        "metrics": {
+            "Answer Relevance": "64.6%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "60.7%",
+            "Faithfulness": "97.1%",
+            "Overall Score": "70.7%",
+            "Answer Accuracy": "75.0%",
+            "Citation Accuracy": "60.7%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "2.9%",
+            "Project Score": "70.9%",
+            "Best Retrieval Score": "0.8766",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "11.94 s"
+        },
+        "project_score": 70.9,
+        "response_time": 11.94
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 4.0,
+    "error": null
+}

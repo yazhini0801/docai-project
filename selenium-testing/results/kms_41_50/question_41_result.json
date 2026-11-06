@@ -1,0 +1,52 @@
+{
+    "question_id": 41,
+    "question": "What are knowledge resources in an organization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge resources in an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.4%",
+        "metrics": {
+            "Answer Relevance": "98.5%",
+            "Context Relevance": "77.8%",
+            "Citation Correctness": "66.0%",
+            "Faithfulness": "88.9%",
+            "Overall Score": "85.0%",
+            "Answer Accuracy": "87.0%",
+            "Citation Accuracy": "66.0%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "11.1%",
+            "Project Score": "76.7%",
+            "Best Retrieval Score": "0.8366",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.22 s"
+        },
+        "project_score": 76.7,
+        "response_time": 9.22
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge resources in an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.4%",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "62.6%",
+            "Faithfulness": "78.3%",
+            "Overall Score": "79.3%",
+            "Answer Accuracy": "83.0%",
+            "Citation Accuracy": "62.6%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "21.7%",
+            "Project Score": "70.4%",
+            "Best Retrieval Score": "0.8364",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "8.19 s"
+        },
+        "project_score": 70.4,
+        "response_time": 8.19
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -6.3,
+    "error": null
+}

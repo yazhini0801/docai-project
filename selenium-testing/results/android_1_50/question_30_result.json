@@ -1,0 +1,52 @@
+{
+    "question_id": 30,
+    "question": "An application must run on devices with different screen sizes, OS versions, and hardware capabilities. Explain how emulator, physical-device, and cloud testing can be combined to validate it.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application must run on devices with different screen sizes, OS versions, and hardware capabilities. Explain how emulator, physical-device, and cloud testing can be combined to validate it.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+        "metrics": {
+            "Answer Relevance": "74.5%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "43.8%",
+            "Faithfulness": "78.8%",
+            "Overall Score": "62.8%",
+            "Answer Accuracy": "68.3%",
+            "Citation Accuracy": "43.8%",
+            "Retrieval Precision": "33.0%",
+            "Hallucination Rate": "21.1%",
+            "Project Score": "57.2%",
+            "Best Retrieval Score": "0.8358",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.46 s"
+        },
+        "project_score": 57.2,
+        "response_time": 4.46
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application must run on devices with different screen sizes, OS versions, and hardware capabilities. Explain how emulator, physical-device, and cloud testing can be combined to validate it.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+        "metrics": {
+            "Answer Relevance": "74.5%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "45.6%",
+            "Faithfulness": "81.5%",
+            "Overall Score": "62.6%",
+            "Answer Accuracy": "69.7%",
+            "Citation Accuracy": "45.6%",
+            "Retrieval Precision": "26.0%",
+            "Hallucination Rate": "18.5%",
+            "Project Score": "57.3%",
+            "Best Retrieval Score": "0.8358",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.51 s"
+        },
+        "project_score": 57.3,
+        "response_time": 6.51
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 0.1,
+    "error": null
+}

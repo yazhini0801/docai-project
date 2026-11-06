@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is knowledge management and what activities does it involve?"
+  },
+  {
+    "id": 2,
+    "question": "What are the four levels of knowledge management solutions?"
+  },
+  {
+    "id": 3,
+    "question": "What are the four main knowledge management processes?"
+  },
+  {
+    "id": 4,
+    "question": "What is knowledge discovery and what are its two subprocesses?"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between externalization and internalization?"
+  },
+  {
+    "id": 6,
+    "question": "What is knowledge sharing and what is required for effective knowledge transfer?"
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between direction and routines in knowledge application?"
+  },
+  {
+    "id": 8,
+    "question": "What are knowledge management mechanisms and how do they facilitate knowledge management?"
+  },
+  {
+    "id": 9,
+    "question": "What are the five main components of knowledge management infrastructure?"
+  },
+  {
+    "id": 10,
+    "question": "What are reach, depth, richness, and aggregation in IT infrastructure?"
+  }
+]

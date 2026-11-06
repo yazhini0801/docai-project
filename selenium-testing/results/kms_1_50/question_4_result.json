@@ -1,0 +1,52 @@
+{
+    "question_id": 4,
+    "question": "What is knowledge discovery and what are its two subprocesses?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "70.8%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "84.4%",
+            "Answer Accuracy": "88.9%",
+            "Citation Accuracy": "70.8%",
+            "Retrieval Precision": "45.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "76.5%",
+            "Best Retrieval Score": "0.8190",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.92 s"
+        },
+        "project_score": 76.5,
+        "response_time": 5.92
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "95.5%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "80.4%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "89.7%",
+            "Answer Accuracy": "93.3%",
+            "Citation Accuracy": "80.4%",
+            "Retrieval Precision": "68.8%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "86.5%",
+            "Best Retrieval Score": "0.8087",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "25.98 s"
+        },
+        "project_score": 86.5,
+        "response_time": 25.98
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 10.0,
+    "error": null
+}

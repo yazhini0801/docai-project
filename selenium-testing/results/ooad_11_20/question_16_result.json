@@ -1,0 +1,49 @@
+{
+    "question_id": 16,
+    "question": "What are the main workflows of the Unified Process?",
+    "standard_rag": {
+        "answer": "The workflows of the Unified Process are:\n* Requirements Workflow\n* Analysis and Design Workflow\n* Implementation Workflow\n* Test Workflow\n* Deployment Workflow\n* Configuration and Change Management\n* Project Management Workflow\n* Environment Workflow\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 57)",
+        "metrics": {
+            "Answer Relevance": "75.0%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "84.0%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "84.3%",
+            "Answer Accuracy": "86.0%",
+            "Citation Accuracy": "84.0%",
+            "Retrieval Precision": "65.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "84.1%",
+            "Best Retrieval Score": "0.9011",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.97 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The workflows of the Unified Process are:\n* Requirements Workflow\n* Analysis and Design Workflow\n* Implementation Workflow\n* Test Workflow\n* Deployment Workflow\n* Configuration and Change Management\n* Project Management Workflow\n* Environment Workflow\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 57)",
+        "metrics": {
+            "Answer Relevance": "75.0%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "84.0%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "84.3%",
+            "Answer Accuracy": "86.0%",
+            "Citation Accuracy": "84.0%",
+            "Retrieval Precision": "65.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "84.1%",
+            "Best Retrieval Score": "0.9011",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "5.42 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Tie",
+        "rankfusion_improvement": 0.0
+    },
+    "test_status": "PASS"
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 24,
+    "question": "How can device feature detection during application design and compatibility testing during validation work together to handle Android hardware fragmentation?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can device feature detection during application design and compatibility testing during validation work together to handle Android hardware fragmentation?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.3%",
+        "metrics": {
+            "Answer Relevance": "62.8%",
+            "Context Relevance": "31.3%",
+            "Citation Correctness": "29.8%",
+            "Faithfulness": "59.5%",
+            "Overall Score": "48.9%",
+            "Answer Accuracy": "53.4%",
+            "Citation Accuracy": "29.8%",
+            "Retrieval Precision": "28.7%",
+            "Hallucination Rate": "40.5%",
+            "Project Score": "43.8%",
+            "Best Retrieval Score": "0.8622",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.31 s"
+        },
+        "project_score": 43.8,
+        "response_time": 13.31
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can device feature detection during application design and compatibility testing during validation work together to handle Android hardware fragmentation?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.3%",
+        "metrics": {
+            "Answer Relevance": "52.2%",
+            "Context Relevance": "29.2%",
+            "Citation Correctness": "43.4%",
+            "Faithfulness": "76.3%",
+            "Overall Score": "53.1%",
+            "Answer Accuracy": "58.4%",
+            "Citation Accuracy": "43.4%",
+            "Retrieval Precision": "27.5%",
+            "Hallucination Rate": "23.7%",
+            "Project Score": "52.1%",
+            "Best Retrieval Score": "0.8484",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "9.94 s"
+        },
+        "project_score": 52.1,
+        "response_time": 9.94
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 8.3,
+    "error": null
+}

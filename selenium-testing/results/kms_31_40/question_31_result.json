@@ -1,0 +1,52 @@
+{
+    "question_id": 31,
+    "question": "What specialized roles can organizations create to support knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat specialized roles can organizations create to support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 72.8%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8411",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.29 s"
+        },
+        "project_score": 0.0,
+        "response_time": 5.29
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat specialized roles can organizations create to support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 72.8%",
+        "metrics": {
+            "Answer Relevance": "59.1%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "75.0%",
+            "Faithfulness": "75.0%",
+            "Overall Score": "70.2%",
+            "Answer Accuracy": "68.7%",
+            "Citation Accuracy": "75.0%",
+            "Retrieval Precision": "75.0%",
+            "Hallucination Rate": "25.0%",
+            "Project Score": "72.8%",
+            "Best Retrieval Score": "0.8206",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "11.67 s"
+        },
+        "project_score": 72.8,
+        "response_time": 11.67
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 72.8,
+    "error": null
+}

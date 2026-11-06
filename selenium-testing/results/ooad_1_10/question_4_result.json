@@ -1,0 +1,49 @@
+{
+    "question_id": 4,
+    "question": "What is encapsulation, and what is data hiding?",
+    "standard_rag": {
+        "answer": "Encapsulation is the packaging of related data and operations together. Data hiding refers to the practice of hiding internal data from external access through the use of methods (interfaces).\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 39)",
+        "metrics": {
+            "Answer Relevance": "97.0%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "49.0%",
+            "Faithfulness": "62.5%",
+            "Overall Score": "68.8%",
+            "Answer Accuracy": "72.9%",
+            "Citation Accuracy": "49.0%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "37.5%",
+            "Project Score": "56.9%",
+            "Best Retrieval Score": "0.9283",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.05 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Encapsulation is the packaging of related data and operations together. Data hiding refers to the practice of hiding internal data from external access through the use of methods (interfaces).\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 39)",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "57.3%",
+            "Faithfulness": "73.3%",
+            "Overall Score": "73.5%",
+            "Answer Accuracy": "78.5%",
+            "Citation Accuracy": "57.3%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "26.7%",
+            "Project Score": "63.1%",
+            "Best Retrieval Score": "0.9283",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "13.52 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 6.200000000000003
+    },
+    "test_status": "PASS"
+}

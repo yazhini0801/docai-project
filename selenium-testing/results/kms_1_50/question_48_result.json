@@ -1,0 +1,10 @@
+{
+    "question_id": 48,
+    "question": "How can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?",
+    "status": "FAIL",
+    "standard_rag": {},
+    "rankfusion_rag": {},
+    "winner": null,
+    "rankfusion_improvement": null,
+    "error": "Alert Text: Gemini API quota/rate limit reached. Please wait before trying again.\nMessage: unexpected alert open: {Alert text : Gemini API quota/rate limit reached. Please wait before trying again.}\n  (Session info: chrome=153.0.8010.53)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff745ee1035+5a95]\n\tchromedriver!(No symbol) [0x7ff745e02c70]\n\tchromedriver!(No symbol) [0x7ff745c24a7d]\n\tchromedriver!(No symbol) [0x7ff745cd0631]\n\tchromedriver!(No symbol) [0x7ff745c71d02]\n\tchromedriver!(No symbol) [0x7ff745c72b13]\n\tchromedriver!GetHandleVerifier [0x7ff746301411+425e71]\n\tchromedriver!GetHandleVerifier [0x7ff74632ca47+4514a7]\n\tchromedriver!GetHandleVerifier [0x7ff74632094e+4453ae]\n\tchromedriver!GetHandleVerifier [0x7ff745fdbf6e+1009ce]\n\tchromedriver!(No symbol) [0x7ff745e10a05]\n\tchromedriver!(No symbol) [0x7ff745e0bcf4]\n\tchromedriver!(No symbol) [0x7ff745e0be84]\n\tchromedriver!(No symbol) [0x7ff745df66ac]\n\tKERNEL32!BaseThreadInitThunk [0x7ff96e60cd87+17]\n\tntdll!RtlUserThreadStart [0x7ff96f72caec+2c]\n"
+}

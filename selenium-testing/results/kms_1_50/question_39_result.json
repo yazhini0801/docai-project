@@ -1,0 +1,52 @@
+{
+    "question_id": 39,
+    "question": "How can office and meeting-space design encourage informal knowledge exchange?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "29.6%",
+            "Citation Correctness": "39.6%",
+            "Faithfulness": "70.3%",
+            "Overall Score": "64.9%",
+            "Answer Accuracy": "74.5%",
+            "Citation Accuracy": "39.6%",
+            "Retrieval Precision": "22.2%",
+            "Hallucination Rate": "29.7%",
+            "Project Score": "54.5%",
+            "Best Retrieval Score": "0.8512",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.15 s"
+        },
+        "project_score": 54.5,
+        "response_time": 13.15
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "31.6%",
+            "Faithfulness": "63.0%",
+            "Overall Score": "61.9%",
+            "Answer Accuracy": "70.0%",
+            "Citation Accuracy": "31.6%",
+            "Retrieval Precision": "25.0%",
+            "Hallucination Rate": "37.0%",
+            "Project Score": "50.0%",
+            "Best Retrieval Score": "0.8512",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "16.00 s"
+        },
+        "project_score": 50.0,
+        "response_time": 16.0
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -4.5,
+    "error": null
+}

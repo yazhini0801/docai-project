@@ -1,0 +1,52 @@
+{
+    "question_id": 11,
+    "question": "What is combination in knowledge discovery?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is combination in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "100.0%",
+            "Citation Correctness": "62.7%",
+            "Faithfulness": "79.2%",
+            "Overall Score": "86.3%",
+            "Answer Accuracy": "83.4%",
+            "Citation Accuracy": "62.7%",
+            "Retrieval Precision": "86.7%",
+            "Hallucination Rate": "20.8%",
+            "Project Score": "78.0%",
+            "Best Retrieval Score": "0.8106",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.77 s"
+        },
+        "project_score": 78.0,
+        "response_time": 5.77
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is combination in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "100.0%",
+            "Citation Correctness": "64.5%",
+            "Faithfulness": "90.0%",
+            "Overall Score": "81.4%",
+            "Answer Accuracy": "76.3%",
+            "Citation Accuracy": "64.5%",
+            "Retrieval Precision": "86.7%",
+            "Hallucination Rate": "10.0%",
+            "Project Score": "78.2%",
+            "Best Retrieval Score": "0.8106",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.96 s"
+        },
+        "project_score": 78.2,
+        "response_time": 6.96
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 0.2,
+    "error": null
+}

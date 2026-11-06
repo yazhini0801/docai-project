@@ -1,0 +1,52 @@
+{
+    "question_id": 31,
+    "question": "How can Appium be used as part of a compatibility-testing strategy for an Android application that must operate across multiple devices and configurations?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Appium be used as part of a compatibility-testing strategy for an Android application that must operate across multiple devices and configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -47.0%",
+        "metrics": {
+            "Answer Relevance": "54.7%",
+            "Context Relevance": "28.9%",
+            "Citation Correctness": "27.8%",
+            "Faithfulness": "78.8%",
+            "Overall Score": "51.4%",
+            "Answer Accuracy": "56.4%",
+            "Citation Accuracy": "27.8%",
+            "Retrieval Precision": "22.7%",
+            "Hallucination Rate": "21.2%",
+            "Project Score": "47.0%",
+            "Best Retrieval Score": "0.8457",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.34 s"
+        },
+        "project_score": 47.0,
+        "response_time": 6.34
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Appium be used as part of a compatibility-testing strategy for an Android application that must operate across multiple devices and configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -47.0%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7868",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.25 s"
+        },
+        "project_score": 0.0,
+        "response_time": 6.25
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -47.0,
+    "error": null
+}

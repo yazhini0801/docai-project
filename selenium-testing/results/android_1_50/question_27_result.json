@@ -1,0 +1,52 @@
+{
+    "question_id": 27,
+    "question": "How can Firebase Test Lab, BrowserStack, and Sauce Labs complement local emulator and physical-device testing when validating an Android application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Firebase Test Lab, BrowserStack, and Sauce Labs complement local emulator and physical-device testing when validating an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.9%",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "37.9%",
+            "Faithfulness": "55.6%",
+            "Overall Score": "50.6%",
+            "Answer Accuracy": "51.9%",
+            "Citation Accuracy": "37.9%",
+            "Retrieval Precision": "37.5%",
+            "Hallucination Rate": "44.4%",
+            "Project Score": "46.2%",
+            "Best Retrieval Score": "0.8629",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.26 s"
+        },
+        "project_score": 46.2,
+        "response_time": 6.26
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Firebase Test Lab, BrowserStack, and Sauce Labs complement local emulator and physical-device testing when validating an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.9%",
+        "metrics": {
+            "Answer Relevance": "73.4%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "43.8%",
+            "Faithfulness": "58.6%",
+            "Overall Score": "57.5%",
+            "Answer Accuracy": "60.8%",
+            "Citation Accuracy": "43.8%",
+            "Retrieval Precision": "45.8%",
+            "Hallucination Rate": "41.4%",
+            "Project Score": "53.1%",
+            "Best Retrieval Score": "0.8629",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "19.00 s"
+        },
+        "project_score": 53.1,
+        "response_time": 19.0
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 6.9,
+    "error": null
+}

@@ -1,0 +1,49 @@
+{
+    "question_id": 3,
+    "question": "What is the difference between aggregation and composition?",
+    "standard_rag": {
+        "answer": "Composition is a strong form of aggregation where components have only one owner, cannot exist independently of their owner, and live or die with it. Aggregation is a more informal \"part-of\" relationship where parts may not be essential to the aggregate and can exist independently of it. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 34)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "63.2%",
+            "Faithfulness": "92.0%",
+            "Overall Score": "67.5%",
+            "Answer Accuracy": "71.0%",
+            "Citation Accuracy": "63.2%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "8.0%",
+            "Project Score": "66.0%",
+            "Best Retrieval Score": "0.9042",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.86 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Composition is a strong form of aggregation where components have only one owner, cannot exist independently of their owner, and live or die with it. Aggregation is a more informal \"part-of\" relationship where parts may not be essential to the aggregate and can exist independently of it. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 34)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "41.7%",
+            "Citation Correctness": "67.9%",
+            "Faithfulness": "95.7%",
+            "Overall Score": "67.9%",
+            "Answer Accuracy": "73.5%",
+            "Citation Accuracy": "67.9%",
+            "Retrieval Precision": "37.5%",
+            "Hallucination Rate": "4.3%",
+            "Project Score": "69.3%",
+            "Best Retrieval Score": "0.9042",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "14.24 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 3.299999999999997
+    },
+    "test_status": "PASS"
+}

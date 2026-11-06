@@ -1,0 +1,52 @@
+{
+    "question_id": 41,
+    "question": "Explain the differences between infrastructure-oriented cloud services such as AWS EC2 and Azure Virtual Machines and a managed Platform-as-a-Service such as Google App Engine.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the differences between infrastructure-oriented cloud services such as AWS EC2 and Azure Virtual Machines and a managed Platform-as-a-Service such as Google App Engine.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 62.9%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8397",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.58 s"
+        },
+        "project_score": 0.0,
+        "response_time": 8.58
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the differences between infrastructure-oriented cloud services such as AWS EC2 and Azure Virtual Machines and a managed Platform-as-a-Service such as Google App Engine.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 62.9%",
+        "metrics": {
+            "Answer Relevance": "73.2%",
+            "Context Relevance": "40.4%",
+            "Citation Correctness": "53.0%",
+            "Faithfulness": "86.7%",
+            "Overall Score": "66.6%",
+            "Answer Accuracy": "72.9%",
+            "Citation Accuracy": "53.0%",
+            "Retrieval Precision": "34.2%",
+            "Hallucination Rate": "13.3%",
+            "Project Score": "62.9%",
+            "Best Retrieval Score": "0.8397",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "6.24 s"
+        },
+        "project_score": 62.9,
+        "response_time": 6.24
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 62.9,
+    "error": null
+}

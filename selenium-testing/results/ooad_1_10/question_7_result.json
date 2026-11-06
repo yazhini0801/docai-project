@@ -1,0 +1,49 @@
+{
+    "question_id": 7,
+    "question": "What is the difference between verification and validation?",
+    "standard_rag": {
+        "answer": "Verification is the exercise of determining correctness (ensuring you are building the product right), while validation is the task of predicting correspondence (ensuring you are building the right product). Verification begins after the specification is accepted, whereas validation begins as soon as the project starts.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 65)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "44.2%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "60.6%",
+            "Answer Accuracy": "62.7%",
+            "Citation Accuracy": "44.2%",
+            "Retrieval Precision": "30.0%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "55.4%",
+            "Best Retrieval Score": "0.8927",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.61 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Verification is the exercise of determining correctness (ensuring you are building the product right), while validation is the task of predicting correspondence (ensuring you are building the right product). Verification begins after the specification is accepted, whereas validation begins as soon as the project starts.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 65)",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "55.2%",
+            "Faithfulness": "82.6%",
+            "Overall Score": "63.1%",
+            "Answer Accuracy": "65.7%",
+            "Citation Accuracy": "55.2%",
+            "Retrieval Precision": "30.0%",
+            "Hallucination Rate": "17.4%",
+            "Project Score": "59.3%",
+            "Best Retrieval Score": "0.8927",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.19 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 3.8999999999999986
+    },
+    "test_status": "PASS"
+}

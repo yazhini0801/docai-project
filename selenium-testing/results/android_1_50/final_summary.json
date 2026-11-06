@@ -1,0 +1,21 @@
+{
+    "batch": "Android Programming Questions 1-50",
+    "documents_in_folder": 3,
+    "total_document_pages": 90,
+    "total_tests": 50,
+    "passed": 50,
+    "failed": 0,
+    "failed_question_ids": [],
+    "standard_rag": {
+        "average_project_score": 39.72,
+        "wins": 19,
+        "average_response_time": 9.33
+    },
+    "rankfusion_rag": {
+        "average_project_score": 44.37,
+        "wins": 27,
+        "average_response_time": 18.65
+    },
+    "ties": 4,
+    "average_rankfusion_improvement": 4.65
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 37,
+    "question": "How can common knowledge make it more difficult for competitors to obtain and use an organization's knowledge?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can common knowledge make it more difficult for competitors to obtain and use an organization's knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 18.8%",
+        "metrics": {
+            "Answer Relevance": "40.8%",
+            "Context Relevance": "36.7%",
+            "Citation Correctness": "48.2%",
+            "Faithfulness": "66.7%",
+            "Overall Score": "49.2%",
+            "Answer Accuracy": "51.7%",
+            "Citation Accuracy": "48.2%",
+            "Retrieval Precision": "28.0%",
+            "Hallucination Rate": "33.3%",
+            "Project Score": "49.1%",
+            "Best Retrieval Score": "0.8611",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.70 s"
+        },
+        "project_score": 49.1,
+        "response_time": 4.7
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can common knowledge make it more difficult for competitors to obtain and use an organization's knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 18.8%",
+        "metrics": {
+            "Answer Relevance": "42.3%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "81.8%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "61.6%",
+            "Answer Accuracy": "66.0%",
+            "Citation Accuracy": "81.8%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "67.9%",
+            "Best Retrieval Score": "0.7991",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "6.89 s"
+        },
+        "project_score": 67.9,
+        "response_time": 6.89
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 18.8,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 10,
+    "question": "An application allows users to configure settings that persist between sessions and must work on phones and tablets. Explain how preferences, responsive design, and testing can address these requirements together.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application allows users to configure settings that persist between sessions and must work on phones and tablets. Explain how preferences, responsive design, and testing can address these requirements together.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.0%",
+        "metrics": {
+            "Answer Relevance": "55.5%",
+            "Context Relevance": "11.1%",
+            "Citation Correctness": "32.1%",
+            "Faithfulness": "58.6%",
+            "Overall Score": "42.9%",
+            "Answer Accuracy": "50.7%",
+            "Citation Accuracy": "32.1%",
+            "Retrieval Precision": "8.6%",
+            "Hallucination Rate": "41.4%",
+            "Project Score": "39.2%",
+            "Best Retrieval Score": "0.7969",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.27 s"
+        },
+        "project_score": 39.2,
+        "response_time": 7.27
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nAn application allows users to configure settings that persist between sessions and must work on phones and tablets. Explain how preferences, responsive design, and testing can address these requirements together.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.0%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "11.1%",
+            "Citation Correctness": "25.2%",
+            "Faithfulness": "68.1%",
+            "Overall Score": "49.2%",
+            "Answer Accuracy": "58.8%",
+            "Citation Accuracy": "25.2%",
+            "Retrieval Precision": "8.6%",
+            "Hallucination Rate": "31.9%",
+            "Project Score": "42.2%",
+            "Best Retrieval Score": "0.7746",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "16.08 s"
+        },
+        "project_score": 42.2,
+        "response_time": 16.08
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 3.0,
+    "error": null
+}

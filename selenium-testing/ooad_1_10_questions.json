@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "What is Object-Oriented Analysis and Design (OOAD)?"
+    },
+    {
+        "id": 2,
+        "question": "What are the main benefits of object orientation?"
+    },
+    {
+        "id": 3,
+        "question": "What is the difference between aggregation and composition?"
+    },
+    {
+        "id": 4,
+        "question": "What is encapsulation, and what is data hiding?"
+    },
+    {
+        "id": 5,
+        "question": "What is polymorphism?"
+    },
+    {
+        "id": 6,
+        "question": "What are the four phases of the Unified Process?"
+    },
+    {
+        "id": 7,
+        "question": "What is the difference between verification and validation?"
+    },
+    {
+        "id": 8,
+        "question": "What are the different categories of prototypes?"
+    },
+    {
+        "id": 9,
+        "question": "What are the three models used in Rumbaugh's Object Modeling Technique (OMT)?"
+    },
+    {
+        "id": 10,
+        "question": "What are the steps in the Booch micro development process?"
+    }
+]

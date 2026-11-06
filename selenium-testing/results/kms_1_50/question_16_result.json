@@ -1,0 +1,52 @@
+{
+    "question_id": 16,
+    "question": "What are the four types of knowledge management systems?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "91.8%",
+            "Context Relevance": "46.7%",
+            "Citation Correctness": "65.1%",
+            "Faithfulness": "77.8%",
+            "Overall Score": "73.2%",
+            "Answer Accuracy": "80.2%",
+            "Citation Accuracy": "65.1%",
+            "Retrieval Precision": "32.0%",
+            "Hallucination Rate": "22.2%",
+            "Project Score": "66.3%",
+            "Best Retrieval Score": "0.8599",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.03 s"
+        },
+        "project_score": 66.3,
+        "response_time": 13.03
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "91.8%",
+            "Context Relevance": "60.0%",
+            "Citation Correctness": "77.8%",
+            "Faithfulness": "77.8%",
+            "Overall Score": "78.4%",
+            "Answer Accuracy": "83.4%",
+            "Citation Accuracy": "77.8%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "22.2%",
+            "Project Score": "76.2%",
+            "Best Retrieval Score": "0.8214",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "15.46 s"
+        },
+        "project_score": 76.2,
+        "response_time": 15.46
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 9.9,
+    "error": null
+}

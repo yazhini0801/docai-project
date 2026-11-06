@@ -1,0 +1,52 @@
+{
+    "question_id": 41,
+    "question": "What are knowledge resources in an organization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "77.8%",
+            "Citation Correctness": "67.3%",
+            "Faithfulness": "90.0%",
+            "Overall Score": "86.0%",
+            "Answer Accuracy": "88.3%",
+            "Citation Accuracy": "67.3%",
+            "Retrieval Precision": "60.0%",
+            "Hallucination Rate": "10.0%",
+            "Project Score": "77.7%",
+            "Best Retrieval Score": "0.8366",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.08 s"
+        },
+        "project_score": 77.7,
+        "response_time": 6.08
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "44.4%",
+            "Citation Correctness": "57.0%",
+            "Faithfulness": "75.0%",
+            "Overall Score": "72.8%",
+            "Answer Accuracy": "80.5%",
+            "Citation Accuracy": "57.0%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "25.0%",
+            "Project Score": "64.1%",
+            "Best Retrieval Score": "0.8326",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "32.66 s"
+        },
+        "project_score": 64.1,
+        "response_time": 32.66
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -13.6,
+    "error": null
+}

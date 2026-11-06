@@ -1,0 +1,52 @@
+{
+    "question_id": 10,
+    "question": "Compare the compute, storage, database, networking, security, and AI services provided by AWS and Microsoft Azure.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare the compute, storage, database, networking, security, and AI services provided by AWS and Microsoft Azure.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.3%",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "52.8%",
+            "Citation Correctness": "30.7%",
+            "Faithfulness": "74.4%",
+            "Overall Score": "64.8%",
+            "Answer Accuracy": "68.1%",
+            "Citation Accuracy": "30.7%",
+            "Retrieval Precision": "41.7%",
+            "Hallucination Rate": "25.6%",
+            "Project Score": "54.7%",
+            "Best Retrieval Score": "0.8854",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.18 s"
+        },
+        "project_score": 54.7,
+        "response_time": 7.18
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nCompare the compute, storage, database, networking, security, and AI services provided by AWS and Microsoft Azure.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.3%",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "23.9%",
+            "Faithfulness": "75.4%",
+            "Overall Score": "59.8%",
+            "Answer Accuracy": "66.7%",
+            "Citation Accuracy": "23.9%",
+            "Retrieval Precision": "30.0%",
+            "Hallucination Rate": "24.6%",
+            "Project Score": "50.4%",
+            "Best Retrieval Score": "0.8253",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.41 s"
+        },
+        "project_score": 50.4,
+        "response_time": 7.41
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -4.3,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 47,
+    "question": "How can learning by doing, on-the-job training, and observation help individuals internalize knowledge?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can learning by doing, on-the-job training, and observation help individuals internalize knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 26.5%",
+        "metrics": {
+            "Answer Relevance": "29.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "19.7%",
+            "Faithfulness": "47.1%",
+            "Overall Score": "33.6%",
+            "Answer Accuracy": "33.3%",
+            "Citation Accuracy": "19.7%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "52.9%",
+            "Project Score": "30.0%",
+            "Best Retrieval Score": "0.8056",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.17 s"
+        },
+        "project_score": 30.0,
+        "response_time": 7.17
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can learning by doing, on-the-job training, and observation help individuals internalize knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 26.5%",
+        "metrics": {
+            "Answer Relevance": "26.0%",
+            "Context Relevance": "53.3%",
+            "Citation Correctness": "53.3%",
+            "Faithfulness": "75.0%",
+            "Overall Score": "51.6%",
+            "Answer Accuracy": "50.0%",
+            "Citation Accuracy": "53.3%",
+            "Retrieval Precision": "53.3%",
+            "Hallucination Rate": "25.0%",
+            "Project Score": "56.5%",
+            "Best Retrieval Score": "0.8006",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "8.09 s"
+        },
+        "project_score": 56.5,
+        "response_time": 8.09
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 26.5,
+    "error": null
+}

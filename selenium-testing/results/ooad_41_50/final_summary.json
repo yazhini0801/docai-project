@@ -1,0 +1,18 @@
+{
+    "batch": "OOAD Questions 41-50",
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "standard_rag": {
+        "average_project_score": 66.98,
+        "wins": 7,
+        "average_response_time": 5.13
+    },
+    "rankfusion_rag": {
+        "average_project_score": 45.78,
+        "wins": 3,
+        "average_response_time": 7.13
+    },
+    "ties": 0,
+    "average_rankfusion_improvement": -21.2
+}

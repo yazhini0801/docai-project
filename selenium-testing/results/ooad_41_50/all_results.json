@@ -1,0 +1,492 @@
+[
+    {
+        "question_id": 41,
+        "question": "What is an object, and what are its main characteristics?",
+        "standard_rag": {
+            "answer": "An object is an entity that represents a particular instance of a class. Its main characteristics include:\n*   **Attributes:** Data items or properties that describe the object’s state.\n*   **Methods:** Functions or procedures that define the object's behavior (the services it provides).\n*   **Identity:** Every object has its own unique and immutable identity that is created upon the object's creation and is never confused with another object.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+            "metrics": {
+                "Answer Relevance": "100.0%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "36.9%",
+                "Faithfulness": "82.3%",
+                "Overall Score": "68.8%",
+                "Answer Accuracy": "78.1%",
+                "Citation Accuracy": "36.9%",
+                "Retrieval Precision": "33.3%",
+                "Hallucination Rate": "17.6%",
+                "Project Score": "59.7%",
+                "Best Retrieval Score": "0.8360",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.85 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "An object is an entity that represents a particular instance of a class. Its main characteristics include:\n*   **Attributes:** Data items or properties that describe the object’s state.\n*   **Methods:** Functions or procedures that define the object's behavior (the services it provides).\n*   **Identity:** Every object has its own unique and immutable identity that is created upon the object's creation and is never confused with another object.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+            "metrics": {
+                "Answer Relevance": "96.3%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "49.0%",
+                "Faithfulness": "80.0%",
+                "Overall Score": "69.3%",
+                "Answer Accuracy": "78.8%",
+                "Citation Accuracy": "49.0%",
+                "Retrieval Precision": "25.0%",
+                "Hallucination Rate": "20.0%",
+                "Project Score": "60.8%",
+                "Best Retrieval Score": "0.7935",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "5.35 s"
+            }
+        },
+        "comparison": {
+            "better_result": "RankFusion-RAG",
+            "rankfusion_improvement": 1.0999999999999943
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 42,
+        "question": "What is the state and behavior of an object?",
+        "standard_rag": {
+            "answer": "Attributes describe an object's state (data), and methods define its behavior.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+            "metrics": {
+                "Answer Relevance": "91.0%",
+                "Context Relevance": "77.8%",
+                "Citation Correctness": "91.0%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "91.1%",
+                "Answer Accuracy": "94.2%",
+                "Citation Accuracy": "91.0%",
+                "Retrieval Precision": "60.0%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "87.7%",
+                "Best Retrieval Score": "0.8622",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.68 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "Attributes describe an object's state (data), and methods define its behavior.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+            "metrics": {
+                "Answer Relevance": "94.0%",
+                "Context Relevance": "55.6%",
+                "Citation Correctness": "63.5%",
+                "Faithfulness": "83.3%",
+                "Overall Score": "77.0%",
+                "Answer Accuracy": "82.6%",
+                "Citation Accuracy": "63.5%",
+                "Retrieval Precision": "46.7%",
+                "Hallucination Rate": "16.7%",
+                "Project Score": "70.8%",
+                "Best Retrieval Score": "0.8613",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "7.39 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -16.900000000000006
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 43,
+        "question": "What is an association end or role in an object-oriented relationship?",
+        "standard_rag": {
+            "answer": "An association end represents a role (such as \"enrolls\") within an association between two classes. It defines how instances of classes relate to one another.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 29)",
+            "metrics": {
+                "Answer Relevance": "53.8%",
+                "Context Relevance": "38.9%",
+                "Citation Correctness": "42.5%",
+                "Faithfulness": "53.3%",
+                "Overall Score": "48.4%",
+                "Answer Accuracy": "50.8%",
+                "Citation Accuracy": "42.5%",
+                "Retrieval Precision": "26.7%",
+                "Hallucination Rate": "46.7%",
+                "Project Score": "44.4%",
+                "Best Retrieval Score": "0.8702",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.58 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "An association end represents a role (such as \"enrolls\") within an association between two classes. It defines how instances of classes relate to one another.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 29)",
+            "metrics": {
+                "Answer Relevance": "3.0%",
+                "Context Relevance": "16.7%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "4.2%",
+                "Answer Accuracy": "1.2%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "16.7%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "3.8%",
+                "Best Retrieval Score": "0.7870",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "1",
+                "Response Time": "5.02 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -40.6
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 44,
+        "question": "What is the purpose of prototyping in object-oriented system development?",
+        "standard_rag": {
+            "answer": "Prototyping is used for specific, experimental purposes to understand the difficulty of implementing system features, allow users to comment on the usability and usefulness of the user interface, assess the fit between software tools, functional specifications, and user needs, and further define use cases to simplify use case modeling. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 75)",
+            "metrics": {
+                "Answer Relevance": "43.3%",
+                "Context Relevance": "72.2%",
+                "Citation Correctness": "64.4%",
+                "Faithfulness": "84.4%",
+                "Overall Score": "65.6%",
+                "Answer Accuracy": "63.0%",
+                "Citation Accuracy": "64.4%",
+                "Retrieval Precision": "60.0%",
+                "Hallucination Rate": "15.6%",
+                "Project Score": "67.0%",
+                "Best Retrieval Score": "0.8975",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.38 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "Prototyping is used for specific, experimental purposes to understand the difficulty of implementing system features, allow users to comment on the usability and usefulness of the user interface, assess the fit between software tools, functional specifications, and user needs, and further define use cases to simplify use case modeling. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 75)",
+            "metrics": {
+                "Answer Relevance": "57.5%",
+                "Context Relevance": "72.2%",
+                "Citation Correctness": "52.5%",
+                "Faithfulness": "68.8%",
+                "Overall Score": "62.8%",
+                "Answer Accuracy": "60.2%",
+                "Citation Accuracy": "52.5%",
+                "Retrieval Precision": "60.0%",
+                "Hallucination Rate": "31.3%",
+                "Project Score": "59.9%",
+                "Best Retrieval Score": "0.8975",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "6.59 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -7.100000000000001
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 45,
+        "question": "What are the benefits of the Unified Process?",
+        "standard_rag": {
+            "answer": "The Unified Process makes complex software projects more manageable by breaking them into smaller, iterative chunks, boosts communication through clear guidelines and workflows, and emphasizes continuous feedback to produce high-quality software that meets requirements.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 53)",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "77.8%",
+                "Citation Correctness": "60.5%",
+                "Faithfulness": "77.8%",
+                "Overall Score": "72.5%",
+                "Answer Accuracy": "71.0%",
+                "Citation Accuracy": "60.5%",
+                "Retrieval Precision": "73.3%",
+                "Hallucination Rate": "22.2%",
+                "Project Score": "70.2%",
+                "Best Retrieval Score": "0.8862",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.85 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "The Unified Process makes complex software projects more manageable by breaking them into smaller, iterative chunks, boosts communication through clear guidelines and workflows, and emphasizes continuous feedback to produce high-quality software that meets requirements.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 53)",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "77.8%",
+                "Citation Correctness": "63.3%",
+                "Faithfulness": "81.5%",
+                "Overall Score": "74.2%",
+                "Answer Accuracy": "73.0%",
+                "Citation Accuracy": "63.3%",
+                "Retrieval Precision": "73.3%",
+                "Hallucination Rate": "18.5%",
+                "Project Score": "72.4%",
+                "Best Retrieval Score": "0.8862",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "8.40 s"
+            }
+        },
+        "comparison": {
+            "better_result": "RankFusion-RAG",
+            "rankfusion_improvement": 2.200000000000003
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 46,
+        "question": "What is component reusability in object-oriented software development?",
+        "standard_rag": {
+            "answer": "Reusability is a major benefit of object-oriented system development, though it is the most difficult promise to deliver on. For an object to be truly reusable, significant effort must be spent in its design. The process involves asking whether the problem has already been solved, partially solved, or if similar work has been done previously.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 81)",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "72.2%",
+                "Citation Correctness": "53.4%",
+                "Faithfulness": "72.7%",
+                "Overall Score": "68.4%",
+                "Answer Accuracy": "67.5%",
+                "Citation Accuracy": "53.4%",
+                "Retrieval Precision": "63.3%",
+                "Hallucination Rate": "27.3%",
+                "Project Score": "64.2%",
+                "Best Retrieval Score": "0.8918",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.23 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "Reusability is a major benefit of object-oriented system development, though it is the most difficult promise to deliver on. For an object to be truly reusable, significant effort must be spent in its design. The process involves asking whether the problem has already been solved, partially solved, or if similar work has been done previously.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 81)",
+            "metrics": {
+                "Answer Relevance": "85.8%",
+                "Context Relevance": "72.2%",
+                "Citation Correctness": "39.7%",
+                "Faithfulness": "67.5%",
+                "Overall Score": "68.4%",
+                "Answer Accuracy": "67.9%",
+                "Citation Accuracy": "39.7%",
+                "Retrieval Precision": "56.7%",
+                "Hallucination Rate": "32.5%",
+                "Project Score": "58.5%",
+                "Best Retrieval Score": "0.8918",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "7.37 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -5.700000000000003
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 47,
+        "question": "What is the role of validation in ensuring software quality?",
+        "standard_rag": {
+            "answer": "Validation is the task of predicting correspondence, which measures how well the delivered system matches the needs of the operational environment as described in the original requirements statement. It focuses on the question, \"Am I building the right product?\" (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 64)",
+            "metrics": {
+                "Answer Relevance": "32.0%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "60.9%",
+                "Faithfulness": "90.9%",
+                "Overall Score": "55.7%",
+                "Answer Accuracy": "59.9%",
+                "Citation Accuracy": "60.9%",
+                "Retrieval Precision": "24.0%",
+                "Hallucination Rate": "9.1%",
+                "Project Score": "59.2%",
+                "Best Retrieval Score": "0.8523",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.11 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "Validation is the task of predicting correspondence, which measures how well the delivered system matches the needs of the operational environment as described in the original requirements statement. It focuses on the question, \"Am I building the right product?\" (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 64)",
+            "metrics": {
+                "Answer Relevance": "29.0%",
+                "Context Relevance": "33.3%",
+                "Citation Correctness": "77.1%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "60.8%",
+                "Answer Accuracy": "65.9%",
+                "Citation Accuracy": "77.1%",
+                "Retrieval Precision": "24.0%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "67.1%",
+                "Best Retrieval Score": "0.8523",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "7.56 s"
+            }
+        },
+        "comparison": {
+            "better_result": "RankFusion-RAG",
+            "rankfusion_improvement": 7.8999999999999915
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 48,
+        "question": "What are the main activities involved in system development?",
+        "standard_rag": {
+            "answer": "System development activities consist of system analysis, modelling, design, implementation, testing, and maintenance.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 7)",
+            "metrics": {
+                "Answer Relevance": "58.5%",
+                "Context Relevance": "40.0%",
+                "Citation Correctness": "80.8%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "71.7%",
+                "Answer Accuracy": "78.6%",
+                "Citation Accuracy": "80.8%",
+                "Retrieval Precision": "28.0%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "73.3%",
+                "Best Retrieval Score": "0.8820",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.31 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "System development activities consist of system analysis, modelling, design, implementation, testing, and maintenance.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 7)",
+            "metrics": {
+                "Answer Relevance": "3.0%",
+                "Context Relevance": "40.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "8.9%",
+                "Answer Accuracy": "1.2%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "40.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "8.4%",
+                "Best Retrieval Score": "0.8281",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "1",
+                "Response Time": "9.84 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -64.89999999999999
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 49,
+        "question": "What is the difference between the traditional approach and the object-oriented approach to system development?",
+        "standard_rag": {
+            "answer": "The traditional approach is based on functions and procedures, whereas the object-oriented approach models software as a collection of discrete, self-contained objects that encapsulate both data and functionality. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 9)",
+            "metrics": {
+                "Answer Relevance": "56.8%",
+                "Context Relevance": "62.5%",
+                "Citation Correctness": "67.8%",
+                "Faithfulness": "84.2%",
+                "Overall Score": "68.3%",
+                "Answer Accuracy": "69.1%",
+                "Citation Accuracy": "67.8%",
+                "Retrieval Precision": "55.0%",
+                "Hallucination Rate": "15.8%",
+                "Project Score": "69.0%",
+                "Best Retrieval Score": "0.9451",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.41 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "The traditional approach is based on functions and procedures, whereas the object-oriented approach models software as a collection of discrete, self-contained objects that encapsulate both data and functionality. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 9)",
+            "metrics": {
+                "Answer Relevance": "57.5%",
+                "Context Relevance": "62.5%",
+                "Citation Correctness": "45.4%",
+                "Faithfulness": "53.8%",
+                "Overall Score": "55.0%",
+                "Answer Accuracy": "53.2%",
+                "Citation Accuracy": "45.4%",
+                "Retrieval Precision": "62.5%",
+                "Hallucination Rate": "46.2%",
+                "Project Score": "53.2%",
+                "Best Retrieval Score": "0.8548",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "2",
+                "Response Time": "6.26 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -15.799999999999997
+        },
+        "test_status": "PASS"
+    },
+    {
+        "question_id": 50,
+        "question": "What are the three components of an object-oriented methodology: notation, process, and tool?",
+        "standard_rag": {
+            "answer": "An object-oriented methodology usually includes a notation (graphical representation of classes and their relationships), a process (suggested set of steps to transform requirements into a system), and a tool (software for drawings and documentation). (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 27)",
+            "metrics": {
+                "Answer Relevance": "78.8%",
+                "Context Relevance": "45.8%",
+                "Citation Correctness": "76.4%",
+                "Faithfulness": "95.5%",
+                "Overall Score": "76.7%",
+                "Answer Accuracy": "84.0%",
+                "Citation Accuracy": "76.4%",
+                "Retrieval Precision": "37.5%",
+                "Hallucination Rate": "4.5%",
+                "Project Score": "75.1%",
+                "Best Retrieval Score": "0.8950",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.94 s"
+            }
+        },
+        "rankfusion_rag": {
+            "answer": "An object-oriented methodology usually includes a notation (graphical representation of classes and their relationships), a process (suggested set of steps to transform requirements into a system), and a tool (software for drawings and documentation). (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 27)",
+            "metrics": {
+                "Answer Relevance": "3.0%",
+                "Context Relevance": "12.5%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "3.4%",
+                "Answer Accuracy": "1.2%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "12.5%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "2.9%",
+                "Best Retrieval Score": "0.8306",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "1",
+                "Response Time": "7.53 s"
+            }
+        },
+        "comparison": {
+            "better_result": "Standard RAG",
+            "rankfusion_improvement": -72.19999999999999
+        },
+        "test_status": "PASS"
+    }
+]

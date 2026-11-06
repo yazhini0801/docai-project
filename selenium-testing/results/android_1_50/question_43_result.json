@@ -1,0 +1,52 @@
+{
+    "question_id": 43,
+    "question": "How can functional, performance, compatibility, and security testing collectively evaluate the reliability of an Android application designed for multiple devices?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can functional, performance, compatibility, and security testing collectively evaluate the reliability of an Android application designed for multiple devices?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -8.6%",
+        "metrics": {
+            "Answer Relevance": "75.7%",
+            "Context Relevance": "45.2%",
+            "Citation Correctness": "46.4%",
+            "Faithfulness": "76.7%",
+            "Overall Score": "64.1%",
+            "Answer Accuracy": "68.7%",
+            "Citation Accuracy": "46.4%",
+            "Retrieval Precision": "38.6%",
+            "Hallucination Rate": "23.3%",
+            "Project Score": "58.7%",
+            "Best Retrieval Score": "0.8737",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.58 s"
+        },
+        "project_score": 58.7,
+        "response_time": 8.58
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can functional, performance, compatibility, and security testing collectively evaluate the reliability of an Android application designed for multiple devices?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -8.6%",
+        "metrics": {
+            "Answer Relevance": "69.6%",
+            "Context Relevance": "40.5%",
+            "Citation Correctness": "33.8%",
+            "Faithfulness": "69.6%",
+            "Overall Score": "56.6%",
+            "Answer Accuracy": "60.7%",
+            "Citation Accuracy": "33.8%",
+            "Retrieval Precision": "32.9%",
+            "Hallucination Rate": "30.4%",
+            "Project Score": "50.2%",
+            "Best Retrieval Score": "0.8561",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "16.89 s"
+        },
+        "project_score": 50.2,
+        "response_time": 16.89
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -8.5,
+    "error": null
+}

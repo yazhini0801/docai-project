@@ -1,0 +1,52 @@
+{
+    "question_id": 50,
+    "question": "How can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.4%",
+        "metrics": {
+            "Answer Relevance": "76.8%",
+            "Context Relevance": "21.2%",
+            "Citation Correctness": "50.7%",
+            "Faithfulness": "80.6%",
+            "Overall Score": "61.6%",
+            "Answer Accuracy": "71.6%",
+            "Citation Accuracy": "50.7%",
+            "Retrieval Precision": "16.4%",
+            "Hallucination Rate": "19.4%",
+            "Project Score": "57.1%",
+            "Best Retrieval Score": "0.8862",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.67 s"
+        },
+        "project_score": 57.1,
+        "response_time": 5.67
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can organizations design physical spaces to create opportunities for informal knowledge exchange or knowledge accidents?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.4%",
+        "metrics": {
+            "Answer Relevance": "76.8%",
+            "Context Relevance": "24.2%",
+            "Citation Correctness": "40.8%",
+            "Faithfulness": "72.5%",
+            "Overall Score": "57.8%",
+            "Answer Accuracy": "66.3%",
+            "Citation Accuracy": "40.8%",
+            "Retrieval Precision": "24.2%",
+            "Hallucination Rate": "27.5%",
+            "Project Score": "52.7%",
+            "Best Retrieval Score": "0.8862",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "10.81 s"
+        },
+        "project_score": 52.7,
+        "response_time": 10.81
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -4.4,
+    "error": null
+}

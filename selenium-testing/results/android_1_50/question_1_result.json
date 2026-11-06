@@ -1,0 +1,52 @@
+{
+    "question_id": 1,
+    "question": "What are Android preferences, and why are they used in an application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are Android preferences, and why are they used in an application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 47.1%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "8.9%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "8.4%",
+            "Best Retrieval Score": "0.9242",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.49 s"
+        },
+        "project_score": 8.4,
+        "response_time": 9.49
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are Android preferences, and why are they used in an application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 47.1%",
+        "metrics": {
+            "Answer Relevance": "77.8%",
+            "Context Relevance": "20.0%",
+            "Citation Correctness": "61.5%",
+            "Faithfulness": "61.5%",
+            "Overall Score": "58.1%",
+            "Answer Accuracy": "68.0%",
+            "Citation Accuracy": "61.5%",
+            "Retrieval Precision": "20.0%",
+            "Hallucination Rate": "38.5%",
+            "Project Score": "55.5%",
+            "Best Retrieval Score": "0.7963",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "49.17 s"
+        },
+        "project_score": 55.5,
+        "response_time": 49.17
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 47.1,
+    "error": null
+}

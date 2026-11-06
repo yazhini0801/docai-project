@@ -1,0 +1,52 @@
+{
+    "question_id": 20,
+    "question": "How can Android version checks, AndroidX components, and multi-version testing work together to reduce compatibility problems caused by Android fragmentation?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Android version checks, AndroidX components, and multi-version testing work together to reduce compatibility problems caused by Android fragmentation?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 21.0%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "21.3%",
+            "Faithfulness": "40.0%",
+            "Overall Score": "43.1%",
+            "Answer Accuracy": "48.0%",
+            "Citation Accuracy": "21.3%",
+            "Retrieval Precision": "22.7%",
+            "Hallucination Rate": "60.0%",
+            "Project Score": "34.7%",
+            "Best Retrieval Score": "0.8559",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.54 s"
+        },
+        "project_score": 34.7,
+        "response_time": 8.54
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Android version checks, AndroidX components, and multi-version testing work together to reduce compatibility problems caused by Android fragmentation?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 21.0%",
+        "metrics": {
+            "Answer Relevance": "54.7%",
+            "Context Relevance": "28.9%",
+            "Citation Correctness": "43.1%",
+            "Faithfulness": "88.9%",
+            "Overall Score": "57.5%",
+            "Answer Accuracy": "63.7%",
+            "Citation Accuracy": "43.1%",
+            "Retrieval Precision": "24.0%",
+            "Hallucination Rate": "11.1%",
+            "Project Score": "55.7%",
+            "Best Retrieval Score": "0.8559",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "101.52 s"
+        },
+        "project_score": 55.7,
+        "response_time": 101.52
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 21.0,
+    "error": null
+}

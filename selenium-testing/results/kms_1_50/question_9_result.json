@@ -1,0 +1,52 @@
+{
+    "question_id": 9,
+    "question": "What are the five main components of knowledge management infrastructure?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "95.5%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "73.6%",
+            "Faithfulness": "92.9%",
+            "Overall Score": "82.3%",
+            "Answer Accuracy": "89.1%",
+            "Citation Accuracy": "73.6%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "7.1%",
+            "Project Score": "74.8%",
+            "Best Retrieval Score": "0.8576",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.65 s"
+        },
+        "project_score": 74.8,
+        "response_time": 9.65
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "95.5%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "78.7%",
+            "Faithfulness": "92.9%",
+            "Overall Score": "84.5%",
+            "Answer Accuracy": "90.4%",
+            "Citation Accuracy": "78.7%",
+            "Retrieval Precision": "56.7%",
+            "Hallucination Rate": "7.1%",
+            "Project Score": "81.2%",
+            "Best Retrieval Score": "0.8576",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.50 s"
+        },
+        "project_score": 81.2,
+        "response_time": 10.5
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 6.4,
+    "error": null
+}

@@ -1,0 +1,49 @@
+{
+    "question_id": 8,
+    "question": "What are the different categories of prototypes?",
+    "standard_rag": {
+        "answer": "The different categories of prototypes are:\n*   **Horizontal prototype:** A simulation of the entire interface with no functionality.\n*   **Vertical prototype:** A subset of system features with complete functionality.\n*   **Hybrid prototypes:** A combination where major portions of the interface are established, and high-risk features are prototyped with more functionality.\n*   **Analysis prototype:** Used to explore the problem domain and demonstrate proof of concept.\n*   **Domain prototype:** Used as an aid for incremental development and staged delivery, which may eventually evolve into the deliverable product.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 76)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "48.4%",
+            "Faithfulness": "90.5%",
+            "Overall Score": "71.3%",
+            "Answer Accuracy": "83.8%",
+            "Citation Accuracy": "48.4%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "9.5%",
+            "Project Score": "62.2%",
+            "Best Retrieval Score": "0.8761",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.61 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The different categories of prototypes are:\n*   **Horizontal prototype:** A simulation of the entire interface with no functionality.\n*   **Vertical prototype:** A subset of system features with complete functionality.\n*   **Hybrid prototypes:** A combination where major portions of the interface are established, and high-risk features are prototyped with more functionality.\n*   **Analysis prototype:** Used to explore the problem domain and demonstrate proof of concept.\n*   **Domain prototype:** Used as an aid for incremental development and staged delivery, which may eventually evolve into the deliverable product.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 76)",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "22.2%",
+            "Citation Correctness": "42.2%",
+            "Faithfulness": "82.0%",
+            "Overall Score": "59.0%",
+            "Answer Accuracy": "67.9%",
+            "Citation Accuracy": "42.2%",
+            "Retrieval Precision": "13.3%",
+            "Hallucination Rate": "17.9%",
+            "Project Score": "53.4%",
+            "Best Retrieval Score": "0.8761",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.17 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -8.800000000000004
+    },
+    "test_status": "PASS"
+}

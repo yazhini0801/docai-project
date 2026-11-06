@@ -1,0 +1,52 @@
+{
+    "question_id": 7,
+    "question": "What is the difference between direction and routines in knowledge application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "43.3%",
+            "Context Relevance": "38.9%",
+            "Citation Correctness": "71.0%",
+            "Faithfulness": "91.3%",
+            "Overall Score": "62.4%",
+            "Answer Accuracy": "67.0%",
+            "Citation Accuracy": "71.0%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "8.7%",
+            "Project Score": "66.1%",
+            "Best Retrieval Score": "0.7954",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.27 s"
+        },
+        "project_score": 66.1,
+        "response_time": 8.27
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "67.9%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "17.5%",
+            "Faithfulness": "26.7%",
+            "Overall Score": "41.9%",
+            "Answer Accuracy": "40.9%",
+            "Citation Accuracy": "17.5%",
+            "Retrieval Precision": "37.5%",
+            "Hallucination Rate": "73.3%",
+            "Project Score": "31.5%",
+            "Best Retrieval Score": "0.7843",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "17.21 s"
+        },
+        "project_score": 31.5,
+        "response_time": 17.21
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -34.6,
+    "error": null
+}

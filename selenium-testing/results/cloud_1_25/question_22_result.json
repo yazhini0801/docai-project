@@ -1,0 +1,52 @@
+{
+    "question_id": 22,
+    "question": "Explain how Azure Active Directory, Security Center, Sentinel, Key Vault, Firewall, and DDoS Protection contribute to cloud security.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Azure Active Directory, Security Center, Sentinel, Key Vault, Firewall, and DDoS Protection contribute to cloud security.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 14.1%",
+        "metrics": {
+            "Answer Relevance": "93.9%",
+            "Context Relevance": "45.2%",
+            "Citation Correctness": "69.3%",
+            "Faithfulness": "88.6%",
+            "Overall Score": "77.6%",
+            "Answer Accuracy": "85.9%",
+            "Citation Accuracy": "69.3%",
+            "Retrieval Precision": "34.3%",
+            "Hallucination Rate": "11.4%",
+            "Project Score": "72.0%",
+            "Best Retrieval Score": "0.8605",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.82 s"
+        },
+        "project_score": 72.0,
+        "response_time": 6.82
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain how Azure Active Directory, Security Center, Sentinel, Key Vault, Firewall, and DDoS Protection contribute to cloud security.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 14.1%",
+        "metrics": {
+            "Answer Relevance": "87.9%",
+            "Context Relevance": "85.7%",
+            "Citation Correctness": "85.7%",
+            "Faithfulness": "85.7%",
+            "Overall Score": "86.4%",
+            "Answer Accuracy": "86.6%",
+            "Citation Accuracy": "85.7%",
+            "Retrieval Precision": "85.7%",
+            "Hallucination Rate": "14.3%",
+            "Project Score": "86.0%",
+            "Best Retrieval Score": "0.8605",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "5.79 s"
+        },
+        "project_score": 86.0,
+        "response_time": 5.79
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 14.0,
+    "error": null
+}

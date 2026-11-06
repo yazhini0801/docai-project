@@ -1,0 +1,52 @@
+{
+    "question_id": 15,
+    "question": "Describe the security, load balancing, deployment, and CI/CD capabilities provided by Google App Engine.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the security, load balancing, deployment, and CI/CD capabilities provided by Google App Engine.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.2%",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "38.9%",
+            "Citation Correctness": "39.8%",
+            "Faithfulness": "85.7%",
+            "Overall Score": "67.2%",
+            "Answer Accuracy": "74.3%",
+            "Citation Accuracy": "39.8%",
+            "Retrieval Precision": "35.0%",
+            "Hallucination Rate": "14.3%",
+            "Project Score": "60.1%",
+            "Best Retrieval Score": "0.8864",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.10 s"
+        },
+        "project_score": 60.1,
+        "response_time": 5.1
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nDescribe the security, load balancing, deployment, and CI/CD capabilities provided by Google App Engine.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.2%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "44.4%",
+            "Citation Correctness": "54.7%",
+            "Faithfulness": "94.6%",
+            "Overall Score": "71.8%",
+            "Answer Accuracy": "78.3%",
+            "Citation Accuracy": "54.7%",
+            "Retrieval Precision": "41.7%",
+            "Hallucination Rate": "5.4%",
+            "Project Score": "68.3%",
+            "Best Retrieval Score": "0.8633",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "5.14 s"
+        },
+        "project_score": 68.3,
+        "response_time": 5.14
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 8.2,
+    "error": null
+}

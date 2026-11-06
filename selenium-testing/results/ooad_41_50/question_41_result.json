@@ -1,0 +1,49 @@
+{
+    "question_id": 41,
+    "question": "What is an object, and what are its main characteristics?",
+    "standard_rag": {
+        "answer": "An object is an entity that represents a particular instance of a class. Its main characteristics include:\n*   **Attributes:** Data items or properties that describe the object’s state.\n*   **Methods:** Functions or procedures that define the object's behavior (the services it provides).\n*   **Identity:** Every object has its own unique and immutable identity that is created upon the object's creation and is never confused with another object.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "36.9%",
+            "Faithfulness": "82.3%",
+            "Overall Score": "68.8%",
+            "Answer Accuracy": "78.1%",
+            "Citation Accuracy": "36.9%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "17.6%",
+            "Project Score": "59.7%",
+            "Best Retrieval Score": "0.8360",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.85 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "An object is an entity that represents a particular instance of a class. Its main characteristics include:\n*   **Attributes:** Data items or properties that describe the object’s state.\n*   **Methods:** Functions or procedures that define the object's behavior (the services it provides).\n*   **Identity:** Every object has its own unique and immutable identity that is created upon the object's creation and is never confused with another object.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 17)",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "49.0%",
+            "Faithfulness": "80.0%",
+            "Overall Score": "69.3%",
+            "Answer Accuracy": "78.8%",
+            "Citation Accuracy": "49.0%",
+            "Retrieval Precision": "25.0%",
+            "Hallucination Rate": "20.0%",
+            "Project Score": "60.8%",
+            "Best Retrieval Score": "0.7935",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "5.35 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 1.0999999999999943
+    },
+    "test_status": "PASS"
+}

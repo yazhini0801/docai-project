@@ -1,0 +1,52 @@
+{
+    "question_id": 45,
+    "question": "How can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 74.8%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8374",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.20 s"
+        },
+        "project_score": 0.0,
+        "response_time": 4.2
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can collaborative problem solving, joint decision making, and collaborative document creation support knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 74.8%",
+        "metrics": {
+            "Answer Relevance": "65.7%",
+            "Context Relevance": "30.6%",
+            "Citation Correctness": "80.8%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "72.0%",
+            "Answer Accuracy": "81.5%",
+            "Citation Accuracy": "80.8%",
+            "Retrieval Precision": "30.6%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "74.8%",
+            "Best Retrieval Score": "0.8115",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "7.42 s"
+        },
+        "project_score": 74.8,
+        "response_time": 7.42
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 74.8,
+    "error": null
+}

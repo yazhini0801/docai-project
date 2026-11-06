@@ -1,0 +1,52 @@
+{
+    "question_id": 43,
+    "question": "What are the advantages and disadvantages of using direction for knowledge application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "44.4%",
+            "Citation Correctness": "40.4%",
+            "Faithfulness": "60.0%",
+            "Overall Score": "60.7%",
+            "Answer Accuracy": "65.4%",
+            "Citation Accuracy": "40.4%",
+            "Retrieval Precision": "36.7%",
+            "Hallucination Rate": "40.0%",
+            "Project Score": "52.3%",
+            "Best Retrieval Score": "0.8039",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "30.32 s"
+        },
+        "project_score": 52.3,
+        "response_time": 30.32
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "30.0%",
+            "Faithfulness": "68.1%",
+            "Overall Score": "54.6%",
+            "Answer Accuracy": "60.0%",
+            "Citation Accuracy": "30.0%",
+            "Retrieval Precision": "33.3%",
+            "Hallucination Rate": "31.9%",
+            "Project Score": "48.8%",
+            "Best Retrieval Score": "0.8039",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "55.39 s"
+        },
+        "project_score": 48.8,
+        "response_time": 55.39
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -3.5,
+    "error": null
+}

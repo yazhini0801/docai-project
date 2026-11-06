@@ -1,0 +1,49 @@
+{
+    "question_id": 43,
+    "question": "What is an association end or role in an object-oriented relationship?",
+    "standard_rag": {
+        "answer": "An association end represents a role (such as \"enrolls\") within an association between two classes. It defines how instances of classes relate to one another.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 29)",
+        "metrics": {
+            "Answer Relevance": "53.8%",
+            "Context Relevance": "38.9%",
+            "Citation Correctness": "42.5%",
+            "Faithfulness": "53.3%",
+            "Overall Score": "48.4%",
+            "Answer Accuracy": "50.8%",
+            "Citation Accuracy": "42.5%",
+            "Retrieval Precision": "26.7%",
+            "Hallucination Rate": "46.7%",
+            "Project Score": "44.4%",
+            "Best Retrieval Score": "0.8702",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.58 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "An association end represents a role (such as \"enrolls\") within an association between two classes. It defines how instances of classes relate to one another.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 29)",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "16.7%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "4.2%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "16.7%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "3.8%",
+            "Best Retrieval Score": "0.7870",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "5.02 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -40.6
+    },
+    "test_status": "PASS"
+}

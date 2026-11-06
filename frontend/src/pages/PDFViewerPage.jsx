@@ -209,6 +209,14 @@ function PDFViewerPage() {
                 document.createElement("div");
 
 
+            // ==================================================
+            // SELENIUM TEST IDENTIFIER
+            // ==================================================
+
+            highlight.className =
+                "citation-coordinate-highlight";
+
+
             highlight.style.position =
                 "absolute";
 

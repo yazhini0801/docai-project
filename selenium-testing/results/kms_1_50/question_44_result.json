@@ -1,0 +1,52 @@
+{
+    "question_id": 44,
+    "question": "What are the advantages and disadvantages of using routines for knowledge application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "85.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "30.4%",
+            "Faithfulness": "60.5%",
+            "Overall Score": "56.6%",
+            "Answer Accuracy": "63.1%",
+            "Citation Accuracy": "30.4%",
+            "Retrieval Precision": "26.7%",
+            "Hallucination Rate": "39.5%",
+            "Project Score": "47.1%",
+            "Best Retrieval Score": "0.8205",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "23.53 s"
+        },
+        "project_score": 47.1,
+        "response_time": 23.53
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7568",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "25.61 s"
+        },
+        "project_score": 0.0,
+        "response_time": 25.61
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -47.1,
+    "error": null
+}

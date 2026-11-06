@@ -1,0 +1,49 @@
+{
+    "question_id": 24,
+    "question": "What is message passing between objects?",
+    "standard_rag": {
+        "answer": "Message passing is the process where an object sends a request to another object in the system to execute a specific method, typically involving an object reference, a method name, and any necessary parameters.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 41)",
+        "metrics": {
+            "Answer Relevance": "56.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "31.6%",
+            "Faithfulness": "50.0%",
+            "Overall Score": "44.8%",
+            "Answer Accuracy": "47.8%",
+            "Citation Accuracy": "31.6%",
+            "Retrieval Precision": "25.0%",
+            "Hallucination Rate": "50.0%",
+            "Project Score": "39.6%",
+            "Best Retrieval Score": "0.8387",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.78 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Message passing is the process where an object sends a request to another object in the system to execute a specific method, typically involving an object reference, a method name, and any necessary parameters.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 41)",
+        "metrics": {
+            "Answer Relevance": "53.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "37.9%",
+            "Faithfulness": "60.0%",
+            "Overall Score": "48.4%",
+            "Answer Accuracy": "52.0%",
+            "Citation Accuracy": "37.9%",
+            "Retrieval Precision": "25.0%",
+            "Hallucination Rate": "40.0%",
+            "Project Score": "44.7%",
+            "Best Retrieval Score": "0.8387",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.26 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 5.100000000000001
+    },
+    "test_status": "PASS"
+}

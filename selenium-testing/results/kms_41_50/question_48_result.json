@@ -1,0 +1,52 @@
+{
+    "question_id": 48,
+    "question": "How can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 50.4%",
+        "metrics": {
+            "Answer Relevance": "3.0%",
+            "Context Relevance": "38.5%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "8.6%",
+            "Answer Accuracy": "1.2%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "24.6%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "5.3%",
+            "Best Retrieval Score": "0.8671",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.14 s"
+        },
+        "project_score": 5.3,
+        "response_time": 6.14
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can knowledge repositories, best-practice databases, lessons-learned systems, and expertise locators support knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 50.4%",
+        "metrics": {
+            "Answer Relevance": "78.1%",
+            "Context Relevance": "43.6%",
+            "Citation Correctness": "50.6%",
+            "Faithfulness": "58.8%",
+            "Overall Score": "59.9%",
+            "Answer Accuracy": "64.5%",
+            "Citation Accuracy": "50.6%",
+            "Retrieval Precision": "43.6%",
+            "Hallucination Rate": "41.2%",
+            "Project Score": "55.7%",
+            "Best Retrieval Score": "0.8119",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "6.50 s"
+        },
+        "project_score": 55.7,
+        "response_time": 6.5
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 50.4,
+    "error": null
+}

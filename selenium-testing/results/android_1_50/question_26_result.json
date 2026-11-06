@@ -1,0 +1,52 @@
+{
+    "question_id": 26,
+    "question": "How can emulator testing and physical-device testing complement each other when validating an Android application across different screen sizes, Android versions, and hardware configurations?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can emulator testing and physical-device testing complement each other when validating an Android application across different screen sizes, Android versions, and hardware configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.2%",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "51.8%",
+            "Citation Correctness": "50.3%",
+            "Faithfulness": "82.3%",
+            "Overall Score": "62.4%",
+            "Answer Accuracy": "64.4%",
+            "Citation Accuracy": "50.3%",
+            "Retrieval Precision": "46.7%",
+            "Hallucination Rate": "17.6%",
+            "Project Score": "60.9%",
+            "Best Retrieval Score": "0.8775",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "3.96 s"
+        },
+        "project_score": 60.9,
+        "response_time": 3.96
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can emulator testing and physical-device testing complement each other when validating an Android application across different screen sizes, Android versions, and hardware configurations?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -6.2%",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "35.2%",
+            "Citation Correctness": "47.1%",
+            "Faithfulness": "73.7%",
+            "Overall Score": "55.8%",
+            "Answer Accuracy": "60.6%",
+            "Citation Accuracy": "47.1%",
+            "Retrieval Precision": "35.2%",
+            "Hallucination Rate": "26.3%",
+            "Project Score": "54.8%",
+            "Best Retrieval Score": "0.8775",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "15.69 s"
+        },
+        "project_score": 54.8,
+        "response_time": 15.69
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -6.1,
+    "error": null
+}

@@ -1,0 +1,49 @@
+{
+    "question_id": 47,
+    "question": "What is the role of validation in ensuring software quality?",
+    "standard_rag": {
+        "answer": "Validation is the task of predicting correspondence, which measures how well the delivered system matches the needs of the operational environment as described in the original requirements statement. It focuses on the question, \"Am I building the right product?\" (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 64)",
+        "metrics": {
+            "Answer Relevance": "32.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "60.9%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "55.7%",
+            "Answer Accuracy": "59.9%",
+            "Citation Accuracy": "60.9%",
+            "Retrieval Precision": "24.0%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "59.2%",
+            "Best Retrieval Score": "0.8523",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.11 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Validation is the task of predicting correspondence, which measures how well the delivered system matches the needs of the operational environment as described in the original requirements statement. It focuses on the question, \"Am I building the right product?\" (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 64)",
+        "metrics": {
+            "Answer Relevance": "29.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "77.1%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "60.8%",
+            "Answer Accuracy": "65.9%",
+            "Citation Accuracy": "77.1%",
+            "Retrieval Precision": "24.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "67.1%",
+            "Best Retrieval Score": "0.8523",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "7.56 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 7.8999999999999915
+    },
+    "test_status": "PASS"
+}

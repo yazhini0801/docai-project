@@ -1,0 +1,52 @@
+{
+    "question_id": 14,
+    "question": "Explain the integrated data services available with Google App Engine, including Datastore, Cloud Storage, Memorystore, Cloud SQL, and Firestore.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the integrated data services available with Google App Engine, including Datastore, Cloud Storage, Memorystore, Cloud SQL, and Firestore.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.0%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "48.9%",
+            "Citation Correctness": "64.1%",
+            "Faithfulness": "90.3%",
+            "Overall Score": "74.6%",
+            "Answer Accuracy": "80.8%",
+            "Citation Accuracy": "64.1%",
+            "Retrieval Precision": "41.3%",
+            "Hallucination Rate": "9.7%",
+            "Project Score": "70.6%",
+            "Best Retrieval Score": "0.8667",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.01 s"
+        },
+        "project_score": 70.6,
+        "response_time": 5.01
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain the integrated data services available with Google App Engine, including Datastore, Cloud Storage, Memorystore, Cloud SQL, and Firestore.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.0%",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "53.3%",
+            "Citation Correctness": "73.3%",
+            "Faithfulness": "73.3%",
+            "Overall Score": "72.2%",
+            "Answer Accuracy": "77.2%",
+            "Citation Accuracy": "73.3%",
+            "Retrieval Precision": "53.3%",
+            "Hallucination Rate": "26.7%",
+            "Project Score": "70.7%",
+            "Best Retrieval Score": "0.8584",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "6.60 s"
+        },
+        "project_score": 70.7,
+        "response_time": 6.6
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 0.1,
+    "error": null
+}

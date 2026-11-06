@@ -1,0 +1,52 @@
+{
+    "question_id": 37,
+    "question": "How can common knowledge make it more difficult for competitors to obtain and use an organization's knowledge?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "31.5%",
+            "Context Relevance": "36.7%",
+            "Citation Correctness": "61.5%",
+            "Faithfulness": "75.0%",
+            "Overall Score": "51.6%",
+            "Answer Accuracy": "54.2%",
+            "Citation Accuracy": "61.5%",
+            "Retrieval Precision": "28.0%",
+            "Hallucination Rate": "25.0%",
+            "Project Score": "54.9%",
+            "Best Retrieval Score": "0.8611",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.06 s"
+        },
+        "project_score": 54.9,
+        "response_time": 6.06
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "40.0%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "62.5%",
+            "Faithfulness": "62.5%",
+            "Overall Score": "51.2%",
+            "Answer Accuracy": "53.5%",
+            "Citation Accuracy": "62.5%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "37.5%",
+            "Project Score": "54.9%",
+            "Best Retrieval Score": "0.7991",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "9.41 s"
+        },
+        "project_score": 54.9,
+        "response_time": 9.41
+    },
+    "winner": "Tie",
+    "rankfusion_improvement": 0.0,
+    "error": null
+}

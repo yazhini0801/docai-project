@@ -1,0 +1,49 @@
+{
+    "question_id": 15,
+    "question": "What is multiple inheritance?",
+    "standard_rag": {
+        "answer": "Multiple inheritance is a system that allows object classes to inherit attributes and services from several super-classes, rather than from a single parent class. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 47)",
+        "metrics": {
+            "Answer Relevance": "97.0%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "80.5%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "88.5%",
+            "Answer Accuracy": "93.9%",
+            "Citation Accuracy": "80.5%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "81.0%",
+            "Best Retrieval Score": "0.8595",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.31 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "Multiple inheritance is a system that allows object classes to inherit attributes and services from several super-classes, rather than from a single parent class. (File: OOAD_CAT_I_StudyMaterial.pdf, Page: 47)",
+        "metrics": {
+            "Answer Relevance": "96.3%",
+            "Context Relevance": "75.0%",
+            "Citation Correctness": "86.3%",
+            "Faithfulness": "93.3%",
+            "Overall Score": "89.1%",
+            "Answer Accuracy": "92.8%",
+            "Citation Accuracy": "86.3%",
+            "Retrieval Precision": "75.0%",
+            "Hallucination Rate": "6.7%",
+            "Project Score": "87.7%",
+            "Best Retrieval Score": "0.8380",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "5.06 s"
+        }
+    },
+    "comparison": {
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 6.700000000000003
+    },
+    "test_status": "PASS"
+}

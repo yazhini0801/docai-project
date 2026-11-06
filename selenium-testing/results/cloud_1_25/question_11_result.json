@@ -1,0 +1,52 @@
+{
+    "question_id": 11,
+    "question": "Explain Google App Engine as a Platform-as-a-Service and describe how its fully managed infrastructure, automatic scaling, and integrated services simplify application development.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Google App Engine as a Platform-as-a-Service and describe how its fully managed infrastructure, automatic scaling, and integrated services simplify application development.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.3%",
+        "metrics": {
+            "Answer Relevance": "80.0%",
+            "Context Relevance": "54.9%",
+            "Citation Correctness": "35.6%",
+            "Faithfulness": "84.9%",
+            "Overall Score": "67.6%",
+            "Answer Accuracy": "70.6%",
+            "Citation Accuracy": "35.6%",
+            "Retrieval Precision": "43.5%",
+            "Hallucination Rate": "15.2%",
+            "Project Score": "59.3%",
+            "Best Retrieval Score": "0.9253",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.59 s"
+        },
+        "project_score": 59.3,
+        "response_time": 4.59
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Google App Engine as a Platform-as-a-Service and describe how its fully managed infrastructure, automatic scaling, and integrated services simplify application development.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -2.3%",
+        "metrics": {
+            "Answer Relevance": "75.0%",
+            "Context Relevance": "47.1%",
+            "Citation Correctness": "42.2%",
+            "Faithfulness": "74.5%",
+            "Overall Score": "62.7%",
+            "Answer Accuracy": "66.6%",
+            "Citation Accuracy": "42.2%",
+            "Retrieval Precision": "41.2%",
+            "Hallucination Rate": "25.5%",
+            "Project Score": "57.0%",
+            "Best Retrieval Score": "0.9253",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "13.30 s"
+        },
+        "project_score": 57.0,
+        "response_time": 13.3
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -2.3,
+    "error": null
+}

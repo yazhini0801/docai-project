@@ -1,0 +1,52 @@
+{
+    "question_id": 33,
+    "question": "How can management support and incentives help create a knowledge-management-friendly organizational culture?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can management support and incentives help create a knowledge-management-friendly organizational culture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 2.5%",
+        "metrics": {
+            "Answer Relevance": "74.5%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "41.8%",
+            "Faithfulness": "76.2%",
+            "Overall Score": "58.9%",
+            "Answer Accuracy": "66.9%",
+            "Citation Accuracy": "41.8%",
+            "Retrieval Precision": "18.0%",
+            "Hallucination Rate": "23.8%",
+            "Project Score": "52.7%",
+            "Best Retrieval Score": "0.8807",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.83 s"
+        },
+        "project_score": 52.7,
+        "response_time": 5.83
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can management support and incentives help create a knowledge-management-friendly organizational culture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 2.5%",
+        "metrics": {
+            "Answer Relevance": "74.5%",
+            "Context Relevance": "40.0%",
+            "Citation Correctness": "43.0%",
+            "Faithfulness": "73.9%",
+            "Overall Score": "61.1%",
+            "Answer Accuracy": "66.4%",
+            "Citation Accuracy": "43.0%",
+            "Retrieval Precision": "32.0%",
+            "Hallucination Rate": "26.1%",
+            "Project Score": "55.2%",
+            "Best Retrieval Score": "0.8807",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "22.73 s"
+        },
+        "project_score": 55.2,
+        "response_time": 22.73
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 2.5,
+    "error": null
+}

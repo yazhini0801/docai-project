@@ -1,0 +1,19 @@
+{
+    "batch": "Cloud Computing Questions 1-25",
+    "documents_in_folder": 3,
+    "total_tests": 25,
+    "passed": 25,
+    "failed": 0,
+    "standard_rag": {
+        "average_project_score": 65.44,
+        "wins": 12,
+        "average_response_time": 7.28
+    },
+    "rankfusion_rag": {
+        "average_project_score": 52.16,
+        "wins": 12,
+        "average_response_time": 10.78
+    },
+    "ties": 1,
+    "average_rankfusion_improvement": -13.29
+}

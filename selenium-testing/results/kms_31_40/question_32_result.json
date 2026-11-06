@@ -1,0 +1,52 @@
+{
+    "question_id": 32,
+    "question": "What is the role of a Chief Knowledge Officer in knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the role of a Chief Knowledge Officer in knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 51.8%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8170",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.57 s"
+        },
+        "project_score": 0.0,
+        "response_time": 4.57
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the role of a Chief Knowledge Officer in knowledge management?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 51.8%",
+        "metrics": {
+            "Answer Relevance": "98.5%",
+            "Context Relevance": "80.0%",
+            "Citation Correctness": "33.3%",
+            "Faithfulness": "33.3%",
+            "Overall Score": "62.2%",
+            "Answer Accuracy": "59.4%",
+            "Citation Accuracy": "33.3%",
+            "Retrieval Precision": "80.0%",
+            "Hallucination Rate": "66.7%",
+            "Project Score": "51.8%",
+            "Best Retrieval Score": "0.8014",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "6.45 s"
+        },
+        "project_score": 51.8,
+        "response_time": 6.45
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 51.8,
+    "error": null
+}

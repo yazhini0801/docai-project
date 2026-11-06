@@ -1,0 +1,52 @@
+{
+    "question_id": 40,
+    "question": "How can automated UI testing with Appium or Espresso complement manual testing on physical devices when validating an Android application?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can automated UI testing with Appium or Espresso complement manual testing on physical devices when validating an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.2%",
+        "metrics": {
+            "Answer Relevance": "73.9%",
+            "Context Relevance": "30.8%",
+            "Citation Correctness": "37.1%",
+            "Faithfulness": "69.4%",
+            "Overall Score": "56.6%",
+            "Answer Accuracy": "63.1%",
+            "Citation Accuracy": "37.1%",
+            "Retrieval Precision": "24.6%",
+            "Hallucination Rate": "30.6%",
+            "Project Score": "50.2%",
+            "Best Retrieval Score": "0.8462",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.72 s"
+        },
+        "project_score": 50.2,
+        "response_time": 9.72
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can automated UI testing with Appium or Espresso complement manual testing on physical devices when validating an Android application?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.2%",
+        "metrics": {
+            "Answer Relevance": "60.8%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "35.6%",
+            "Faithfulness": "78.6%",
+            "Overall Score": "55.6%",
+            "Answer Accuracy": "60.7%",
+            "Citation Accuracy": "35.6%",
+            "Retrieval Precision": "27.7%",
+            "Hallucination Rate": "21.4%",
+            "Project Score": "51.4%",
+            "Best Retrieval Score": "0.8462",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "19.94 s"
+        },
+        "project_score": 51.4,
+        "response_time": 19.94
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 1.2,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 20,
+    "question": "How do knowledge application systems support direction and routines?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "87.9%",
+            "Context Relevance": "85.7%",
+            "Citation Correctness": "55.2%",
+            "Faithfulness": "93.5%",
+            "Overall Score": "82.6%",
+            "Answer Accuracy": "81.7%",
+            "Citation Accuracy": "55.2%",
+            "Retrieval Precision": "62.9%",
+            "Hallucination Rate": "6.5%",
+            "Project Score": "73.7%",
+            "Best Retrieval Score": "0.8500",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.85 s"
+        },
+        "project_score": 73.7,
+        "response_time": 7.85
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7816",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "2",
+            "Response Time": "9.12 s"
+        },
+        "project_score": 0.0,
+        "response_time": 9.12
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -73.7,
+    "error": null
+}

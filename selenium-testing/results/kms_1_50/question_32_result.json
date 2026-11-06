@@ -1,0 +1,52 @@
+{
+    "question_id": 32,
+    "question": "What is the role of a Chief Knowledge Officer in knowledge management?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8170",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "9.38 s"
+        },
+        "project_score": 0.0,
+        "response_time": 9.38
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "80.0%",
+            "Citation Correctness": "40.0%",
+            "Faithfulness": "40.0%",
+            "Overall Score": "66.0%",
+            "Answer Accuracy": "64.0%",
+            "Citation Accuracy": "40.0%",
+            "Retrieval Precision": "80.0%",
+            "Hallucination Rate": "60.0%",
+            "Project Score": "56.4%",
+            "Best Retrieval Score": "0.8014",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "9.91 s"
+        },
+        "project_score": 56.4,
+        "response_time": 9.91
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 56.4,
+    "error": null
+}

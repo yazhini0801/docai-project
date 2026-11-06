@@ -1,0 +1,52 @@
+{
+    "question_id": 49,
+    "question": "How can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.4%",
+        "metrics": {
+            "Answer Relevance": "38.1%",
+            "Context Relevance": "37.0%",
+            "Citation Correctness": "68.0%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "62.4%",
+            "Answer Accuracy": "67.2%",
+            "Citation Accuracy": "68.0%",
+            "Retrieval Precision": "24.4%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "65.4%",
+            "Best Retrieval Score": "0.8371",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.51 s"
+        },
+        "project_score": 65.4,
+        "response_time": 4.51
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can data mining and data warehousing improve the aggregation capability of an organization's IT infrastructure?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -65.4%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.7559",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "1",
+            "Response Time": "7.27 s"
+        },
+        "project_score": 0.0,
+        "response_time": 7.27
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -65.4,
+    "error": null
+}

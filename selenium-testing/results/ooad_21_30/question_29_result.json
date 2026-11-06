@@ -1,0 +1,49 @@
+{
+    "question_id": 29,
+    "question": "What are the strengths of the Rumbaugh, Jacobson, and Booch object-oriented methodologies?",
+    "standard_rag": {
+        "answer": "The strengths of the methodologies are as follows:\n*   The Rumbaugh method is well-suited for describing the object model or the static structure of the system.\n*   The Jacobson method is good for producing user-driven analysis models.\n*   The Booch method produces detailed object-oriented design models.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 88)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "61.9%",
+            "Citation Correctness": "73.5%",
+            "Faithfulness": "96.0%",
+            "Overall Score": "85.9%",
+            "Answer Accuracy": "92.0%",
+            "Citation Accuracy": "73.5%",
+            "Retrieval Precision": "48.6%",
+            "Hallucination Rate": "4.0%",
+            "Project Score": "79.5%",
+            "Best Retrieval Score": "0.9308",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.27 s"
+        }
+    },
+    "rankfusion_rag": {
+        "answer": "The strengths of the methodologies are as follows:\n*   The Rumbaugh method is well-suited for describing the object model or the static structure of the system.\n*   The Jacobson method is good for producing user-driven analysis models.\n*   The Booch method produces detailed object-oriented design models.\n\n(File: OOAD_CAT_I_StudyMaterial.pdf, Page: 88)",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "61.9%",
+            "Citation Correctness": "73.5%",
+            "Faithfulness": "96.0%",
+            "Overall Score": "85.9%",
+            "Answer Accuracy": "92.0%",
+            "Citation Accuracy": "73.5%",
+            "Retrieval Precision": "48.6%",
+            "Hallucination Rate": "4.0%",
+            "Project Score": "79.5%",
+            "Best Retrieval Score": "0.9308",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "6.97 s"
+        }
+    },
+    "comparison": {
+        "better_result": "Tie",
+        "rankfusion_improvement": 0.0
+    },
+    "test_status": "PASS"
+}

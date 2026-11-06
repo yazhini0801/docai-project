@@ -1,0 +1,52 @@
+{
+    "question_id": 14,
+    "question": "What is the difference between knowledge exchange and socialization in knowledge sharing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the difference between knowledge exchange and socialization in knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "66.4%",
+            "Faithfulness": "82.6%",
+            "Overall Score": "71.8%",
+            "Answer Accuracy": "74.2%",
+            "Citation Accuracy": "66.4%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "17.4%",
+            "Project Score": "69.1%",
+            "Best Retrieval Score": "0.8380",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.59 s"
+        },
+        "project_score": 69.1,
+        "response_time": 4.59
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the difference between knowledge exchange and socialization in knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+        "metrics": {
+            "Answer Relevance": "70.2%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "76.4%",
+            "Faithfulness": "88.9%",
+            "Overall Score": "76.3%",
+            "Answer Accuracy": "78.3%",
+            "Citation Accuracy": "76.4%",
+            "Retrieval Precision": "62.5%",
+            "Hallucination Rate": "11.1%",
+            "Project Score": "76.8%",
+            "Best Retrieval Score": "0.8197",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "6.05 s"
+        },
+        "project_score": 76.8,
+        "response_time": 6.05
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 7.7,
+    "error": null
+}

@@ -1,0 +1,52 @@
+{
+    "question_id": 15,
+    "question": "What are knowledge management technologies and what are some examples?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "26.7%",
+            "Citation Correctness": "51.6%",
+            "Faithfulness": "90.9%",
+            "Overall Score": "67.8%",
+            "Answer Accuracy": "77.9%",
+            "Citation Accuracy": "51.6%",
+            "Retrieval Precision": "16.0%",
+            "Hallucination Rate": "9.1%",
+            "Project Score": "61.6%",
+            "Best Retrieval Score": "0.8504",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.84 s"
+        },
+        "project_score": 61.6,
+        "response_time": 6.84
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "45.4%",
+            "Faithfulness": "86.7%",
+            "Overall Score": "73.3%",
+            "Answer Accuracy": "74.9%",
+            "Citation Accuracy": "45.4%",
+            "Retrieval Precision": "65.0%",
+            "Hallucination Rate": "13.3%",
+            "Project Score": "67.9%",
+            "Best Retrieval Score": "0.8324",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "12.71 s"
+        },
+        "project_score": 67.9,
+        "response_time": 12.71
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 6.3,
+    "error": null
+}

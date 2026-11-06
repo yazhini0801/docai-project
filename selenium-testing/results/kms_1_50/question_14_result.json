@@ -1,0 +1,52 @@
+{
+    "question_id": 14,
+    "question": "What is the difference between knowledge exchange and socialization in knowledge sharing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "61.1%",
+            "Citation Correctness": "55.9%",
+            "Faithfulness": "72.4%",
+            "Overall Score": "66.6%",
+            "Answer Accuracy": "68.0%",
+            "Citation Accuracy": "55.9%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "27.6%",
+            "Project Score": "62.3%",
+            "Best Retrieval Score": "0.8380",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.83 s"
+        },
+        "project_score": 62.3,
+        "response_time": 8.83
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "66.7%",
+            "Citation Correctness": "57.8%",
+            "Faithfulness": "74.1%",
+            "Overall Score": "68.6%",
+            "Answer Accuracy": "69.0%",
+            "Citation Accuracy": "57.8%",
+            "Retrieval Precision": "62.5%",
+            "Hallucination Rate": "25.9%",
+            "Project Score": "65.9%",
+            "Best Retrieval Score": "0.8197",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "11.54 s"
+        },
+        "project_score": 65.9,
+        "response_time": 11.54
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 3.6,
+    "error": null
+}

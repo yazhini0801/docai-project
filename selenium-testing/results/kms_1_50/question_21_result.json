@@ -1,0 +1,52 @@
+{
+    "question_id": 21,
+    "question": "What are the main mechanisms used to support combination in knowledge discovery?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "33.3%",
+            "Context Relevance": "52.4%",
+            "Citation Correctness": "71.7%",
+            "Faithfulness": "91.7%",
+            "Overall Score": "62.3%",
+            "Answer Accuracy": "63.3%",
+            "Citation Accuracy": "71.7%",
+            "Retrieval Precision": "42.9%",
+            "Hallucination Rate": "8.3%",
+            "Project Score": "67.0%",
+            "Best Retrieval Score": "0.8198",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.42 s"
+        },
+        "project_score": 67.0,
+        "response_time": 7.42
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "33.3%",
+            "Context Relevance": "42.9%",
+            "Citation Correctness": "75.8%",
+            "Faithfulness": "91.7%",
+            "Overall Score": "61.2%",
+            "Answer Accuracy": "64.4%",
+            "Citation Accuracy": "75.8%",
+            "Retrieval Precision": "42.9%",
+            "Hallucination Rate": "8.3%",
+            "Project Score": "68.4%",
+            "Best Retrieval Score": "0.8198",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "12.46 s"
+        },
+        "project_score": 68.4,
+        "response_time": 12.46
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 1.4,
+    "error": null
+}

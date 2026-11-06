@@ -1,0 +1,52 @@
+{
+    "question_id": 12,
+    "question": "What is socialization and how does it help create tacit knowledge?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "57.5%",
+            "Context Relevance": "44.4%",
+            "Citation Correctness": "55.5%",
+            "Faithfulness": "74.1%",
+            "Overall Score": "59.5%",
+            "Answer Accuracy": "62.8%",
+            "Citation Accuracy": "55.5%",
+            "Retrieval Precision": "36.7%",
+            "Hallucination Rate": "25.9%",
+            "Project Score": "58.0%",
+            "Best Retrieval Score": "0.8166",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "5.90 s"
+        },
+        "project_score": 58.0,
+        "response_time": 5.9
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "55.6%",
+            "Citation Correctness": "62.9%",
+            "Faithfulness": "71.4%",
+            "Overall Score": "66.6%",
+            "Answer Accuracy": "69.4%",
+            "Citation Accuracy": "62.9%",
+            "Retrieval Precision": "54.2%",
+            "Hallucination Rate": "28.6%",
+            "Project Score": "65.1%",
+            "Best Retrieval Score": "0.8108",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "11.14 s"
+        },
+        "project_score": 65.1,
+        "response_time": 11.14
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 7.1,
+    "error": null
+}

@@ -1,0 +1,522 @@
+[
+    {
+        "question_id": 11,
+        "question": "What is combination in knowledge discovery?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is combination in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+            "metrics": {
+                "Answer Relevance": "100.0%",
+                "Context Relevance": "100.0%",
+                "Citation Correctness": "62.7%",
+                "Faithfulness": "79.2%",
+                "Overall Score": "86.3%",
+                "Answer Accuracy": "83.4%",
+                "Citation Accuracy": "62.7%",
+                "Retrieval Precision": "86.7%",
+                "Hallucination Rate": "20.8%",
+                "Project Score": "78.0%",
+                "Best Retrieval Score": "0.8106",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.77 s"
+            },
+            "project_score": 78.0,
+            "response_time": 5.77
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is combination in knowledge discovery?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 0.1%",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "100.0%",
+                "Citation Correctness": "64.5%",
+                "Faithfulness": "90.0%",
+                "Overall Score": "81.4%",
+                "Answer Accuracy": "76.3%",
+                "Citation Accuracy": "64.5%",
+                "Retrieval Precision": "86.7%",
+                "Hallucination Rate": "10.0%",
+                "Project Score": "78.2%",
+                "Best Retrieval Score": "0.8106",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "6.96 s"
+            },
+            "project_score": 78.2,
+            "response_time": 6.96
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 0.2,
+        "error": null
+    },
+    {
+        "question_id": 12,
+        "question": "What is socialization and how does it help create tacit knowledge?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is socialization and how does it help create tacit knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "44.4%",
+                "Citation Correctness": "47.0%",
+                "Faithfulness": "65.6%",
+                "Overall Score": "59.5%",
+                "Answer Accuracy": "63.4%",
+                "Citation Accuracy": "47.0%",
+                "Retrieval Precision": "36.7%",
+                "Hallucination Rate": "34.4%",
+                "Project Score": "54.4%",
+                "Best Retrieval Score": "0.8166",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.47 s"
+            },
+            "project_score": 54.4,
+            "response_time": 4.47
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is socialization and how does it help create tacit knowledge?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "55.6%",
+                "Citation Correctness": "58.9%",
+                "Faithfulness": "65.4%",
+                "Overall Score": "64.0%",
+                "Answer Accuracy": "66.3%",
+                "Citation Accuracy": "58.9%",
+                "Retrieval Precision": "55.6%",
+                "Hallucination Rate": "34.6%",
+                "Project Score": "62.1%",
+                "Best Retrieval Score": "0.8108",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "3",
+                "Response Time": "7.10 s"
+            },
+            "project_score": 62.1,
+            "response_time": 7.1
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 7.7,
+        "error": null
+    },
+    {
+        "question_id": 13,
+        "question": "What is knowledge capture?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is knowledge capture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 94.9%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.8359",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.19 s"
+            },
+            "project_score": 0.0,
+            "response_time": 4.19
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is knowledge capture?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 94.9%",
+            "metrics": {
+                "Answer Relevance": "94.0%",
+                "Context Relevance": "100.0%",
+                "Citation Correctness": "87.5%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "95.7%",
+                "Answer Accuracy": "94.5%",
+                "Citation Accuracy": "87.5%",
+                "Retrieval Precision": "100.0%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "94.9%",
+                "Best Retrieval Score": "0.8095",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "6.05 s"
+            },
+            "project_score": 94.9,
+            "response_time": 6.05
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 94.9,
+        "error": null
+    },
+    {
+        "question_id": 14,
+        "question": "What is the difference between knowledge exchange and socialization in knowledge sharing?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the difference between knowledge exchange and socialization in knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+            "metrics": {
+                "Answer Relevance": "71.7%",
+                "Context Relevance": "61.1%",
+                "Citation Correctness": "66.4%",
+                "Faithfulness": "82.6%",
+                "Overall Score": "71.8%",
+                "Answer Accuracy": "74.2%",
+                "Citation Accuracy": "66.4%",
+                "Retrieval Precision": "50.0%",
+                "Hallucination Rate": "17.4%",
+                "Project Score": "69.1%",
+                "Best Retrieval Score": "0.8380",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.59 s"
+            },
+            "project_score": 69.1,
+            "response_time": 4.59
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat is the difference between knowledge exchange and socialization in knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 7.7%",
+            "metrics": {
+                "Answer Relevance": "70.2%",
+                "Context Relevance": "66.7%",
+                "Citation Correctness": "76.4%",
+                "Faithfulness": "88.9%",
+                "Overall Score": "76.3%",
+                "Answer Accuracy": "78.3%",
+                "Citation Accuracy": "76.4%",
+                "Retrieval Precision": "62.5%",
+                "Hallucination Rate": "11.1%",
+                "Project Score": "76.8%",
+                "Best Retrieval Score": "0.8197",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "6.05 s"
+            },
+            "project_score": 76.8,
+            "response_time": 6.05
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 7.7,
+        "error": null
+    },
+    {
+        "question_id": 15,
+        "question": "What are knowledge management technologies and what are some examples?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge management technologies and what are some examples?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.6%",
+            "metrics": {
+                "Answer Relevance": "83.0%",
+                "Context Relevance": "26.7%",
+                "Citation Correctness": "50.1%",
+                "Faithfulness": "88.2%",
+                "Overall Score": "66.7%",
+                "Answer Accuracy": "76.6%",
+                "Citation Accuracy": "50.1%",
+                "Retrieval Precision": "16.0%",
+                "Hallucination Rate": "11.8%",
+                "Project Score": "60.2%",
+                "Best Retrieval Score": "0.8504",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.21 s"
+            },
+            "project_score": 60.2,
+            "response_time": 4.21
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are knowledge management technologies and what are some examples?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 8.6%",
+            "metrics": {
+                "Answer Relevance": "83.0%",
+                "Context Relevance": "66.7%",
+                "Citation Correctness": "46.3%",
+                "Faithfulness": "88.6%",
+                "Overall Score": "74.1%",
+                "Answer Accuracy": "75.8%",
+                "Citation Accuracy": "46.3%",
+                "Retrieval Precision": "65.0%",
+                "Hallucination Rate": "11.4%",
+                "Project Score": "68.8%",
+                "Best Retrieval Score": "0.8324",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "6.35 s"
+            },
+            "project_score": 68.8,
+            "response_time": 6.35
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 8.6,
+        "error": null
+    },
+    {
+        "question_id": 16,
+        "question": "What are the four types of knowledge management systems?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the four types of knowledge management systems?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 9.9%",
+            "metrics": {
+                "Answer Relevance": "91.8%",
+                "Context Relevance": "46.7%",
+                "Citation Correctness": "65.1%",
+                "Faithfulness": "77.8%",
+                "Overall Score": "73.2%",
+                "Answer Accuracy": "80.2%",
+                "Citation Accuracy": "65.1%",
+                "Retrieval Precision": "32.0%",
+                "Hallucination Rate": "22.2%",
+                "Project Score": "66.3%",
+                "Best Retrieval Score": "0.8599",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.47 s"
+            },
+            "project_score": 66.3,
+            "response_time": 4.47
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nWhat are the four types of knowledge management systems?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 9.9%",
+            "metrics": {
+                "Answer Relevance": "91.8%",
+                "Context Relevance": "60.0%",
+                "Citation Correctness": "77.8%",
+                "Faithfulness": "77.8%",
+                "Overall Score": "78.4%",
+                "Answer Accuracy": "83.4%",
+                "Citation Accuracy": "77.8%",
+                "Retrieval Precision": "60.0%",
+                "Hallucination Rate": "22.2%",
+                "Project Score": "76.2%",
+                "Best Retrieval Score": "0.8214",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "2",
+                "Response Time": "6.46 s"
+            },
+            "project_score": 76.2,
+            "response_time": 6.46
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 9.9,
+        "error": null
+    },
+    {
+        "question_id": 17,
+        "question": "How do knowledge discovery systems support combination and socialization?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge discovery systems support combination and socialization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.6%",
+            "metrics": {
+                "Answer Relevance": "81.1%",
+                "Context Relevance": "66.7%",
+                "Citation Correctness": "78.9%",
+                "Faithfulness": "90.9%",
+                "Overall Score": "80.7%",
+                "Answer Accuracy": "84.0%",
+                "Citation Accuracy": "78.9%",
+                "Retrieval Precision": "51.4%",
+                "Hallucination Rate": "9.1%",
+                "Project Score": "77.6%",
+                "Best Retrieval Score": "0.8369",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.91 s"
+            },
+            "project_score": 77.6,
+            "response_time": 4.91
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge discovery systems support combination and socialization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 6.6%",
+            "metrics": {
+                "Answer Relevance": "83.4%",
+                "Context Relevance": "71.4%",
+                "Citation Correctness": "80.4%",
+                "Faithfulness": "100.0%",
+                "Overall Score": "85.4%",
+                "Answer Accuracy": "88.4%",
+                "Citation Accuracy": "80.4%",
+                "Retrieval Precision": "65.7%",
+                "Hallucination Rate": "0.0%",
+                "Project Score": "84.2%",
+                "Best Retrieval Score": "0.8369",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "5.79 s"
+            },
+            "project_score": 84.2,
+            "response_time": 5.79
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 6.6,
+        "error": null
+    },
+    {
+        "question_id": 18,
+        "question": "How do knowledge capture systems support externalization and internalization?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge capture systems support externalization and internalization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.6%",
+            "metrics": {
+                "Answer Relevance": "87.9%",
+                "Context Relevance": "61.9%",
+                "Citation Correctness": "61.2%",
+                "Faithfulness": "85.0%",
+                "Overall Score": "76.5%",
+                "Answer Accuracy": "80.2%",
+                "Citation Accuracy": "61.2%",
+                "Retrieval Precision": "40.0%",
+                "Hallucination Rate": "15.0%",
+                "Project Score": "68.4%",
+                "Best Retrieval Score": "0.8554",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.51 s"
+            },
+            "project_score": 68.4,
+            "response_time": 4.51
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge capture systems support externalization and internalization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -4.6%",
+            "metrics": {
+                "Answer Relevance": "87.9%",
+                "Context Relevance": "71.4%",
+                "Citation Correctness": "43.6%",
+                "Faithfulness": "75.0%",
+                "Overall Score": "71.9%",
+                "Answer Accuracy": "72.3%",
+                "Citation Accuracy": "43.6%",
+                "Retrieval Precision": "62.9%",
+                "Hallucination Rate": "25.0%",
+                "Project Score": "63.8%",
+                "Best Retrieval Score": "0.8517",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "5",
+                "Response Time": "6.54 s"
+            },
+            "project_score": 63.8,
+            "response_time": 6.54
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -4.6,
+        "error": null
+    },
+    {
+        "question_id": 19,
+        "question": "How do knowledge sharing systems support socialization and exchange?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge sharing systems support socialization and exchange?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 11.1%",
+            "metrics": {
+                "Answer Relevance": "81.1%",
+                "Context Relevance": "57.1%",
+                "Citation Correctness": "61.3%",
+                "Faithfulness": "81.8%",
+                "Overall Score": "72.6%",
+                "Answer Accuracy": "76.4%",
+                "Citation Accuracy": "61.3%",
+                "Retrieval Precision": "42.9%",
+                "Hallucination Rate": "18.2%",
+                "Project Score": "67.0%",
+                "Best Retrieval Score": "0.8486",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "5.01 s"
+            },
+            "project_score": 67.0,
+            "response_time": 5.01
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge sharing systems support socialization and exchange?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 11.1%",
+            "metrics": {
+                "Answer Relevance": "80.4%",
+                "Context Relevance": "66.7%",
+                "Citation Correctness": "74.0%",
+                "Faithfulness": "90.0%",
+                "Overall Score": "79.2%",
+                "Answer Accuracy": "82.1%",
+                "Citation Accuracy": "74.0%",
+                "Retrieval Precision": "64.3%",
+                "Hallucination Rate": "10.0%",
+                "Project Score": "78.1%",
+                "Best Retrieval Score": "0.8422",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "4",
+                "Response Time": "6.11 s"
+            },
+            "project_score": 78.1,
+            "response_time": 6.11
+        },
+        "better_result": "RankFusion-RAG",
+        "rankfusion_improvement": 11.1,
+        "error": null
+    },
+    {
+        "question_id": 20,
+        "question": "How do knowledge application systems support direction and routines?",
+        "status": "PASS",
+        "standard_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge application systems support direction and routines?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -70.7%",
+            "metrics": {
+                "Answer Relevance": "87.9%",
+                "Context Relevance": "85.7%",
+                "Citation Correctness": "51.9%",
+                "Faithfulness": "87.9%",
+                "Overall Score": "80.2%",
+                "Answer Accuracy": "78.9%",
+                "Citation Accuracy": "51.9%",
+                "Retrieval Precision": "62.9%",
+                "Hallucination Rate": "12.1%",
+                "Project Score": "70.7%",
+                "Best Retrieval Score": "0.8500",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "5",
+                "Chunks Used": "5",
+                "Response Time": "4.61 s"
+            },
+            "project_score": 70.7,
+            "response_time": 4.61
+        },
+        "rankfusion_rag": {
+            "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow do knowledge application systems support direction and routines?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -70.7%",
+            "metrics": {
+                "Answer Relevance": "0.0%",
+                "Context Relevance": "0.0%",
+                "Citation Correctness": "0.0%",
+                "Faithfulness": "0.0%",
+                "Overall Score": "0.0%",
+                "Answer Accuracy": "0.0%",
+                "Citation Accuracy": "0.0%",
+                "Retrieval Precision": "0.0%",
+                "Hallucination Rate": "100.0%",
+                "Project Score": "0.0%",
+                "Best Retrieval Score": "0.7816",
+                "Confidence": "HIGH",
+                "Retrieved Chunks": "30",
+                "Chunks Used": "2",
+                "Response Time": "7.68 s"
+            },
+            "project_score": 0.0,
+            "response_time": 7.68
+        },
+        "better_result": "Standard RAG",
+        "rankfusion_improvement": -70.7,
+        "error": null
+    }
+]

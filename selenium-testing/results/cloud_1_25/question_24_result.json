@@ -1,0 +1,52 @@
+{
+    "question_id": 24,
+    "question": "Explain Azure developer, DevOps, analytics, and big data services, including Azure DevOps, GitHub Actions, Monitor, Logic Apps, Synapse Analytics, Data Factory, Databricks, and HDInsight.",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Azure developer, DevOps, analytics, and big data services, including Azure DevOps, GitHub Actions, Monitor, Logic Apps, Synapse Analytics, Data Factory, Databricks, and HDInsight.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.5%",
+        "metrics": {
+            "Answer Relevance": "90.6%",
+            "Context Relevance": "37.0%",
+            "Citation Correctness": "42.9%",
+            "Faithfulness": "94.1%",
+            "Overall Score": "71.4%",
+            "Answer Accuracy": "79.9%",
+            "Citation Accuracy": "42.9%",
+            "Retrieval Precision": "28.9%",
+            "Hallucination Rate": "5.9%",
+            "Project Score": "63.3%",
+            "Best Retrieval Score": "0.8489",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "8.14 s"
+        },
+        "project_score": 63.3,
+        "response_time": 8.14
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Cloud computing • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nExplain Azure developer, DevOps, analytics, and big data services, including Azure DevOps, GitHub Actions, Monitor, Logic Apps, Synapse Analytics, Data Factory, Databricks, and HDInsight.\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 3.5%",
+        "metrics": {
+            "Answer Relevance": "90.6%",
+            "Context Relevance": "35.2%",
+            "Citation Correctness": "47.8%",
+            "Faithfulness": "96.0%",
+            "Overall Score": "72.6%",
+            "Answer Accuracy": "81.8%",
+            "Citation Accuracy": "47.8%",
+            "Retrieval Precision": "35.2%",
+            "Hallucination Rate": "4.0%",
+            "Project Score": "66.8%",
+            "Best Retrieval Score": "0.8489",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "11.01 s"
+        },
+        "project_score": 66.8,
+        "response_time": 11.01
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 3.5,
+    "error": null
+}

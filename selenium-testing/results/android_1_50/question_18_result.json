@@ -1,0 +1,52 @@
+{
+    "question_id": 18,
+    "question": "How can Build.VERSION.SDK_INT and compatibility testing be used together to support and validate different behavior on older and newer Android versions?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Build.VERSION.SDK_INT and compatibility testing be used together to support and validate different behavior on older and newer Android versions?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -11.0%",
+        "metrics": {
+            "Answer Relevance": "54.3%",
+            "Context Relevance": "39.2%",
+            "Citation Correctness": "82.3%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "70.6%",
+            "Answer Accuracy": "77.3%",
+            "Citation Accuracy": "82.3%",
+            "Retrieval Precision": "27.1%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "73.0%",
+            "Best Retrieval Score": "0.8379",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.15 s"
+        },
+        "project_score": 73.0,
+        "response_time": 4.15
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: Android Programming • 3 documents loaded\nThe same question will run through Standard RAG and and RankFusion-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow can Build.VERSION.SDK_INT and compatibility testing be used together to support and validate different behavior on older and newer Android versions?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: -11.0%",
+        "metrics": {
+            "Answer Relevance": "65.0%",
+            "Context Relevance": "41.2%",
+            "Citation Correctness": "54.0%",
+            "Faithfulness": "83.9%",
+            "Overall Score": "63.7%",
+            "Answer Accuracy": "68.9%",
+            "Citation Accuracy": "54.0%",
+            "Retrieval Precision": "38.2%",
+            "Hallucination Rate": "16.1%",
+            "Project Score": "62.0%",
+            "Best Retrieval Score": "0.8379",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "21.22 s"
+        },
+        "project_score": 62.0,
+        "response_time": 21.22
+    },
+    "better_result": "Standard RAG",
+    "rankfusion_improvement": -11.0,
+    "error": null
+}

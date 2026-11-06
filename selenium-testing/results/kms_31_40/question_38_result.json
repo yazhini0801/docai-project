@@ -1,0 +1,52 @@
+{
+    "question_id": 38,
+    "question": "How does the physical work environment influence knowledge sharing?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does the physical work environment influence knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.3%",
+        "metrics": {
+            "Answer Relevance": "75.7%",
+            "Context Relevance": "38.1%",
+            "Citation Correctness": "34.3%",
+            "Faithfulness": "68.3%",
+            "Overall Score": "57.7%",
+            "Answer Accuracy": "62.8%",
+            "Citation Accuracy": "34.3%",
+            "Retrieval Precision": "34.3%",
+            "Hallucination Rate": "31.7%",
+            "Project Score": "51.0%",
+            "Best Retrieval Score": "0.8508",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "7.22 s"
+        },
+        "project_score": 51.0,
+        "response_time": 7.22
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does the physical work environment influence knowledge sharing?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 1.3%",
+        "metrics": {
+            "Answer Relevance": "63.6%",
+            "Context Relevance": "47.6%",
+            "Citation Correctness": "35.8%",
+            "Faithfulness": "67.7%",
+            "Overall Score": "56.1%",
+            "Answer Accuracy": "58.1%",
+            "Citation Accuracy": "35.8%",
+            "Retrieval Precision": "47.6%",
+            "Hallucination Rate": "32.3%",
+            "Project Score": "52.4%",
+            "Best Retrieval Score": "0.8508",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "7.69 s"
+        },
+        "project_score": 52.4,
+        "response_time": 7.69
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 1.4,
+    "error": null
+}

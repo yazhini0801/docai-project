@@ -1,0 +1,52 @@
+{
+    "question_id": 11,
+    "question": "What is combination in knowledge discovery?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "100.0%",
+            "Context Relevance": "100.0%",
+            "Citation Correctness": "62.7%",
+            "Faithfulness": "79.2%",
+            "Overall Score": "86.3%",
+            "Answer Accuracy": "83.4%",
+            "Citation Accuracy": "62.7%",
+            "Retrieval Precision": "86.7%",
+            "Hallucination Rate": "20.8%",
+            "Project Score": "78.0%",
+            "Best Retrieval Score": "0.8106",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "13.03 s"
+        },
+        "project_score": 78.0,
+        "response_time": 13.03
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "71.7%",
+            "Context Relevance": "100.0%",
+            "Citation Correctness": "62.4%",
+            "Faithfulness": "86.4%",
+            "Overall Score": "79.9%",
+            "Answer Accuracy": "74.5%",
+            "Citation Accuracy": "62.4%",
+            "Retrieval Precision": "86.7%",
+            "Hallucination Rate": "13.6%",
+            "Project Score": "76.3%",
+            "Best Retrieval Score": "0.8106",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "13.14 s"
+        },
+        "project_score": 76.3,
+        "response_time": 13.14
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -1.7,
+    "error": null
+}

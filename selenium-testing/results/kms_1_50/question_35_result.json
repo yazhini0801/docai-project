@@ -1,0 +1,52 @@
+{
+    "question_id": 35,
+    "question": "How can executives support and legitimize communities of practice?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "97.8%",
+            "Context Relevance": "16.7%",
+            "Citation Correctness": "53.6%",
+            "Faithfulness": "70.6%",
+            "Overall Score": "64.6%",
+            "Answer Accuracy": "77.2%",
+            "Citation Accuracy": "53.6%",
+            "Retrieval Precision": "10.0%",
+            "Hallucination Rate": "29.4%",
+            "Project Score": "56.6%",
+            "Best Retrieval Score": "0.8306",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "6.39 s"
+        },
+        "project_score": 56.6,
+        "response_time": 6.39
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "82.8%",
+            "Context Relevance": "16.7%",
+            "Citation Correctness": "52.3%",
+            "Faithfulness": "68.8%",
+            "Overall Score": "59.3%",
+            "Answer Accuracy": "70.3%",
+            "Citation Accuracy": "52.3%",
+            "Retrieval Precision": "10.0%",
+            "Hallucination Rate": "31.3%",
+            "Project Score": "53.4%",
+            "Best Retrieval Score": "0.8306",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.87 s"
+        },
+        "project_score": 53.4,
+        "response_time": 10.87
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -3.2,
+    "error": null
+}

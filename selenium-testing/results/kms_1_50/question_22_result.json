@@ -1,0 +1,52 @@
+{
+    "question_id": 22,
+    "question": "What mechanisms can organizations use to support socialization in knowledge discovery?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "68.1%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "64.4%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "67.9%",
+            "Answer Accuracy": "72.0%",
+            "Citation Accuracy": "64.4%",
+            "Retrieval Precision": "40.0%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "65.6%",
+            "Best Retrieval Score": "0.8375",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "10.63 s"
+        },
+        "project_score": 65.6,
+        "response_time": 10.63
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "45.8%",
+            "Citation Correctness": "39.4%",
+            "Faithfulness": "76.9%",
+            "Overall Score": "63.7%",
+            "Answer Accuracy": "68.3%",
+            "Citation Accuracy": "39.4%",
+            "Retrieval Precision": "32.5%",
+            "Hallucination Rate": "23.1%",
+            "Project Score": "55.6%",
+            "Best Retrieval Score": "0.8375",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.56 s"
+        },
+        "project_score": 55.6,
+        "response_time": 10.56
+    },
+    "winner": "Standard RAG",
+    "rankfusion_improvement": -10.0,
+    "error": null
+}

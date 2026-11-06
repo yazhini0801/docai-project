@@ -1,0 +1,52 @@
+{
+    "question_id": 36,
+    "question": "How does common knowledge increase the value and transfer of knowledge within an organization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does common knowledge increase the value and transfer of knowledge within an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 62.9%",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8482",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "4.61 s"
+        },
+        "project_score": 0.0,
+        "response_time": 4.61
+    },
+    "rankfusion_rag": {
+        "answer": "DOCUMENT CHAT\nFolder: kms • 3 documents loaded\nThe same question will run through Standard RAG and DocRank-RAG automatically.\nEnter to compare • Shift + Enter for a new line\nHow does common knowledge increase the value and transfer of knowledge within an organization?\nBaseline semantic retrieval pipeline\nEnhanced document-ranking pipeline\nRAG EVALUATION\nCompare Standard RAG with the enhanced RankFusion-RAG pipeline.\nBETTER RESULT\nRankFusion improvement: 62.9%",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "50.0%",
+            "Citation Correctness": "45.9%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "67.3%",
+            "Answer Accuracy": "71.6%",
+            "Citation Accuracy": "45.9%",
+            "Retrieval Precision": "50.0%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "62.9%",
+            "Best Retrieval Score": "0.8229",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "3",
+            "Response Time": "7.07 s"
+        },
+        "project_score": 62.9,
+        "response_time": 7.07
+    },
+    "better_result": "RankFusion-RAG",
+    "rankfusion_improvement": 62.9,
+    "error": null
+}

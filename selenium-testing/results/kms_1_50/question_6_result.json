@@ -1,0 +1,52 @@
+{
+    "question_id": 6,
+    "question": "What is knowledge sharing and what is required for effective knowledge transfer?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "33.3%",
+            "Citation Correctness": "29.3%",
+            "Faithfulness": "62.1%",
+            "Overall Score": "56.0%",
+            "Answer Accuracy": "62.3%",
+            "Citation Accuracy": "29.3%",
+            "Retrieval Precision": "28.0%",
+            "Hallucination Rate": "37.9%",
+            "Project Score": "47.1%",
+            "Best Retrieval Score": "0.8497",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "14.20 s"
+        },
+        "project_score": 47.1,
+        "response_time": 14.2
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "83.0%",
+            "Context Relevance": "53.3%",
+            "Citation Correctness": "78.8%",
+            "Faithfulness": "100.0%",
+            "Overall Score": "81.3%",
+            "Answer Accuracy": "87.9%",
+            "Citation Accuracy": "78.8%",
+            "Retrieval Precision": "44.0%",
+            "Hallucination Rate": "0.0%",
+            "Project Score": "79.3%",
+            "Best Retrieval Score": "0.8202",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "5",
+            "Response Time": "10.22 s"
+        },
+        "project_score": 79.3,
+        "response_time": 10.22
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 32.2,
+    "error": null
+}

@@ -1,0 +1,18 @@
+{
+    "batch": "OOAD Retry Questions 1 and 11",
+    "total_tests": 2,
+    "passed": 0,
+    "failed": 2,
+    "standard_rag": {
+        "average_project_score": null,
+        "wins": 0,
+        "average_response_time": null
+    },
+    "rankfusion_rag": {
+        "average_project_score": null,
+        "wins": 0,
+        "average_response_time": null
+    },
+    "ties": 0,
+    "average_rankfusion_improvement": null
+}

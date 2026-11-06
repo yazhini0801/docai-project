@@ -1122,7 +1122,7 @@ function ChatPage() {
                         >
                             The same question will
                             run through Standard RAG
-                            and DocRank-RAG
+                            and and RankFusion-RAG
                             automatically.
                         </p>
                     </div>

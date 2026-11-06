@@ -1,0 +1,52 @@
+{
+    "question_id": 36,
+    "question": "How does common knowledge increase the value and transfer of knowledge within an organization?",
+    "status": "PASS",
+    "standard_rag": {
+        "answer": "Baseline semantic retrieval pipeline",
+        "metrics": {
+            "Answer Relevance": "0.0%",
+            "Context Relevance": "0.0%",
+            "Citation Correctness": "0.0%",
+            "Faithfulness": "0.0%",
+            "Overall Score": "0.0%",
+            "Answer Accuracy": "0.0%",
+            "Citation Accuracy": "0.0%",
+            "Retrieval Precision": "0.0%",
+            "Hallucination Rate": "100.0%",
+            "Project Score": "0.0%",
+            "Best Retrieval Score": "0.8482",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "5",
+            "Chunks Used": "5",
+            "Response Time": "38.70 s"
+        },
+        "project_score": 0.0,
+        "response_time": 38.7
+    },
+    "rankfusion_rag": {
+        "answer": "Enhanced document-ranking pipeline",
+        "metrics": {
+            "Answer Relevance": "78.8%",
+            "Context Relevance": "54.2%",
+            "Citation Correctness": "44.2%",
+            "Faithfulness": "81.8%",
+            "Overall Score": "67.8%",
+            "Answer Accuracy": "71.2%",
+            "Citation Accuracy": "44.2%",
+            "Retrieval Precision": "46.9%",
+            "Hallucination Rate": "18.2%",
+            "Project Score": "61.7%",
+            "Best Retrieval Score": "0.8229",
+            "Confidence": "HIGH",
+            "Retrieved Chunks": "30",
+            "Chunks Used": "4",
+            "Response Time": "8.39 s"
+        },
+        "project_score": 61.7,
+        "response_time": 8.39
+    },
+    "winner": "RankFusion-RAG",
+    "rankfusion_improvement": 61.7,
+    "error": null
+}

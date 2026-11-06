@@ -1,6 +1,6 @@
-# RankFusion-RAG: Secure Document Assistant
+# DocAI – Secure Document Assistant
 
-**An Intelligent Document Retrieval and Citation Ranking Framework for Multi-Document Question Answering**
+### Powered by RankFusion-RAG: An Intelligent Document Retrieval and Citation Ranking Framework
 
 ## Overview
 
